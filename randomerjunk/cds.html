@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thepersonever - cds!</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="/icons/randomjunk.png">
+    <style>
+      body {
+  background-color: #707070;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/CD_icon_test.svg/1200px-CD_icon_test.svg.png.png");
+  background-size: 300px; 
+  background-repeat: repeat;
+  }
+  
+      .smop {
+  transition: transform 1000.0s ;
+}
+.smop:hover {
+  transform: rotate(360000deg);
+}
+  
+    </style>
+  </head>
+  <body>
+<center>
+<h1><span>cds!</span></h1>
+<a href=home.html style=position:absolute;top:70px;left:5px><span>back home</span></a>
+
+<script src=cds.js>
+</script>
+
+<br>
+<button id=hide onclick="hide()" style="display:none;">hide</button>
+
+  <div id=review style="height:500px; width:900px; background-color: white;background-image: url(/images/background-cd.jpg);background-size: 100px;background-repeat: repeat;border: 3px solid black;">
+  
+    <h1 id=title style="position: relative; top: -42px; text-align: left; display:show;"><span>CLICK ON AN ALBUM COVER PLEASE</span></h1>
+    <img id=image src=https://i.imgur.com/kimh6ae.jpg width=500px style="position: relative; top: -80px; left:-200px;max-height:400px;">
+    <p id=para style="text-align: right; position: relative; top:-480px; left:245px; max-height: 400px; max-width:400px; overflow-x:hide; overflow-y: scroll;"><span>ummm go click on an album to start :D </span></p>
+  
+    </div>
+
+<!-- yes i order by artist/band name then release date im normal
+-->
+<br>
+<div style="height:justify;width:700px; background-color:white;">
+<img class=smop id=spike src=/images/albums/spike.jpg onclick="spike()" style="width:150px;">
+<img class=smop id=spiritphone src=/images/albums/spiritphone.png onclick="spiritphone()" style="width:150px;">
+<img class=smop id=naturetapes src=/images/albums/naturetapes.jpg onclick="naturetapes()" style="width:150px;">
+<img class=smop id=viewmonster src=/images/albums/viewmonster.jpg onclick="viewmonster()" style="width:150px;">
+<img class=smop id=dinosaurchestra src=/images/albums/dinosaurchestra.jpg onclick="dinosaurchestra()" style="width:150px;">
+<img class=smop id=damnskippy src=/images/albums/damnskippyoriginal.png onclick="damnskippy()" style="width:150px;">
+<img class=smop id=httj src=/images/albums/httj.png onclick="httj()" style="width:150px;">
+<img class=smop id=lfthcs src=/images/albums/lfthcs.jpg onclick="httj()" style="width:150px;">
+<img class=smop id=clowncircus src=/images/albums/clowncircus.jpg onclick="httj()" style="width:150px;">
+<img class=smop id=astrolounge src=/images/albums/astrolounge.jpg onclick="astrolounge()" style="width:150px;">
+<img class=smop id=goodbye4track src=/images/albums/goodbye4track.jpg onclick="goodbye4track()" style="width:150px;">
+<img class=smop id=simpsons src=/images/albums/thesimpsons.gif onclick="simpsons()" style="width:150px;">
+<img class=smop id=badhairday src=/images/albums/badhairday.jpg onclick="badhairday()" style="width:150px;">
+<img class=smop id=alapalooza src=/images/albums/alapalooza.jpg onclick="alapalooza()" style="width:150px;">
+<p>--otherwise purchased albums---</p>
+<img class=smop id=iambecome src=/images/albums/iambecomechristmas.jpg onclick="iambecome()" style="width:150px;">
+<img class=smop id=normalalbum src=/images/albums/normalalbum.jpg onclick="normalalbum()" style="width:150px;">
+<img class=smop id=eial src=/images/albums/eial.jpg onclick="eial()" style="width:150px;">
+</div>
+
+</center>
+  </body>
+</html>

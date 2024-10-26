@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thepersonever - how to do rss !!!</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+    body{
+    background-image: url(/images/rss.png);
+    background-size: 90px;
+    </style>
+    <link rel="icon" type="image/png" href="/images/rss.png">
+  </head>
+  <body>
+  
+      <center>
+  <br>
+  <img src=/thepersoneverlogo.png style="height: 150px">
+  <br>
+    <iframe src=iframes/navbar.html width=390px height=60px></iframe>
+    </center>
+    
+  <center>
+  <br>
+  <br>
+    <h1><span>how to do rss!!!</span></h1>
+    <br><p><span> so.. youve just made a new blog,, but you cant figure out how to do rss from any tutorials... this'll tell you How To Set Up a Manually Updated RSS Feed!!!
+    <br> its simple enough after you actually start,, but it can be hard to figure out what to do before you finish the outline.. so ive have a template for that !!</span></p>
+    
+    <textarea cols=40 rows=35>
+    <!-- PUT ME IN A .xml !!!!! -->
+    <rss version="2.0">    <!-- version of rss. doesnt matter too much right now -->
+<channel> <!-- rss news thing... -->
+<title>title !</title> <!-- title of the chanel -->
+
+<link>https://urwebsite.com/sdhfkjsdfh</link> <!-- source of the blog -->
+<description>yeah</description> <!-- description of the channel-->
+<category>Homepage</category> <!-- category of the channel -->
+<language>en-us</language> <!-- i think you can guess... -->
+
+<image>
+<url>linkgoeshere.png</url> <!-- url of the icon for the newsblog :P -->
+<title> blogy</title> <!-- title for the image -->
+<link>akjdshfkjasdhf.com</link> <!-- image source link -->
+</image>
+
+<item> <!-- an artical in a blog or whatever -->
+    <title> computing and stuffs !!! <!-- title of article -->
+    </title>
+  <pubDate>1 12 2023 9:26 pm</pubDate> <!-- date of publishing. only needs to be consistant with ur own blog... -->
+<link>sdkjhfksajdfhkasjdhfkjasd.jcom</link> <!-- source of article link -->
+  <description> <!-- where your text goes -->
+  
+<p> OK SO. once your in here you can just Write Stuff in HTML
+<br /> everything needs to be explicit though.. you gotta /img, /br, /everything to get it to work properly 
+<br /> usually i just do br actually....
+</p>
+
+</description> <!-- end of text -->
+</item> <!-- end of article-->
+</channel> <!-- end of blog -->
+</rss> <!-- end of file -->
+</textarea>
+<br>
+<a href=/text.xml><span> how it looks!!!!</span></a>
+
+</center>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+{  
+  "!! compliant": "nada. fucking hate rfc3339 !!",
+  
+  "version": "https://jsonfeed.org/version/1",
+  "title": "thepersonever's godot devlog!",
+  "home_page_url": "https://thepersonever.net/",
+  "feed_url": "https://thepersonever.net/godot/",
+  "items": [
+    {
+      "id": "1",
+      "title": "beginning steps!",
+      "date_published": "04/16, 2024",
+      "content_html": "so! yesterday i started working with godot<br>it's a lot simpler than other game engines i've used, which includes even roblox, though i'm only working with 2d objects for now... my opinion of the engine may prove different once i've tried to create things in 3d :p<br><br>my first project will be a walkaround!<br>you know those two flashes in homestuck that let you walk around june's house and then a bit of lowas. and that were replaced by those stupid fake 8-bit flashes that have a completly different artstyle than the rest of the comic which i think is so much more lame. but there's has talksprites<br>i'm going to make something more like the first two flashes, but with the bloodbound artstyle<br><br>yesterday, i made my first bit of progress... getting animation and movement set up! <br>i only have an idle animation for now, but it honestly kinda sucks. so i'll probably change it in the future :p<br>movement didn't really take any time at all! you just have to listen for inputs that are defined in-engine, and tie actions to when those buttons are pressed. <br>though, i haven't implemented a jump yet... that'll have to come after base movement is set up.<br>coming back to animation, keyframes are. weird in godot.<br>by default, tweens are implemented :/ not really easy to time... but! by right clicking the tween velocity and selecting &quot;none&quot;, you can initalize the transformation instantly once the <br>keyframe is rolled over! :D<br>that's really all i found out yesterday :p not sure what i'll work on today... collision, maybe? that's what i got stuck on in the flash htm5 version..."
+    },
+    {
+      "id": "2",
+      "title": "finally finishing webpages",
+      "date_published": "4/21, 2024", 
+      "content_html": "hey! so... uh<br>i haven't really been working on the project as much, due to wanting to take a break and play other videogames with my wife :p<br>i finally got the devlog webpage finished though, so that's GREAT! i can finally work on the game without feeling like i'm wasting time not being able to put my findings on the devlog :D<br>i figured out collision a while ago, but i've been having trouble with y-sort. parts of slrt keep appearing behind a shelf before they should... it's really annoying... sigh"
+    },
+    {
+      "id": "3",
+      "title": "adventures in SOUND!",
+      "date_published": "4/28, 2024",
+      "content_html": "i've been working a bit more on the game, and yesterday i implemented:<br>- sound effects!<br>- ambient sounds!<br>- animations! and finally,<br>- y-sort garbage!<br>the first thing i worked on was y-sorting. i finally figured out that y-sort effects only apply to textures, and are based off of the <i>root of the node.</i> i.e., the little orange-yellow dot that appears when selecting a node. after that, i implemented animations created in flash! even though godot has a built-in animation tool, you aren't able to set the exact number of fps for the animations to run at... which is annoying for consistency reasons. what i do is animate the bitmaps i have in flash, then export the animation as a series of images! though it does take up more space, i believe it's worth it for the artstyle's sake<br>after implementing animations, i realized that the game was really boring without anything to listen to... so, i created an ambient soundtrack with noises from my basement, and footsteps to tie to animation!<br>creating the ambient loop was easy enough. i just had to record for a minute or so, then set the audio to loop in godot! after that, i had to implement footsteps. to do this, i added a portion of code to monitor which frame the animation was on every game frame, and to play one of the two footstep sounds on two specific frames! since all animations except for the walking up animation share the same number of frames, i was able to reuse the same code for most animations. however, the walking up animation is just a bit faster than all of the other ones... thus, i had to detect when the up animation was playing, and set the frame values to more appropriate values<br>that's all for today! see you soon <3"
+    },
+    {
+      "id": "4",
+      "title": "transitions...",
+      "date_published": "4/29, 2024",
+      "content_html": "yesterday, i created the function for changing which room you're in!<br>in the flash i'm basing my game off of, only one area (or room of june's house) is loaded at a time. when a door is clicked, the game goes through a transition before loading another area!<br>to recreate this function in godot, i had to first create the transitions, then set up the code to change the area scene. due to the modularity of scenes, i wanted to create a door scene that would have dynamically changed properties defined by the area, and have those atributes read by the root script to decide what would happen. i was able to create the transitions and door-thing easily, but i had trouble with changing the world's scene... i have the world set on a scene *within* the root node, and wanted to only change that scene. creating multiple scenes for different spaces seemed... unnecessary. unfortunatly, i could only find tutorials on how to change the root scene online! i ended up having to create a child of the root node with a different name, renaming the original scene, deleting the original scene, and then finally naming the new scene with the original's name.<br>that's it for today's log, i'll be working on the next room as soon as i can!! :D"
+    }
+  ]
+  
+}

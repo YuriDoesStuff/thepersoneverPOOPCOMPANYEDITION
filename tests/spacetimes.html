@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> aaaaa</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+    
+    .pagestart {
+  top: 0px; right: 0px; bottom: 0px;
+  width:800px;
+  height: 100%;
+  border: 0px solid black;
+  position:absolute;
+  background-image: url(/images/paper.png); 
+  background-size: cover
+}
+
+    .page {
+  top: 0px; right: 0px; bottom: 0px;
+  width:600px;
+  height: 100%;
+  border: 0px solid black;
+  position:absolute;
+}
+
+.but
+{
+  padding: 0;
+border: none;
+background: none;
+}
+    
+    </style>
+  </head>
+  <body>
+
+<div class=pagestart>
+<div class=page>
+
+    <h1 id=title style="">day oneee</h1>
+        <p id=para style="">yayyyy</p>
+  
+     <button id=day1 type="button" class=but style="float: right; display: inline;" onclick="document.getElementById('title').innerHTML = 'yay it works!!'; document.getElementById('para').innerHTML = 'yippieeee'; document.getElementById('day1').style.display = 'none'; document.getElementById('day2').style.display = 'inline'; document.getElementById('day2back').style.display = 'inline'; document.body.style.backgroundImage = 'url(/images/pencil.png)';
+"><img src=nexttemp.png></button>
+
+     <button id=day2back type="button" class=but style="float: left; display: none;" onclick="document.getElementById('title').innerHTML = 'day oneee'; document.getElementById('para').innerHTML = 'yayyyy'; document.getElementById('day2').style.display = 'none'; document.getElementById('day2back').style.display = 'none'; document.getElementById('day1').style.display = 'inline'; document.body.style.backgroundImage = 'url(/bg.png)';
+"><img src=backtemp.png></button>
+
+     <button id=day2 type="button" class=but style="float: right; display: none;" onclick="document.getElementById('title').innerHTML = 'yahoooo!!!'; document.getElementById('para').innerHTML = 'hip hip h'; document.getElementById('day2').style.display = 'none'; document.getElementById('day2back').style.display = 'none';document.getElementById('day3back').style.display = 'inline'; document.getElementById('day2back').style.display = 'none'; document.body.style.backgroundImage = 'url(/images/silodoor.png)';
+"><img src=nexttemp.png></button>
+
+     <button id=day3back type="button" class=but style="float: left; display: none;" onclick="document.getElementById('title').innerHTML = 'yay it works!!'; document.getElementById('para').innerHTML = 'yippieeee'; document.getElementById('day2').style.display = 'none'; document.getElementById('day2back').style.display = 'inline'; document.getElementById('day2').style.display = 'inline'; document.getElementById('day3back').style.display = 'none'; document.body.style.backgroundImage = 'url(/images/pencil.png)';
+"><img src=backtemp.png></button>
+
+
+</div>
+</div>
+
+
+
+  </body>
+</html>

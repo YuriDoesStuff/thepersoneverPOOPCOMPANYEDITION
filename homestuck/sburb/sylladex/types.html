@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOFAF - strife specubi</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/homestuck/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+  <style>
+  
+  body{
+   background-color: white; 
+  }
+  
+  </style>
+  <center>
+<h2 id=title>-- various types of moduses --</h2>
+
+<div id=selectdiv style="display: inline;">
+<p>as stated in the overview, moduses define how your sylladex works.</p>
+<a>to choose which modus you would like to view, click one of the buttons below!</a>
+<br><button onclick=stack()>stack</button> <button onclick=queue()>queue</button> <button onclick=array()>array</button> <button onclick=tree()>tree</button> <button onclick=hash()>hash</button> <button onclick=memory()>memory</button> <button onclick=jenga()>jenga</button> <button onclick=picto()>pictionary</button>
+</div>
+
+<button onclick=selection() id=showselectionbutton style="display: none;">show selections again</button>
+
+<div id=arraydiv style="display: none;">
+<p>the array modus is the most simple. you can store items in any of the cards, and extract all of them at any time. hard to weaponize due to that, though...</p>
+<img src=/homestuck/hscrop/boring.gif>
+</div>
+
+<div id=stackdiv style="display: none;"> 
+<p>the stack modus allows you to put your most recently captchalogued at the top of the deck, while only allowing you to take out the top card.</p>
+<img src=/homestuck/hscrop/stackcantcard.gif>
+<p>if you captchalouge something when your deck is full, the oldest card in your deck will be ejected!</p>
+<img src=/homestuck/hscrop/pietin.gif>
+</div>
+
+<div id=queuediv style="display: none;">
+<p>the queue modus lets you put your most recently captchalouged card at the top of your deck, but only lets you access your oldest captchalouged card</p>
+<img src=/homestuck/hscrop/queueintro.gif>
+<p>grabing a card while your inventory is full will eject your oldest item at tremendous speeds!</p>
+<img src=/homestuck/hscrop/bigqueueexpel.gif>
+</div>
+
+<div id=treediv style="display:none;">
+<p>to explain this modus, i like to think of it as a filesystem... the tree modus allows you to store items under each other, as if they were folders</p>
+<img src=/homestuck/hscrop/treeintro.gif>
+<p>each captchalouged card is its own folder, and taking one card out will result in the cards within to also be ejected<p>
+<img src=/homestuck/hscrop/treeeject.gif>
+<p>there are two settings you can manipulate; auto-balance and which card you take from.</p>
+<img src=/homestuck/hscrop/treesettings.gif>
+<p>for which card you can take from, you can choose between taking out the root card, or taking one of the top leaves!</p>
+<img src=/homestuck/hscrop/leaftop.gif>
+<p>you can figure out how the auto-balance system works for yourself :D</p>
+</div>
+
+<div id=hashdiv style="display: none;">
+<p>the hashmap modus enters items with user-defined names into an also user-defined hasher, which dictates what card your captchalouged item goes into!</p>
+<img src=/homestuck/hscrop/box.gif>
+<p>ejection occurs when you captchalouge an item with the same value,</p>
+<img src=/homestuck/hscrop/hashexpel.gif>
+<p>or when you... yell out a word with the same value as an item in your sylladex. i guess</p>
+<img src=/homestuck/hscrop/stop.gif>
+<p>i don't feel like explaning what a hash is so WOOP WOOHOO SETTINGS TIME!!! :D
+<br>the settings you can define on a hashmap modus are what values the hash generates with each leter, and detecting colisions.</p>
+<img src=/homestuck/hscrop/hashsettingsaugh.gif>
+<p>detecting colisions prevents you from picking up items that will eject other captchalouged items from your deck!</p>
+<img src=/homestuck/hscrop/collisionhashmap.gif>
+<br><br>(pg 589)<br><hstxt>
+You take the <span style="color: blue">SK</span><span style="color: red">A</span><span style="color: blue">T</span><span style="color: red">E</span><span style="color: blue">B</span><span style="color: red">OA</span><span style="color: blue">RD</span> (6).<br><br>Actually, no you don't. A collision has been detected.<br><br>You take the... uh...<br><br><span style="color: blue">WH</span><span style="color: red">EE</span><span style="color: blue">L</span><span style="color: red">E</span><span style="color: blue">D</span>... <br><br>uh...<br><br><span style="color: blue">R</span><span style="color: red">I</span><span style="color: blue">D</span><span style="color: red">E</span> (7).<br><br>Man, your inventory's nomenclature is getting lamer by the minute.
+</hstxt>
+<br>
+<p>again, i'm not going to explain what a hashmap is. sigh.</p>
+</div>
+
+<div id=memorydiv style="display: none;">
+<p>it's exactly what you think it is</p>
+<img src=/homestuck/hscrop/memory.gif>
+<p>playing memory match with your sylladex... woohoo?</p>
+</div>
+
+<div id=jengadiv style="display: none;">
+<p>when captchalouging an item, it will split in to 3 blocks on a jenga tower! to take the items out, you need to extract only the blocks corresponding to that item.</p>
+<img src=/homestuck/hscrop/jengamodus.gif>
+<p>if you knock over the tower, all items will be ejected</p>
+<img src=/homestuck/hscrop/jengaeject.gif>
+</div>
+
+<div id=pictodiv style="display: none;">
+<p>you can draw any item that you want to captchalouge or uncaptchalouge! when a card is captcalouged, the modus will decide which card it goes to, and will eliminate any text.</p>
+<img src=/homestuck/hscrop/notextonpictionary.gif>
+<p>if you try to captchalouge an item you don't have, you will simply get a ghost imprint of it. you can get the code of an item this way, but you can't take the item out of the card... because you don't have it!</p>
+<img src=/homestuck/hscrop/charlesdutton.gif>
+</div>
+
+<h1><br></h1>
+</center>
+
+<script src=types.js>
+</script>
+
+  </body>
+</html>

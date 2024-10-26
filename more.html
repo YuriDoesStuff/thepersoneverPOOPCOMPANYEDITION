@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <!-- if your using librewolf, and you have fingerprint blocking on, ruffle will take a while to load  -->
+    <!-- install the ruffle extention if you want! but don't turn off fingerprint blocking :(-->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thepersonever - I LOVE FLASH</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="/icons/tpe.png">
+   <script src="/js/ruffle/ruffle.js"></script> 
+<script>
+
+window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+	"openUrlMode": "allow",
+    "backgroundColor": "000000",
+    "autoplay":"on",
+    "unmuteOverlay":"hidden",
+    "letterbox":"on",
+    "showSwfDownload":true,
+    "splashScreen":false,
+    "menu": false,
+    "allowFullscreen": true
+};
+
+</script>
+   <style>
+     .flashdiv{
+       width: 40%; aspect-ratio: 4/3; boader: 0px;
+     }
+     @media (width < 800px){
+       .flashdiv {
+         width:100vw;
+       }
+     }
+    </style>
+  </head>
+  <body style="background-image: none; background-color: black;">
+    <center>
+  <br>
+  <img src=/tkesmall.png style="height: 200px">
+  <br>
+  <br>  <iframe src="/iframes/bar.html" style="height:30%;width:75%; z-index: 10; overflow:scroll;"></iframe>
+      
+    <br>
+    <br>
+    <br>
+    <br>
+     <div class=flashdiv>
+
+       <script src=/js/swfobject.js defer>
+</script>
+<div id=swfdiv>
+uh. i guess swfobject doesn't exist.
+<br>CONTACT WEBMASTER: webmaster@psfla.net
+</div>
+
+<script>
+setTimeout( callbackFunction, 1000 );
+function callbackFunction(){
+  var att = { data:"flashes/temshop.swf", width:"100%", height:"100%" };
+  var par = { flashvars:"foo=bar" };
+  var id = "swfdiv";
+  swfobject.createSWF(att, par, id);
+  }
+</script>
+      </div>
+    </center>
+    
+  </body>
+</html>

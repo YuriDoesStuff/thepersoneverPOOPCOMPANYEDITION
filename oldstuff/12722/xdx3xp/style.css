@@ -1,0 +1,37 @@
+@font-face {
+    font-family: pmdfont;
+    src: url('pmdfont.ttf')  format("truetype");
+}
+ 
+ a:link {
+ color: green
+ }
+
+  span {
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+font-size: 40px;
+}
+
+p {
+  font-size: 30px;
+}
+a {
+font-size: 35px;
+}
+body {
+  background-image: url("bg.png");
+  background-size: cover;
+  height: 1000px;   
+  font-family: "pmdfont"
+}

@@ -1,0 +1,96 @@
+body{
+  background-color: grey;
+  background-image: none;
+}
+
+#link { 
+display: block;
+text-align: left;
+}
+
+#header{
+ background-color: #828282; 
+ margin: 0; 
+ padding: 0; 
+ text-align: center; 
+ height: 30vh; 
+ width: 70vw; 
+ position: relative; 
+}
+
+#headimgdiv{
+ text-align: left; 
+ height: 15vh; 
+ width: 100%; 
+ border: solid #c7c7c7; 
+ border-width: 0 0 0.3vw 0; 
+ background-color: white;
+ padding: 0; 
+ margin: 0;
+ position: absolute; 
+}
+
+#headimg{
+ height: 100%; 
+ border: solid #c7c7c7; 
+ border-width: 0 0.3vw  0.3vw; 
+ background-color: white; 
+ padding: 0; 
+ margin: 0; 
+}
+
+#spacer{
+ min-height:20vh; 
+ text-align: left; 
+ background-color: #828282; 
+}
+
+#contents{
+ background-color: #828282; 
+ margin: 0; 
+ padding: 0; 
+ text-align: center;
+ width: 70vw; 
+}
+
+#holddiv{
+ width: 60%; 
+ text-align: center; 
+ background-color: white; 
+}
+
+#title{
+ text-align: center;
+ display: inline; 
+}
+
+#link{
+ padding: 0.3vw;
+ display: none; 
+ text-align: left; 
+}
+
+#whendiv{
+text-align: right;
+}
+
+a.next{
+  font-size: 0.8in; 
+}
+
+a.small{
+font-size: 0.3in;
+color: #a3a3a3;
+}
+
+a.small:link{
+  color: green;
+}
+
+a.small:visited{
+  color: purple;
+}
+
+img.panel{
+ width: 100%; 
+}

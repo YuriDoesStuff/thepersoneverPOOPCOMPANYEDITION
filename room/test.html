@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jade harley's room</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="/icons/room.png">
+    <style>
+    body{
+     background-color:black;
+     background-image: none;
+    }
+    
+    div{
+     background-color: black; 
+    }
+    </style>
+        <meta name="description" content="LOOK AT MY ROOM LOOK AT IT LOOK AT HOW MUCH JAVASCRIPT I HAD TO WRITE remember 2 clear your cache!!">
+    <meta name="twitter:image" content="https://thepersonever.neocities.org/room/images/autism.png">
+  </head>
+  <body>
+<center>
+ <div id="room" style="width:110vh; height:70vh; background-color: black;">
+ <p style="text-align: left;">
+ <img src=images/icons/audioplaying.png id=playing width=30px style="display: none;" onclick=mute()>
+ <img src=images/icons/audionone.png id=none width=30px style="display: none;" onclick=play()>
+ <img src=images/icons/info.png id=info width=30px style="display: none;" onclick="jadepqinfo()">
+ </p>
+ 
+ <img id=jade onclick="none()">
+ 
+<center><p id=hell><span><br>best viewed in firefox, on windows 10 <br> most likely will look extremley wonky on anything else <br> if you find any glitches not having to do with diffrences between browsers, please tell me!<br><br> remember to zoom in, and 2 clear ur cache!</span></p><img src=images/start.png onclick=slide() id=startb style="display:inline;"></center>
+ </div>
+ <br>
+ <br>
+ <div id=textbox style="background-color: white;border-style: groove; border: 3px solid; width:110vh; display:none;">
+ <p id=textext style="text-align: left; position: relative; top: -25px; left: 10px;">hiii</p>
+ </div>
+ 
+</center>
+<br>
+<br>
+<br>
+<br>
+<a href=/personals> back to "art" </a>
+
+<audio loop id=audio></audio>
+<audio id=audio2></audio>
+
+<script src=test.js>
+</script>
+  </body>
+</html>

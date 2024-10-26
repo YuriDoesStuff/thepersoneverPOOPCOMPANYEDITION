@@ -1,0 +1,17 @@
+{  
+  "!! compliant": "nada. fucking hate rfc3339 !!",
+  
+  "version": "https://jsonfeed.org/version/1",
+  "title": "jadeblog",
+  "home_page_url": "https://thepersonever.net/",
+  "feed_url": "https://thepersonever.net/floase/",
+  "items": [
+    {
+      "id": "1",
+      "title": "start blehhh",
+      "date_published": "2024-10-18",
+      "content_html": "um. i might start a <i>personal</i> personal blog here... stuff that's a little too lame to put on TPE proper! or stuff that's just different in tone :p"
+    }
+    ]
+  
+}

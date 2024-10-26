@@ -1,0 +1,60 @@
+@font-face {
+    font-family: pmdfont;
+    src: url('/pmdfont.ttf')  format("truetype");
+}
+ 
+ a:link {
+ color: green
+ }
+   .groove {border-style: groove;
+   background-color: white;}
+   
+    .right {
+  float: right;
+  }
+
+
+  span {
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+font-size: 40px;
+}
+
+p {
+  font-size: 30px;
+}
+ul{
+  font-size: 35px;
+}
+li{
+  font-size: 35px;
+}
+a {
+font-size: 35px;
+}
+body {
+  background-color: #d9d9d9;
+  background-size: cover; 
+  font-family: "pmdfont";
+}
+    .ugh {
+  margin: auto;
+  width: 50%;
+  width:1000px;
+  height:90%;
+  border: 0px solid black;
+  background-color: white;
+  padding: 10px;
+  min-height: 100%;
+}
+

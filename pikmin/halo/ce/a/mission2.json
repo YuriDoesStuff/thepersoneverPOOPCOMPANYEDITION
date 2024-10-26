@@ -1,0 +1,51 @@
+{
+"title": "mission 2",
+"cred": "gameplay and analysis by jade, halo (2001) was created by bungie and published by microsoft",
+"imgdir": "img/mission2/",
+
+"pages": [ 
+
+  {
+    "title": "CUT SCENE.",
+    "type": "img",
+    "url": "1.png",
+    "text": "<p>\"We're gonna make it, aren't we sir?\"</p>",
+    "date": "7/21/24"
+    },
+    {
+    "title": "CONTINUE CUTTING SCENE.",
+    "type": "swf",
+    "url": "2.swf",
+    "text": " ",
+    "date": "7/21/24"
+    },
+    {
+    "title": "OH.",
+    "type": "img",
+    "url": "3.png",
+    "text": "<p>if you wanna continue the game, you'll need to make it across this bridge</p> <p>im stating this due to the fact that i didn't know that when i was younger</p>",
+    "date": "7/21/24"
+    },
+    {
+    "title": "is that a bird? a plane? an alien???",
+    "type": "swf",
+    "url": "4.swf",
+    "text": "<p>it's... an alien alright. an alien in a banshee I HATE BANSHEES!!!!!</p>",
+    "date": "7/21/24"
+    },
+    {
+    "title": "oh. ew",
+    "type": "swf",
+    "url": "5.swf",
+    "text": "<p>around here is the first combat encounter in the outdoors!</p><p>this is important to note due to the fact that enemies are spread out a lot more when fighting outside, and that there's also generally less cover, due to walls not typically existing out here... also, enemies are usually a lot farther away from you compared to fighting in close quarters, making ranged weapons (like the pistol) more important</p>",
+    "date": "7/21/24"
+    },
+    {
+    "title": "wow! what's that thing!",
+    "type": "img",
+    "url": "6.png",
+    "text": "<p>uh. we'll see together! &lt;3</p>",
+    "date": "7/21/24"
+    }
+]
+}

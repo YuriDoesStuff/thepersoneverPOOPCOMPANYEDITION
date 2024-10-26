@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jellyfloat pool - misc things</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/pikmin/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="/icons/jfp.png">
+        <style>
+                    .pikpedia {
+  width:600px;
+  background-color: white;
+  border: 3px solid black;
+  position:relative;
+  height:320px;
+}   
+
+  body{
+   background-image: url(images/restbg.png); 
+  }
+      </style>
+  </head>
+  <body>
+<center>
+<img src=/pikmin/jellyfloatpool.png width=400px>
+<br>
+<br>
+    <iframe src="/pikmin/iframes/bar.html" style="height:200px;width:700px;" scrolling=no></iframe>
+<br>
+<br>
+
+
+<h1><span>misc things</span></h1></center>
+<div class=yeah> 
+<center>
+     <button id=pellet type="button" onclick="document.getElementById('title').innerHTML = '<span>pellet posies</span>'; document.getElementById('image').src='/pikmin/enemies/images/pelletposy.png';
+     document.getElementById('para').innerHTML = 'they sprout numbered pellets that say either 1, 5, 10, 20, or 50. usually they cycle through the main 3 colors, and will give 2x the pikmin to the color that they show.';
+     
+     var element = document.getElementById('pikpedia');
+        element.style.height = '320px';
+">pellet posies</button>
+     <button id=unmarked type="button" onclick="document.getElementById('title').innerHTML = '<span>unmarked spectrelids</span>'; document.getElementById('image').src='/pikmin/enemies/images/unmarked.png';
+     document.getElementById('para').innerHTML = 'woohoo. flying bugs! the yellow ones that drop nectar, the red ones that drop spicy spray, and the purple ones that drop bitter spray.';
+     
+     var element = document.getElementById('pikpedia');
+        element.style.height = '350px';
+">unmarked spectralids</button>
+     <button id=honey type="button" onclick="document.getElementById('title').innerHTML = '<span>honeywisps</span>'; document.getElementById('image').src='/pikmin/enemies/images/honeywisp.png';
+     document.getElementById('para').innerHTML = 'if you hit them they drop an egg that contains either nectar, one of the two sprays, or MITES. oh boy!';
+     var element = document.getElementById('pikpedia');
+        element.style.height = '300px';
+">honeywisps</button>
+<button id=spider type="button" onclick="document.getElementById('title').innerHTML = '<span>burgeoning spiderwort</span>'; document.getElementById('image').src='/pikmin/enemies/images/spiderwort.jpg';
+     document.getElementById('para').innerHTML = 'I LOVE SPIDERWORTS I LOVE GETTING SPRAYS <br> swarm pikmin around the stem to get to the BERRIES. mmmmm!';
+     var element = document.getElementById('pikpedia');
+        element.style.height = '380px';
+">burgeoning spiderwort</button>
+<button id=mamuta type="button" onclick="document.getElementById('title').innerHTML = '<span>mamuta</span>'; document.getElementById('image').src='/pikmin/enemies/images/mamuta.png';
+     document.getElementById('para').innerHTML = 'they slam to &quot;attack&quot;... said attack is just burrying your pikmin and giving them flowers. they can be a pain to deal with sometimes, but are generally ok';
+     var element = document.getElementById('pikpedia');
+        element.style.height = '300px';
+">mamuta</button>
+<button id=skitterleaf type="button" onclick="document.getElementById('title').innerHTML = '<span>skitter leaf</span>'; document.getElementById('image').src='/pikmin/enemies/images/skitterleaf.png';
+     document.getElementById('para').innerHTML = 'oh man oh man. these guys cant do anything!!!!! like at all!!!!! they can &quot;shake pikmin off&quot; but... that only really removes flowers. they only provide one pikmin seed when brought back to the onion... skitter leaves are just. unneeded';
+     var element = document.getElementById('pikpedia');
+        element.style.height = '320px';
+">skitter leaf</button>
+<button id=whiskerpillar type="button" onclick="document.getElementById('title').innerHTML = '<span>ravonous whiskerpillar</span>'; document.getElementById('image').src='/pikmin/enemies/images/wiskerpillar.png';
+     document.getElementById('para').innerHTML = 'have you ever wanted to have your berries eaten by a STUPID IDIOT I HATE YOU <br> if they are attacked while on a burgeoning spiderwort they fall off... make sure they die! bleh';
+     var element = document.getElementById('pikpedia');
+        element.style.height = '450px';
+">ravenous whiskerpillar</button>
+<button id=mitites type="button" onclick="document.getElementById('title').innerHTML = '<span>mitites</span>'; document.getElementById('image').src='/pikmin/enemies/images/mitites.png';
+     document.getElementById('para').innerHTML = 'oh my god STOMP THEM WITH PURPLES. STOMP THEM!!!!!!! youll get so much nectar';
+     var element = document.getElementById('pikpedia');
+        element.style.height = '250px';
+">mitites</button>
+
+</center><br>
+<a><span>things that aren’t enemies, or that i just dont care about</span></a>
+<br>
+<br>
+<center><a href=/pikmin/pik2pedia.html><span>ughhh</span></a></center>
+<br>
+<br>
+</div>
+  <div class=pikpedia id=pikpedia>
+<img id=image src=images/pelletposy.png style="float: right; height: 150px;" onclick=".src='/images/floppy.gif';">
+
+  <br>
+  <br>
+    <h1 id=title><span>pellet posies </span></h1>
+        <p id=para>they sprout numbered pellets that say either 1, 5, 10, 20, or 50. usually they cycle through the main 3 colors, and will give 2x the pikmin to the color that they show.
+</p>
+      </div>
+      
+
+<audio autoplay loop src=audio/rest.mp3></audio>
+
+  </body>
+</html>

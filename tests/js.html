@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js testing</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+    
+          canvas {
+        background: #eee;
+        display: block;
+        margin: 0 auto;
+      }
+    
+    </style>
+  </head>
+  <body>
+    
+    <canvas id="myCanvas" width="480" height="320"></canvas>
+    
+    <script>    
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+const ballRadius = 10;
+
+var x = canvas.width / 2;
+var y = canvas.height - 30;
+
+var dx = -3;
+var dy = -5;
+
+function drawBall() {
+  ctx.beginPath();
+  ctx.arc(x, y, 10, 0, Math.PI * 2);
+  ctx.fillStyle = "#0095DD";
+  ctx.fill();
+  ctx.arc(x, y, ballRadius, 0, Math.PI * 2);
+  
+if (y + dy > canvas.height || y + dy < 0) {
+  dy = -dy;
+}
+if (x + dx > canvas.width || x + dx < 0) {
+  dx = -dx;
+}
+
+  ctx.closePath();
+}
+
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  drawBall();
+  x += dx;
+  y += dy;
+}
+setInterval(draw, 10);
+
+
+    </script>
+    
+    
+    <br>
+    <br>
+    <br>
+  <br>
+  <br><p id=stick> <span>its been years now, seince his show has aired</span></p>
+  <br>
+  <button id=stickly type="button" onclick='document.getElementById("stick").innerHTML = "<span>sent a letter, got returned and now were scared</span>"; document.getElementById("stickly").textContent="oh, ok"; '>what happened next???</button>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <button type="button" onclick="window.alert('I HATE YOU'); ">(dont) Click Me!</button>
+  <center>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <p id=rtext> a</p>
+  <p id=ntext> b</p>
+  <button id=random type=button onclick="var num = Math.floor(Math.random() * 10);
+  
+  if (num == 0) {text = '<a href=https://thepersonever.neocities.org/wog.html><span> wog. </span></a>'};
+  if (num == 1) {text = '<span>from the mook to the rei to the P to the wii u gotta See hyakugojyuuichi!!!</span>'};
+  if (num == 2) {text = '<span>everywhere i look, i always see...</span>'};
+  if (num == 3) {text = '<span>typing this on windows xp. if you see this, hi jole! </span>'};
+  if (num == 4) {text = '<span>i Have Not Showered in 36 Days!</span>'};
+  if (num == 5) {text = '<span>kum n go out my mind.</span>'};
+  if (num == 6) {text = '<span>, but im leavin out the whistles and bells !!</span>'};
+  if (num == 7) {text = '<span>Old GodZilla Was Hoppin ARound,</span>'};
+  if (num == 8) {text = '<span>IAMACHEMICAL RE AC TION!!!!</span>'};
+  if (num == 9) {text = '<span>sometimes you confuse me with, santa claus... its the big white beard i suppose,, if you need me...</span>'};
+  if (num > 10) {text = 'oh'}
+  
+document.getElementById('rtext').innerHTML = text;
+document.getElementById('ntext').innerHTML = num;
+
+  ">random things here !</button>
+  </center>
+
+  </body>
+</html>

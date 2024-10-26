@@ -1,0 +1,73 @@
+currently on mspa 469
+-- PROBLEM SLEUTH --
+
+META:
+keyguns - idea made from "the user is always wrong"
+items must be in your pocket to use them! weapons have a dedicated inventory spot
+false window is too big to cary in inventory - mspa 272
+
+PULCHRITUDE was originally the useless stat - gained from CANDY CORN
+
+vim is gained by drinking coffee :D
+vim gives you strength. it allows AD to pick up the hutch bust (mspa 361)
+
+imagination refills from being intoxicated! :( 
+your imagination level stays filled even when imagination effects wear off, leaving you with a bar that gives you a negative stat (mspa 336)
+in imaginary spaces, things make... slightly less sense. mspa 323
+the realm of imagination is also similar to the dream moons - you can only be in either Imagination Land or the actual world at any given time
+you have multiple imagination lives! when you die, you wake up in the "real world"
+the window and imaginary worlds seem connected: when PS sends up items on the reel-to-reel (mspa 432), they're brought back up to PS's office in the real world (mspa 442)
+
+top-left compass :D red is north, the outline and other directions are black! white bg
+
+CUT SCENE used to indicate to players that they can't do anything
+
+you can only go through windows when they're powered on! (mspa 374)
+you can also only break them when they're on (mspa 387)
+if you're near a powered-off window in Microsoftland, there will be "metaphysical consequences" (mspa 413)
+
+all "alternate realities" happen - as evident from the PS body on page 393
+
+first use of halfpanel split used on mspa 299
+haunting refrain + hard to kiss on mspa 304
+inital (PS, AD, PI ect) commands introduced mspa 365
+CANDY CORN VAMPIRE mspa 384
+
+STORY:
+"it's gonna be a long night" - mspa 228
+
+BEN STILLER BUST!!!! - PS probably thinks it was placed on purpose by AD (mspa 282), however this really isn't the case (mspa 284 and 351's commentary)
+
+foreshadows the fake-ish windows on mspa 253
+
+"At this stage of the story there is one and only one rule: The user is always wrong. SO of course he cannot guess correctly that the window is fake. And yet, the window can't exactly be real either. WE will see how this conflict is reconciled shortly."
+
+misogyny in PS's imagination :(
+
+since everything in "weird puzzle shit" games is convoluted, the most conveniant escape route from PS's office being a convoluted safe isn't really ironic! it's just... normal (thought came up from mspa 274)
+
+windows run on etch-a-sketch technology? for only one panel (mspa 341)
+
+CHARACTERS:
+- relations - 
+PS -> jealous of, and anatgonized by AD. whenever we're reading from PS, AD is framed extremly poorly (mspa 396)
+AD -> apparently feuding with PS, but feels like they should "bury the hatchet" (mspa 359). used to antagonize PS more with notes (mspa 380)... also believes that PI was trapped by PS (mspa 412)
+
+- primary stats - 
+PS: pulchritude
+AD: vim
+PI: imagination
+
+- extra storage! - 
+PS: hat - pocket
+AD: stomach (needs to get drunk to puke up whatever's in it)
+
+PLACES: 
+PS, AD and PI's offices are all next to each other
+AD's hideout is right below PS's. you can travel between them with the dumbwaiter
+
+through a door in PS's hideout is a room meant to store instruments...
+through a door in AD's hideout is a liquor making facility
+these two rooms seem to both be below the same room - "Loud swing music and lively footsteps are heard from the room above" is present on both mspa 461 and 460
+
+AD's window leads to a fire escape, which extends to PI's skyscraper-skylight

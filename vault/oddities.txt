@@ -1,0 +1,11 @@
+"thepersonever mobile
+back before i knew about responsive CSS, i tried to make a mobile version of my entire site - subsites and all. that didn't really work well at the time though, due to the fact i JUST used css and static html!! scope issues killed this one early"
+
+"thelamestever
+a site made just to cover content in TPE proper, so that people with sensory issues could still look at the info on it. it might still be updated sometimes, but it'll be something very much on the backburner if so."
+
+"TPE mini
+a very, VERY condenced version of site i made for pokefarmq, before i realized that mini profiles HAD to use bbcode. was never used"
+
+"logos!!!
+TPE has had... a lot of changes to integral images throughout the years. there's been two versions of the home and general logo, as well as a guestbook logo, and the logo currently showcased on my nekoweb sitebox. back in august of 2024, i wanted to test out krita! the first thing i did was create new versions of the home and general logo, along with new images for the first three images on the art page."

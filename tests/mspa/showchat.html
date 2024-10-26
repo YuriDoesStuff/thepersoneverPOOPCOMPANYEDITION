@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of thepersonever</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+    #showchat{
+      width: 150px;
+      height: 75px;
+      background-size: 100% 100% ;
+      background-image: url("img/showchat1.png"); 
+    }
+    #showchat:hover{
+     background-image: url("img/showchat2.png"); 
+    }
+    
+    #hidechat{
+      width: 150px;
+      height: 75px;
+      background-size: 100% 100% ;
+      background-image: url("img/hidechat1.png"); 
+    }
+    #hidechat:hover{
+     background-image: url("img/hidechat2.png"); 
+    }
+    
+    #talkdiv{
+     display: none; 
+    }
+    
+    </style>
+  </head>
+  <body>
+  
+<div id=showchat onclick=showchat()></div>
+
+<div id=talkdiv>
+<p>asdfsadf</p>
+</div>
+
+<script>
+var chatshown = false;
+function showchat(){
+  if (chatshown == false){
+    document.getElementById("talkdiv").style.display = "block";
+    document.getElementById("showchat").id = "hidechat";
+    chatshown = true;
+  }
+  else{
+    document.getElementById("talkdiv").style.display = "none";
+    document.getElementById("hidechat").id = "showchat";
+    chatshown = false;
+  }
+}
+</script>
+
+  </body>
+</html>

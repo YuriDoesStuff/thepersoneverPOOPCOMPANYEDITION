@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of thepersonever</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+   <center>
+    <h1>preloader test</h1>
+
+
+   <img id=preloader src=/images/psihouse.gif style='border: none; width:60%;'>"
+<video id=video autoplay style='border: none; width:60%; background-image: url(/images/psihouse.gif); background-size: cover;' title='from homestuck page 1940'>";
+<source src=dabe.mp4 type='video/mp4'> your browser does not support the video tag... </video>";
+
+<script>
+const videoElement = document.getElementById('video');
+const preloader = document.getElementById('preloader');
+
+videoElement.addEventListener('loadeddata', (e) => {
+   //Video should now be loaded but we can add a second check
+
+   if(videoElement.readyState >= 3){
+       console.log("video's done loading");
+	   preloader.style.display = 'none'
+   }
+
+});
+</script>
+
+   </center>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+{
+    "subsites":{
+        "lofaf":{
+            "siteurl":"https://thepersonever.net/homestuck/",
+            "sitename":"LOFAF",
+            "timerange":"jan. 2024 - apr. 2024",
+            "image":"lofaf",
+            "desc":"a short-lived homestuck fansite, maintained from early to mid 2024. originally, i was planning on covering EVERYTHING \"official\", from hussie's previous MSPAs to the baby is you... sans hs2. the way i was going to cover all the content in each MSPA was by just... reading them! while taking notes in a .txt file that was hosted on my site... so i could pull up my notes to use at school!! :p however, once i fell behind on actually listing information on the site, i kinda just started to reread homestuck :( this left me with a mountain of work, and not much motivation to do it. LOFAF was doomed to fail simply due to scope!!! D:"
+        },
+        "oldrandomjunk":{
+            "siteurl":"https://thepersonever.net/randomjunk/home",
+            "sitename":"random junk (old)",
+            "timerange":"nov. 2022 - sep. 2023",
+            "image":"oldrandomjunk",
+            "desc":"random junk... yeah. this was the first subsite i made! and you can really tell :/ it's been a little while, but looking back on old archives lead me to believe that random junk was based off of stuff dating back to the origin of the site! starting with a iframe-powered intro and broken audio, this site really embodys the \"okay what images from google can i use\" spirit of old TPE... though, the iframe-based random junk subsite was abandoned in favor of a new, javascript based subsite made in september of 2023, which you can find on the art page! the new version is maintained a little better... but i do need to rework it still"
+        },
+        "jfp":{
+            "siteurl":"https://thepersonever.net/pikmin/",
+            "sitename":"jellyfloat pool",
+            "timerange":"jan. 2023 - apr. 2024",
+            "image":"jfp",
+            "desc":"jellyfloat pool was the third subsite i made, originally meant to catalog everything pikmin. i gave pikmin 2 the most attention though, with a full piklopedia and an interactive sublevel list... along with the typical area pages. when pikmin 4 was announced, i was super excited and made a page just for the trailer!!! but once i got the game... it didn't live up to my expectations, causing it to be the most neglected game on jfp. i was also planning on making a javascript-powered \"pik2pedia\" revision, but that fell though because i forgot a lot of the finer details about pikmin 2's enemies, and wasn't happy with the writing that was in pik2pedia. a while after that, i tried to make this a general videogame fansite, adding a halo expansion mid-2024 that used my javascript MSPA reader! but i never finished the expansion, due to my process being a little overbearing :( it was just \"okay lets record gameplay and then watch it back and add play-by-play commentary seperated by pages\". i didn't learn anything from lofaf apparently... this site was also doomed due to scope, since i felt the need to cover each game with the same level of neuance and detail as a youtube video essay :("
+        },
+        "room23":{
+            "siteurl":"https://thepersonever.net/room/",
+            "sitename":"room '23",
+            "timerange":"september 2023",
+            "image":"room23",
+            "desc":"ah yes, the one thing in the vault that breaks the trend of \"abandoned due to having an unreasonably large scope\"! this was basically just another TPE page, but i felt it warented a spot on the art page... partially because i didn't have a more page at the time. this entire thing was programmed on a chromebook with no access to the dev console! meaning i had to troubleshoot errors blind!!! even after i had finished the general formula to create new textboxes and rooms, it was hard to even add onto the damn thing since each sentence had its own function!!! the ungodly amount of functions were mainly due to the fact i didn't know what the acronym JSON meant, and that i didn't know you could pass parameters though functions. the main issue of room '23 wasn't its initial codebase, however... it was the page's responsiveness-or the lack thereof. all of the art and styling was done on a windows 10 computer... with a 16:10 monitor. this is only an issue, due to all of the elements being positioned with absolute pixel values!!! the weird aspect ratio combined with the non-standard resolution my monitor supported made for a... visual novel? that looked bad on prety much everything. room '23 was a fun experiment... but nothing more :("
+        }
+    }
+}

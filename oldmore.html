@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thepersonever - more!</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="/icons/tpe.png">
+    
+    <link rel="preload" as="image" href="images/more/guestbook.png">
+    <link rel="preload" as="image" href="images/more/guestbooklink.png">
+    <link rel="preload" as="image" href="images/more/links.png">
+    <link rel="preload" as="image" href="images/more/linkslink.png">
+    <link rel="preload" as="image" href="images/more/computers.png">
+    <link rel="preload" as="image" href="images/more/computerslink.png">
+    <link rel="preload" as="image" href="images/more/devlog.png">
+    <link rel="preload" as="image" href="images/more/devloglink.png">
+    <style>
+    
+    
+    
+    .switchlink{
+    width: 33%; 
+    height: 33%; 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    }
+    
+    #guestbook{
+    background-image: url("images/more/guestbook.png"); 
+    }
+    
+    #guestbook:hover{
+    background-image: url("images/more/guestbooklink.png"); 
+    }
+    
+    #links{
+    background-image: url("images/more/links.png"); 
+    }
+    
+    #links:hover{
+    background-image: url("images/more/linkslink.png"); 
+    }
+    
+    #computers{
+    background-image: url("images/more/computers.png"); 
+    }
+    
+    #computers:hover{
+    background-image: url("images/more/computerslink.png"); 
+    }
+    
+    #devlog{
+    background-image: url("images/more/devlog.png"); 
+    }
+    
+    #devlog:hover{
+    background-image: url("images/more/devloglink.png"); 
+    }
+    </style>
+  </head>
+  <body>
+    <center>
+  <br>
+  <img src=/tkesmall.png style="height: 200px">
+  <br>
+  <br>
+    <iframe src="iframes/bar.html" style="height:150px;width:1000px;" scrolling=no></iframe>
+  <br>
+
+<h1><span>more!</span></h1>
+
+<div style="width: 80%;">
+
+<div class=switchlink id=guestbook>
+<a href=/123guestbook><img src=images/more/blank.png></a>
+</div>
+
+<div class=switchlink id=links>
+<a href=/otherslinks><img src=images/more/blank.png></a>
+</div>
+
+<div class=switchlink id=computers>
+<a href=/computer/><img src=images/more/blank.png></a>
+</div>
+
+<div class=switchlink id=devlog>
+<a href=/godot/><img src=images/more/blank.png></a>
+</div>
+
+</div>
+
+    </center>
+  </body>
+</html>

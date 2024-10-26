@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of thepersonever</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+   <center>
+    <h1>preloader test</h1>
+
+
+<video id=preloader autoplay style='border: none; width:60%;' title='preloader'>
+<source src=psihouse.mp4 type='video/mp4'> 
+</video>
+
+
+<video id=video style='border: none; width:60%; display: none;' title='from homestuck page 1940'>
+<source src=dabe.mp4 type='video/mp4'> 
+your browser does not support the video tag...
+</video>
+
+<script>
+const videoElement = document.getElementById('video');
+const preloader = document.getElementById('preloader');
+var endpreload = 0;
+
+videoElement.load();
+
+    preloader.addEventListener('ended',myHandler,false);
+    function myHandler(e) {
+       console.log("preloader OVER!")
+        
+        if (endpreload == 1){
+        console.log("starting video :D"); 
+         video.play();
+         preloader.style.display = "none";
+         video.style.display = "inline";         
+        }
+        else {
+         console.log("restarting preloader..."); 
+         preloader.play();
+        }
+    }
+
+videoElement.addEventListener('loadeddata', (e) => {
+
+   if(videoElement.readyState = 4){
+       console.log("video's done loading");
+       endpreload = 1;
+
+   }
+
+});
+</script>
+
+
+   </center>
+  </body>
+</html>

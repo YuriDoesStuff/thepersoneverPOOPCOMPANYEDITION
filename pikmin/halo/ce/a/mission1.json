@@ -1,0 +1,135 @@
+{
+"title": "mission 1",
+"cred": "gameplay and analysis by jade, halo (2001) was created by bungie and published by microsoft",
+"imgdir": "img/mission1/",
+
+"pages": [ 
+
+  {
+    "title": "the pillar of autumn",
+    "type": "img",
+    "url": "title.png",
+    "text": "<p class=small>note: i'll be using the xbox 360 for most of this playthrough. if you see any stuttering, blame me!!</p>",
+    "date": "7/19/24"
+    },
+    {
+    "title": "start the dang game already!!!",
+    "type": "img",
+    "url": "GFWhalo.jpg style=\"max-width: 400px;\"",
+    "text": "<p>congradulizationsons for buying halo for you xbox console! in this game you get to set up your controls really quick then RUN RUN HOLY FUCK THE COVERED NATS ARE COMING!!!!</p>",
+    "date": "7/19/24"
+    },
+    {
+    "title": "RUN??? RUN HOLY FUCK",
+    "url": "1.swf",
+    "type": "swf",
+    "text": " ",
+    "date": "7/19/24"
+    },
+    {
+    "title": "DID THAT GUY JUST DIE????????",
+    "url": "2.png",
+    "type": "img",
+    "text": "<p>uh... <br> i meant to say that in this game, you walk past an allegiance of aliens bent on killing each and every human. they're called the covenant</p> <p>this image is not only the most high quality image of any covenant soilders avalible, but also the only picture in existence.</p>",
+    "date": "7/19/24"
+    },
+    {
+    "title": "okay...",
+    "url": "3.png",
+    "type": "img",
+    "text": "<p>oh hey! it's this guy!!! <br> he wants us to walk in front of him and get lost</p>",
+    "date": "7/19/24"
+    },
+    {
+    "title": "...",
+    "url": "4.png",
+    "type": "img",
+    "text": "<p>here's an npc, mr car keys. walk up to him, and he'll give you a glock! <br> he's not that important. kill him if you want</p>",
+    "date": "7/19/24"
+    },
+    {
+    "title": "glock?",
+    "url": "5.swf",
+    "type": "swf",
+    "text": "<p>the m6d pistol is okay. it lets you shoot people from 10 meters away, can headshot, and is generally good for medium-close to far-medium range combat </p>",
+    "date": "7/19/24"
+    },
+    {
+    "title": "GLOCK!!!!",
+    "url": "6.swf",
+    "type": "swf",
+    "text": "<p>you also get the ma5b assault rifle around here! it's good at killing things the closer you get to them. i really wouldn't use it any farther than medium range combat, though... it's not that accurate</p>",
+    "date": "7/19/24"
+    },
+    {
+    "title": "that's not a glock...",
+    "url": "7.swf",
+    "type": "swf",
+    "text": "<p>ok fine... you can zoom in with the pistol. zooming in helps with shooting enemies from farther away! you wouldn't see an ar being effective at this range... </p>",
+    "date": "7/19/24"
+    },
+    {
+    "title": "yay!",
+    "url": "8.png",
+    "type": "img",
+    "text": "<p>here's what a medpack looks like. medpacks are VERY useful, seeing as they let you regain health (marked by the boxes near the plus)</p> <p>if you lose your sheilds, your health is exposed. if you lose all your health, you die. your sheilds regenerate automatically, but your health does not. got it?</p>",
+    "date": "7/20/24"
+    },
+    {
+    "title": "i think so...",
+    "url": "9.swf",
+    "type": "swf",
+    "text": "<p>here's the first red elite in the game... they've got a bit more strategy and sheild health compared to blue elites, but if you can fight well enough, you should be able to beat them</p>",
+    "date": "7/20/24"
+    },
+    {
+    "title": "okay!",
+    "url": "10.swf",
+    "type": "swf",
+    "text": "<p>there's two things to note from this clip: that one grenade exploding will make surounding grenades explode, and that there's two oversheilds in each covenant boarding craft</p>",
+    "date": "7/20/24"
+    },
+    {
+    "title": "incredable.",
+    "url": "11.png",
+    "type": "img",
+    "text": "<p>here, you're introduced to combat in the dark. not much to really say... use the white button (or lb on the xbox 360 and later) to turn on your weapon's flashlight</p>",
+    "date": "7/20/24"
+    },
+    {
+    "title": "...",
+    "url": "12.swf",
+    "type": "swf",
+    "text": "<p>and here, you're introduced to the possibility of flanking! so cool</p>",
+    "date": "7/20/24"
+    },
+    {
+    "title": "so, so cool...",
+    "url": "13.swf",
+    "type": "swf",
+    "text": "<p>you're introduced to fighting enemies above you here. which is cool...</p>",
+    "date": "7/20/24"
+    },
+    {
+    "title": "mhm...",
+    "url": "14.swf",
+    "type": "swf",
+    "text": "<p>anyone up for a little... flashlight usage? :3</p>",
+    "date": "7/20/24"
+    },
+    {
+    "title": "no? what the fuck i hate flashlights",
+    "url": "15.swf",
+    "type": "swf",
+    "text": "<p>TOO BAD!!! i love this set piece so much...</p>",
+    "date": "7/20/24"
+    },
+    {
+    "title": ":(",
+    "url": "16.swf",
+    "type": "swf",
+    "text": "<p>the final lifeboat is the one furthest to the west, assuming that the compass in the AR is correct. getting on that lifeboat ends mission one! good job :D</p>",
+    "date": "7/20/24"
+    }
+]
+}

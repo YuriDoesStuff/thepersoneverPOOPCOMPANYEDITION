@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jellyfloat pool - home </title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="/icons/jfp.png">
+    <style>
+
+          body {
+  background-image: url("homebg.png");
+  background-size: 250px;
+      }
+      
+    .flip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  float: left;
+  position:absolute;
+}
+    </style>
+  </head>
+  <body>
+  
+<audio autoplay src=audio/pluck.mp3 id=startaudio></audio>
+<audio loop src=audio/jfp.mp3 id=otheraudio></audio>
+
+  <script>
+  let audio = document.getElementById("startaudio");
+  let audio2 = document.getElementById("otheraudio");
+  var audiotime = audio.currentTime;
+
+  function timeslap(){
+var timehell = Math.round(audio.currentTime);
+var durhell = Math.round(audio.duration);
+console.log(`time is at ${timehell}/${durhell}!`);
+
+if (timehell != durhell) {
+
+    setTimeout(timeslap, 1000);
+}
+ else if (timehell == durhell) {
+setTimeout(1000);
+audio2.play();
+console.log("aaauuughhh");
+}
+}
+
+timeslap();
+  </script>
+  
+<br><br> 
+<center>
+<img src=/pikmin/jellyfloatpool.png width=400px>
+<br>
+<br>
+    <iframe src="/pikmin/iframes/bar.html" style="height:200px;width:700px;" scrolling=no></iframe>
+<br>
+<br>
+
+<h1><span>video game fansite for all your video game fansite needs</span></h1>
+ <span>this was originally made as a semi joke but things got out of hand and</span>
+ <br>
+ 
+<iframe src="iframes/changelog.html" scrolling="yes" style="height:350px;width:400px; position:absolute; top: 800px; right: 30px; z-index:10; float: right;" ></iframe>  
+<h2><span>recently updated pages!</span></h2>
+<h3><span> 
+<a href=pik2/caves/>pikmin 2's caves!</a>
+<br><a href=pik2pedia.html>pik2pedia</a>
+<br><a href=pikmin2.html>pikmin 2's pages</a>
+</span></h3>
+ 
+<a href=trivia.html><h2><span> random disjointed trivia</span></h2></a>
+
+<div class=flip>
+<a href=secret.html><img src=purple.jpg width=100px></a>
+</div>
+<br>
+<p><a href=links.html><span>links!!</span></a>
+<br>
+<br>
+</center>
+  </body>
+</html>

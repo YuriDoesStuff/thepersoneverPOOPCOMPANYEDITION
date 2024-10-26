@@ -1,0 +1,65 @@
+@font-face {
+    font-family: pmdfont;
+    src: url('/pmdfont.ttf')  format("truetype");
+}
+@font-face {
+    font-family: comicsans;
+    src: url('/comicsans.ttf')  format("truetype");
+}
+ 
+ a:link {
+ color: green;
+ }
+   .groove {border-style: groove;
+   background-color: white;}
+   
+    .right {
+  float: right;
+  }
+
+
+  span {
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 0.6in;
+}
+
+h2 {
+  font-size: 0.5in;
+}
+
+h3 {
+font-size: 0.4in;
+}
+
+p {
+  font-size: 0.3in;
+}
+ul{
+  font-size: 0.35in;
+}
+li{
+ font-size: 0.35in;
+
+}
+a {
+font-size: 0.35in;
+}
+body {
+  background-image: url("/bg.png"); 
+  background-color: white;
+  background-size: cover; 
+  font-family: "pmdfont";
+}
+
+comic{
+  font-family: "comicsans";
+ font-size: 0.21in;
+
+}
+
+small{
+ font-size:0.17in; 
+}

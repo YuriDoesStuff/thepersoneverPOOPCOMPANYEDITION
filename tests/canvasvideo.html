@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of thepersonever</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+<canvas id=canvas style="width: 650px; height: 450px; background-color: white;">
+</canvas>
+
+<video id=video style='display: none;'>
+<!-- border: none; width:60%; background-image: url(/images/psihouse.gif); background-size: cover;' title='from homestuck page 1940' -->
+<source src=dabe.mp4 type='video/mp4'> your browser does not support the video tag... </video>
+
+<button onclick=video.play();>play?</button>
+
+<script>
+const video = document.getElementById('video');
+const canvas = document.getElementById("canvas");
+const fps = 25;
+
+function drawImage() {
+  canvas.getContext('2d', { alpha: false }).drawImage(video, 0, 0, 650, 450);
+}canvasInterval = window.setInterval(() => {
+  drawImage(video);
+}, 1000 / fps);video.onpause = function() {
+  clearInterval(canvasInterval);
+};video.onended = function() {
+  clearInterval(canvasInterval);
+};video.onplay = function() {
+  clearInterval(canvasInterval);
+  canvasInterval = window.setInterval(() => {
+    drawImage(video);
+  }, 1000 / fps);
+};
+
+</script>
+
+  </body>
+</html>

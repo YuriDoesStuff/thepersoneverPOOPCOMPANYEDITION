@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jellyfloat pool - snitchbugs</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/pikmin/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="/icons/jfp.png">
+        <style>
+  body{
+   background-image: url(images/snitchbugsbg.png); 
+  }
+      
+                    .pikpedia {
+  width:600px;
+  background-color: white;
+  border: 3px solid black;
+  position:relative;
+  height:300px;
+}   
+      </style>
+  </head>
+  <body>
+<center>
+<img src=/pikmin/jellyfloatpool.png width=400px>
+<br>
+<br>
+    <iframe src="/pikmin/iframes/bar.html" style="height:200px;width:700px;" scrolling=no></iframe>
+<br>
+<br>
+
+
+<h1><span>snitchbugs</span></h1></center>
+<div class=yeah> 
+<center>
+     <button id=swoop type="button" onclick="document.getElementById('title').innerHTML = '<span>swooping snitchbugs</span>'; document.getElementById('image').src='/pikmin/enemies/images/swooping.png';
+     document.getElementById('para').innerHTML = 'they try to steal your pikmin but theyre not the worst i guess';
+     
+     var element = document.getElementById('pikpedia');
+        element.style.height = '300px';
+">swooping snitchbugs</button>
+     <button id=capitan type="button" onclick="document.getElementById('title').innerHTML = '<span>bumbling snitchbugs</span>'; document.getElementById('image').src='/pikmin/enemies/images/bumbling.png';
+     document.getElementById('para').innerHTML = 'these guys try to steal your captains instead of your pikmin. they dont get burried, but they do lose a lot of health, and your pikmin will get dispanded. but fun fact! you can shake the left stick really hard and your captain will be ungrabbed. :D <br> olimar said something in the piklopedia that was like “If you get caught by a bumbling snitchbug that means you’re stupid.” but you arent stupid if you get caught by them. the snitchbugs are the inept ones';
+     
+     var element = document.getElementById('pikpedia');
+        element.style.height = '500px';
+">bumbling snitchbugs</button>
+</center>
+<br>
+<a><span>they steal something then fly up and run away</span></a>
+<br>
+<br>
+<center><a href=/pikmin/pik2pedia.html><span>backwards!</span></a></center>
+<br>
+<br>
+</div>
+  <div class=pikpedia id=pikpedia>
+<img id=image src=images/swooping.png style="float: right; height: 150px;" onclick=".src='/images/floppy.gif';">
+
+  <br>
+  <br>
+    <h1 id=title><span>swooping snitchbugs</span></h1>
+        <p id=para>they try to steal your pikmin but theyre not the worst i guess</p>
+  
+    </div>
+
+<audio autoplay loop src=audio/conc1.mp3></audio> <!-- dd sub7 -->
+
+  </body>
+</html>

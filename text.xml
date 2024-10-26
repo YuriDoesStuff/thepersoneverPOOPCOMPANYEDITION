@@ -1,0 +1,31 @@
+    <rss version="2.0">    <!-- version of rss. doesnt matter too much right now -->
+<channel> <!-- rss news thing... -->
+<title>title !</title> <!-- title of the chanel -->
+
+<link>https://urwebsite.com/sdhfkjsdfh</link> <!-- source to link -->
+<description>yeah</description> <!-- description of the channel-->
+<category>Homepage</category> <!-- category of the channel -->
+<language>en-us</language> <!-- i think you can guess... -->
+
+<image>
+<url>linkgoeshere.png</url> <!-- url of the icon for the newsblog :P -->
+<title> blogy</title> <!-- title for the image -->
+<link>akjdshfkjasdhf.com</link> <!-- image source link -->
+</image>
+
+<item> <!-- an artical in a blog or whatever -->
+    <title> computing and stuffs !!! <!-- title of article -->
+    </title>
+  <pubDate>1 12 2023 9:26 pm</pubDate> <!-- date of publishing. only needs to be consistant with ur own blog... -->
+<link>sdkjhfksajdfhkasjdhfkjasd.jcom</link> <!-- source of article link -->
+  <description> <!-- where your text goes -->
+  
+<p> OK SO. once your in here you can just Write Stuff in HTML
+<br /> everything needs to be explicit though.. you gotta /img, /br, /everything to get it to work properly 
+<br /> usually i just do br actually....
+</p>
+
+</description> <!-- end of text -->
+</item> <!-- end of article-->
+</channel> <!-- end of blog -->
+</rss> <!-- end of file -->

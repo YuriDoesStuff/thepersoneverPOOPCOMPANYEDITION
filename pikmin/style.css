@@ -1,0 +1,106 @@
+@font-face {
+    font-family: pmdfont;
+    src: url('/pmdfont.ttf')  format("truetype");
+}
+
+@font-face {
+    font-family: pikitxt;
+    src: url('ship.otf')  format("opentype");
+}
+
+@font-face {
+    font-family: comicsans;
+    src: url('/comicsans.ttf')  format("truetype");
+}
+
+@font-face {
+    font-family: bubble;
+    src: url('shitbubble.ttf')  format("truetype");
+}
+ 
+ a:link {
+ color: green
+ }
+   .groove {border-style: groove;
+   background-color: white;}
+   
+    .right {
+  float: right;
+  }
+
+
+  span {
+  background-color: #ffffff;
+}
+
+h1 {
+  font-family: "bubble";
+  font-size: 55px;
+  line-height: 60px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 55px;
+}
+
+h3 {
+font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+ul{
+  font-size: 25px;
+}
+li{
+  font-size: 25px;
+}
+a {
+font-size: 25px;
+line-height: 35px;
+}
+body {
+  background-image: url("shower.jpg"); 
+  background-color: white;
+  background-size: cover; 
+  font-family: "pikitxt";
+  line-height: 25px;
+}
+
+          .pikpedia {
+  width:600px;
+  background-color: white;
+  border: 3px solid black;
+  position:relative;
+  height:700px;
+}   
+          .yeah {
+  width:600px;
+  height:700px;
+  border: 0px solid black;
+  position:relative;
+  float: right;
+}   
+
+comic{
+  font-family: "comicsans";
+  font-size: 21px;
+}
+
+small{
+ font-size:17px; 
+}
+
+div.flash{
+  height:calc(300vh / 4);
+  width: calc(300vh / 3);
+}
+
+@media screen and (max-device-width: 1024px) {
+div.flash{
+  height:calc(250vw / 4);
+  width: calc(250vw / 3);
+}
+}

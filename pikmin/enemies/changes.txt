@@ -1,0 +1,3 @@
+updated sizes to accommodate to new css
+updated dweevils a little bit
+updated strategy for ranging bloyster

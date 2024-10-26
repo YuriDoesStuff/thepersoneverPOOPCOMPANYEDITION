@@ -1,0 +1,30 @@
+{
+ "contents": [
+   {
+     "test": [
+       {
+       "name": "blue puckman",
+       "image": "/pikmin/enemies/images/raging.png",
+       "text": "hi"
+       },
+       {
+      "name": "red puckman",
+      "image": "/pikmin/enemies/images/beadyll.png",
+      "text": "bye"
+       }
+     ],
+     "test2":[
+       {
+       "name": "green puckman",
+       "image": "/pikmin/enemies/images/raging.png",
+       "text": "why?"
+       },
+       {
+      "name": "purple puckman",
+      "image": "/pikmin/enemies/images/beadyll.png",
+      "text": "hehe"
+       }
+    ]
+   }
+ ]
+}

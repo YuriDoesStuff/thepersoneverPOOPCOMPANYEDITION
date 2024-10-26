@@ -1,0 +1,8 @@
+@font-face {
+    font-family: pmdfont;
+    src: url('https://thepersonever.net/pmdfont.ttf')  format("truetype");
+}
+
+.tpelink{
+  font-family: pmdfont;
+}

@@ -1,0 +1,57 @@
+{
+"title": "test!",
+
+"pages": [ 
+
+  {
+    "_pg": 1,
+    "title": "hi i like pants",
+    "image": "<img src=/tpenewlogo.png class=panel>",
+    "text": "<p>ok. yeah. dancey dance. cool?</p>",
+    "date": "4/3/24",
+    "cred": "drawing and writing by jade"
+    },
+  
+  {
+    "_pg": 2,
+    "title": "I HATE EVERYHITING",
+    "image": "<img src=/pfps/fornever.gif class=panel>",
+    "text": "<p>don't you?</p>",
+    "date": "4/4/24",
+    "cred": "panel by andrew hussie, writing by jade"
+  },
+  
+  {
+  "_pg": 3,
+  "title": "ok uhhh", 
+  "image": "<iframe src='/flashes/wrappertest/htmlwrapper' style='border: none; aspect-ratio: 11/8; width: 100%; overflow: hidden; background-color: black;'></iframe>",
+  "text": "<p>do you guys like...</p> <h1>flash animation?</h1> go read bloodbound when it comes out in a million years",
+  "date": "4/4/24",
+  "cred": "directing, animation, and asset creation by jade, based off of autumn's writing"
+  },
+  {
+  "_pg": 4,
+  "title": "and?",
+  "image": "<img src=/images/dance.gif class=panel>",
+  "text": "<p>ok yeah dancey dancy cand</p>",
+  "date": "4/9/24",
+  "cred": "penis balls"
+  },
+  {
+   "_pg": 5,
+   "title": "okay.",
+   "image": "<img src=/images/gameboy.gif class=panel>",
+   "text": "<p>so! this is basically done i guess... just in time for 4/13, too!</p>",
+   "date": "4/11/24",
+   "cred": "i have no clue who made this gameboy gif. sorry!"
+  },
+  {
+   "_pg": 6,
+   "title": "why did you do this are you okay",
+   "image": "<img src=/images/ipod.gif class=panel>",
+   "text": "<p>i made this to see if i could make a neocities-friendly mspa viewer! i'm not sure if i'll actually ever use it though :p at least its database is less of a disaster than bloodbound's current php values... i'll be sure to fix that up once it actually enters production</p>",
+   "date": "4/11/24",
+   "cred": "i hate apple"
+  }
+
+  ]}

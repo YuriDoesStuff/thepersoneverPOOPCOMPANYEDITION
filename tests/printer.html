@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of thepersonever</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+<video onclick=playHAHA() src=recieptprinter.webm id=printer style="display: block; cursor: pointer;"></video>
+<video onclick=playHAHA() src=pokohide.webm id=hider style="display: none; cursor: pointer;"></video>
+
+<script>
+var print = document.getElementById("printer");
+var hider = document.getElementById("hider");
+var finished = false; 
+var playing = false;
+
+function playHAHA(){
+  if (finished == false && playing == false){
+  print.play(); 
+  finished = true;
+  playing = true;
+  print.style.display = "block";
+  hider.style.display = "none";  
+  print.style.cursor = "auto"; //display: block; cursor: auto;"; 
+
+//  hider.style = "display: none; cursor: auto;";
+  }
+  else if (playing == false){
+    finished = false;
+    playing = true;
+  print.style.display = "none";
+  hider.style.display = "block";  
+  hider.style.cursor = "auto";
+    hider.play();
+  }
+}
+
+print.addEventListener('ended',myHandler,false);
+hider.addEventListener('ended',myHandler,false);
+
+    function myHandler(e) {
+      playing = false;
+      hider.style.cursor = "pointer";
+      print.style.cursor = "pointer";
+    }
+    
+</script>
+  </body>
+</html>
