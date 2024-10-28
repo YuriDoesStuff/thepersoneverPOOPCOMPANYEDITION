@@ -1,3 +1,77 @@
-hi i'm dumb
 
-I LOVE NEOVIM!!!!
+coming at you LIVE from ssh hell, it's THEPERSONEVER DOT NET!!!! BUT ANIMATED WOAHHHHH (i guess not since you're looking at this but whatever)
+since the move to nekoweb, i've been working with git more! and the cli :p
+i've also moved to linux, thanks to a fuckup with grub making my windows install inaccessable
+but, i am NOT here just to praise linux and neovim and everything to the ends of the earth. i'm here to talk about the vault!!!
+
+the vault is a new flash you can find on the art page. when clicking on its icon, it'll dim the rest of the page and open up! 
+i've come to think of overviews as pretty lame, so just. go check it out!!! i've embedded ruffle into the page, so you don't even need to be on desktop to view it :p
+"oh man jade but what are you going to cover in this blogpost if you don't just talk about the flash" DEVELOPMENT!!!!!!!!! (lots and lots of explosion sfx)
+
+1: json as3 hell :D
+(jade unshrivles up into not a piece of paper)
+
+hi
+
+JSON in AS3 IS STUPID. I DON'T KNOW HOW TO GET MAX VALUES. that's the only problem i had
+
+my original plan was to make a system in flash that read a json file, and then constructed everything from that json... so i could just. do all of the info stuff at school.
+however, AS3 not understanding JSON well put an end to that idea! i still saved all my writing to a JSON file, but all of the images and buttons  had to be baked into the flash. truly, we live in the worst timeline.
+the other AS3 stuff, like the boarder flash and coding all the other info stuff was fun!!! that json.max hickup was really the only thing that frusturated me :p 
+
+2: vector stuff!!!!
+(snes transition maybe!!! like slowly unpixelating) 
+
+hi
+
+once i got the flash to a state where i could edit the json and just. see how it would show up in the flash,  i started storyboarding the animation! ...in flash
+working with vectors directly in flash is easier than drawing and importing images made in krita, so that's how i mainly storyboarded. 
+i originally had the idea that i would have myself looking at the sky, while it was overtaken by... the TPE home background gif. which was... kinda lame as hell!
+after finishing the storyboard though, i realized how STUPID that was. i updated the glasses scene to show the sun instead of the TPE background, and told myself to remember to use a sunset instead of the stupid tpe background thing i was thinking of before
+after finishing the storyboard, i then started to draw and program the animations for the info section of the flash! i also added the skip function at that time, since i was tired of waiting through the animation each time i wanted to test the info part. 
+and then... i moved on to actually making the final art
+
+3: krita! yay!
+(just a squash and stretch appearence)
+
+hi
+
+once i finished the storyboard, and finalized the code for the info section, i started to make the finalized assets in krita.
+krita...
+
+krita is pretty good! it's not the exact same as photoshop, but it provides a pencil tool (the fill lineart brush) and is easy to set up on linux,especially  compared to photoshop :p
+however, krita's PSD exports don't import to flash correctly... meaning i have to export each layer manually
+<i>technically</i>, krita has its own "export each layer as one image!" function, but it literally exports EACH layer as one image!!!
+this is a problem for me, as usually my characters use more than one layer. and my backgrounds use more than one layer...
+this fact, along with the script being generally unrelaiable, lead me to export each flash layer individually
+
+however, exporting layers by hand didn't save me from my worst nightmare...
+
+(HORROR TITLE CARD!!!!!)
+TAKING ONE DAY TO DRAW EACH PANEL!!!!!
+
+the vault is meant to kinda just... feel like a homestuck flash. homestuck flashes are pretty much just a bunch of panels stitched together, synced to music! 
+hussie was able to make flashes really fast by using spritemode and a lot of already-made assets when making these flashes
+i didn't really have that luxury 
+
+each panel in this flash was completly original, for two reasons
+1: i wanted to be artsey fartsey
+2: this was my first flash with homestuck stuff in it!!!!
+
+so, i was basically working from scratch, and didn't have much to base my art off of
+
+this lead to each panel taking a whole day to complete! this meant that, ignoring all the writing and code stuff, i'd have to spend at least 7 days on art for this flash
+
+how hussie did cascade in two weeks will always mystify me
+
+(jade shrinks and then comes back)
+
+hi
+
+um. this is where i'd end the blog post... but!
+as you can see, i'm trying something new
+do you like these flash blogposts? do you want more? do you want me to spend more time on the actual artistry of these? do you want me to just. pngtuber this thing? or should i go back to the previous style of text-only blogposts? 
+let me know at THESE_LINKS.
+
+(jade shrinks into nothingness)
+
