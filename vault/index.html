@@ -11,7 +11,7 @@ window.RufflePlayer.config = {
     "backgroundColor": "000000",
     "autoplay":"on",
     "unmuteOverlay":"hidden",
-    "letterbox":"on",
+    "letterbox":"off",
     "showSwfDownload":true,
     "splashScreen":false,
     "menu": false,
@@ -38,7 +38,7 @@ uh. i guess swfobject doesn't exist.
 <script>
 setTimeout( callbackFunction, 1000 );
 function callbackFunction(){
-  var att = { data:"bluhvector.swf", width:"100%", height:"100%" };
+  var att = { data:"vault.swf", width:"100%", height:"100%" };
   var par = { flashvars:"foo=bar" };
   var id = "swfdiv";
   swfobject.createSWF(att, par, id);

@@ -1,0 +1,66 @@
+{
+"subsites":{
+        "lofaf":{
+            "siteurl":"https://thepersonever.net/homestuck/",
+            "sitename":"LOFAF",
+            "timerange":"jan. - apr. 2024",
+            "image":"lofaf",
+            "desc":"a short-lived homestuck fansite, maintained from early to mid 2024. originally, i was planning on covering EVERYTHING \"official\", from hussie's previous MSPAs to the baby is you!!! ...sans hs2. i was going to cover everything in MSPA's storied history by just... reading about it! doing online research, analyzing the MSPAs by themselves, and taking notes in a .txt file was all i planned to do :p however, once i fell behind on actually listing information on the site, i kinda just started to reread homestuck :( this left me with a mountain of work, and not much motivation to do it. LOFAF was doomed to fail simply due to scope!!! D:"
+        },
+        "oldrandomjunk":{
+            "siteurl":"https://thepersonever.net/randomjunk/home",
+            "sitename":"random junk (old)",
+            "timerange":"nov. 2022 - sep. 2023",
+            "image":"oldrandomjunk",
+            "desc":"random junk... yeah. this was the first subsite i made! and you can really tell :/ it's been a little while, but looking back on old archives lead me to believe that random junk was based off of stuff dating back to the origin of the site! starting with a iframe-powered intro and broken audio, this site really embodys the \"okay what images from google can i use\" spirit of old TPE... though, the iframe-based random junk subsite was abandoned in favor of a new, javascript based subsite made in september of 2023, which you can find on the art page! the new version is maintained a little better... but i do need to rewrite a lot of it... both code and actual writing-wise."
+        },
+        "jfp":{
+            "siteurl":"https://thepersonever.net/pikmin/",
+            "sitename":"jellyfloat pool",
+            "timerange":"jan. - apr. 2024",
+            "image":"jfp",
+            "desc":"jellyfloat pool was the third subsite i made, originally meant to catalog everything pikmin. i gave pikmin 2 the most attention though, with a full piklopedia and an interactive sublevel list... along with the typical area pages. when pikmin 4 was announced, i was super excited and made a page just for the trailer!!! but once i got the game... it didn't live up to my expectations, which caused it to be the most neglected game on jfp. i was also planning on making a javascript-powered \"pik2pedia\" revision, but that fell though because i forgot a lot of the finer details about pikmin 2's enemies, and wasn't happy with the writing that was in the original version. a while after that, i tried to make jellyfloat pool a general videogame fansite, adding a halo expansion mid-2024 that used my javascript MSPA reader! but i never finished the expansion, due to my process being a little overbearing :( it was just \"okay lets record gameplay and then watch it back and add play-by-play commentary seperated by pages\". i didn't learn anything from lofaf apparently... this site was also doomed due to scope, since i felt the need to cover each game with the same level of nuance and detail as a youtube video essay :("
+        },
+        "room23":{
+            "siteurl":"https://thepersonever.net/room/",
+            "sitename":"room '23",
+            "timerange":"september 2023",
+            "image":"room23",
+            "desc":"room... agh :( this was basically just another TPE page, but i felt it warented a spot on the art page... partially because i didn't have a more page at the time. this entire thing was programmed on a chromebook with no access to any kind of dev console! meaning i had to troubleshoot errors blind!!! even after i had finished the general formula to create new textboxes and rooms, it was hard to even add onto it since each sentence had its own function!!! the ungodly amount of functions were mainly due to the fact i didn't know what the acronym JSON meant, and that i ALSO didn't know you could pass parameters though functions. the main issue of room '23 wasn't its initial codebase, however... it was the page's responsiveness-or the lack thereof. all of the art and styling was done on a windows 10 computer... with a 16:10 monitor. this is only an issue, due to all of the elements being positioned with absolute pixel values!!! the weird aspect ratio combined with the non-standard resolution my monitor supported made for a... visual novel? that looked bad on prety much everything. room '23 was a fun experiment... but nothing more :("
+        },
+        "images":{
+            "siteurl":"https://thepersonever.net/vault/imgcompare",
+            "sitename":"images",
+            "timerange":"nov. 2022 - now",
+            "image":"neocities",
+            "desc":"TPE has had... a lot of changes to integral images throughout the years. there's been two versions of both the home and general logo each! back in august of 2024, i wanted to test out krita... so, i recreated the home and general logo, along with the first three subsites' image links! when i moved from neocities to nekoweb in october of 2024, i also replaced the default neocities image to something a little more... fitting. i've also made a page where you can check out the new and old images!! click \"go to site\" to check it out :D"},
+        "tpemini":{
+            "siteurl":"https://thepersonever.net/vault/tpemini/fakeindex",
+            "sitename":"TPE mini",
+            "timerange":"early 2023",
+            "image":"impale",
+            "desc":"TPE mini was a very, VERY condenced version of thepersonever. i made it for pokefarmq... before i realized that mini profiles HAD to use bbcode!! :( i never really used it... since its only function was to be an iframe"
+        },
+        "thelamestever":{
+            "siteurl":"https://thepersonever.net/lame/",
+            "sitename":"the lamest ever",
+            "timerange":"mid 2023",
+            "image":"removed",
+            "desc":"a site made just to cover content in TPE proper, but without all the image-heavy flare... i initally made TLE so people with sensory issues could still look at all the content on TPE! however, it suffered the same fate as TPE mobile... the lamest ever might be updated if i get really REALLY bored, but don't count on it :p"
+        },
+        "phone":{
+            "siteurl":"https://thepersonever.net/phone/",
+            "sitename":"TPE mobile",
+            "timerange":"early - nov. 2023 ",
+            "image":"phone",
+            "desc":"back before i knew about responsive CSS, i tried to make a mobile version of my entire website - subsites and all. it didn't really work well though, due to the fact i JUST used css and static html!! i wasn't able nor cared enough to keep up with everything i did on the main site, so scope issues killed TPE mobile early"
+        },
+        "infobutton":{
+            "siteurl":"https://github.com/rosefloase/tpevault",
+            "sitename":"vault",
+            "timerange":"october 2024 - now",
+            "image":"vault",
+            "desc":"hi! this flash was animated, programmed, and drawn by me! jade! thepersonever.net! yeah!!! :D i made this flash because i felt like i had unceremoniously cut a lot of this site's history back in september of this year, and that i owed the no longer maintained portions of this site a proper send-off... you can check out the source fla, along with a bunch of other files relating to this flash's development on the github repo linked here! the song currently playing is crystalanthemums, by alex rosetti"
+        }
+    }
+}
