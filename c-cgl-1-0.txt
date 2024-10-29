@@ -4,12 +4,12 @@ CREATIVE+CODE GENERAL LICENSE 1.0
 1.0 written by rosefloase <jadeharley0409@proton.me> 
 
 (C+CGL) 2024 
-this license applies to itself
+this license applies to itself.
 
 CREATIVE ITEMS (i.e., things displayed to the end user: strings, images, audio, visual design, and all similar content)
 may ONLY be redistributed if credit is sourced to the original document.
-"redistrubiting" is the act of sharing original, unmodified items, or any work based off of these creative items
-training "generative AI", neural networks, large learning language models, or any machine learning algorithms off of creative items is a breach of this license.
+"redistrubiting" is the act of sharing original, unmodified items, or any work based off of creative items.
+training "generative AI", neural networks, large learning language models, or any machine learning algorithms off of creative items is prohibited this license.
 
 credit must be shown in a place obvious to all users: be it the index of a website, or the first page of a novel.
 the format for credit is as follows:
