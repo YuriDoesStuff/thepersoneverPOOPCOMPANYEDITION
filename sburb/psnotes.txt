@@ -8,8 +8,9 @@ false window is too big to cary in inventory - mspa 272
 
 PULCHRITUDE was originally the useless stat - gained from CANDY CORN
 
-vim is gained by drinking coffee :D
+vim is gained by drinking coffee, or other intense liqours (like hot sauce) :D
 vim gives you strength. it allows AD to pick up the hutch bust (mspa 361)
+hot sauce increases your vim greatley, albeit temporarilly. when you're doused with water, or otherwise cooled off, the effect goes away! (mspa 48)
 
 imagination refills from being intoxicated! :( 
 your imagination level stays filled even when imagination effects wear off, leaving you with a bar that gives you a negative stat (mspa 336)
