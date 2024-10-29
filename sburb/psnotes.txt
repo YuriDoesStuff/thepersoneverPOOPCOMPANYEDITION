@@ -7,17 +7,48 @@ items must be in your pocket to use them! weapons have a dedicated inventory spo
 false window is too big to cary in inventory - mspa 272
 
 PULCHRITUDE was originally the useless stat - gained from CANDY CORN
+pulchritude ACTUALLY lets you convince people of things easier: if you're hot enough, nobody can say no! apparently!
 
 vim is gained by drinking coffee, or other intense liqours (like hot sauce) :D
 vim gives you strength. it allows AD to pick up the hutch bust (mspa 361)
 hot sauce increases your vim greatley, albeit temporarilly. when you're doused with water, or otherwise cooled off, the effect goes away! (mspa 48)
 
 imagination refills from being intoxicated! :( 
-your imagination level stays filled even when imagination effects wear off, leaving you with a bar that gives you a negative stat (mspa 336)
+your imagination level stays filled even when positive imagination effects wear off, leaving you with a bar that gives you a negative stat (mspa 336)
 in imaginary spaces, things make... slightly less sense. mspa 323
 the realm of imagination is also similar to the dream moons - you can only be in either Imagination Land or the actual world at any given time
 you have multiple imagination lives! when you die, you wake up in the "real world"
-the window and imaginary worlds seem connected: when PS sends up items on the reel-to-reel (mspa 432), they're brought back up to PS's office in the real world (mspa 442)
+the window and imaginary worlds seem connected: when PS sends up items on the reel-to-reel (mspa 432), they're brought back up to PS's office in the real world (mspa 442) (outright confimed on pg 543!!!!)
+due to the fact you can enter and exit the imaginary plane with windows, we get to see IPI die on mspa 543. your imaginary self cannot exist in the real world!!!!
+having a high imagination level also allows you to ignore pain (mspa 448)
+if you have a REALLY high imagination stat, you can imagine anything. (hehe :3) see PI's office, and mspa 505 
+
+[ BATTLE MENU ]
+AGRESS: attack with current weapon (a attack)
+BATTLE TECNIQUE: do a SPECIAL MOVE (for free! mspa 530)
+COMBAT OPERANDI: do a SPECIAL FUCKING MOVE (mspa 528)
+-- custom options --
+- PS -
+PERSUADE:
+MOLLIFY: mulling things over? (pg 551)
+- AD - 
+PERTURB:
+EXACERBATE: unused?
+- PI - 
+PERPLEX:
+CONFOUND:
+--
+ABSCOND: run awayyyyyy!!!!!!!!!! D:
+
+insulin:
+elf tears: lets you do special moves (mspa 528), and summon animals! (mspa 523)
+animal communion: communication with animals! you are only able to communicate with certain animals - based on your level. (mspa 516)
+
+brutal affronts are crits?
+savage upbraids are mega crits??? (mspa 537)
+AUTO PERRY: something hussie does when he wants to draw something silly :^)
+lets you automatically dodge an enemy's attack! (mspa 529)
+[ /BATTLE /MENU ]
 
 top-left compass :D red is north, the outline and other directions are black! white bg
 
@@ -67,8 +98,14 @@ PLACES:
 PS, AD and PI's offices are all next to each other
 AD's hideout is right below PS's. you can travel between them with the dumbwaiter
 
-through a door in PS's hideout is a room meant to store instruments...
+through a door in PS's hideout is a room meant to store instruments... though, all the instruments that WERE stored are currently gone. including the ones in that room's picture frames. (mspa 482)
+after PS plays a piano in this room, 3 instruments appear under the pictures!
+
 through a door in AD's hideout is a liquor making facility
-these two rooms seem to both be below the same room - "Loud swing music and lively footsteps are heard from the room above" is present on both mspa 461 and 460
+these two rooms seem to both be below the speakeasy - "Loud swing music and lively footsteps are heard from the room above" is present on both mspa 461 and 460, while a target in AD's boiler room is placed right under where the MK statue is in the speakeasy
+on mspa 568, it's revealed that the oboedoor is in the speakeasy!
 
 AD's window leads to a fire escape, which extends to PI's skyscraper-skylight
+
+PI has an elf room in his office. the elves like to keep an eye on him... for some reason. (mspa 556)
+the elf room also leads to the speakeasy!
