@@ -1,13 +1,18 @@
-currently on mspa 469
+currently on mspa 724
 -- PROBLEM SLEUTH --
 
 META:
 keyguns - idea made from "the user is always wrong"
 items must be in your pocket to use them! weapons have a dedicated inventory spot
-false window is too big to cary in inventory - mspa 272
+
+false windows are too big to cary in inventory - mspa 272
+however, with a high enough vim level you can just. pick them up! (mspa 645)
+gravity seems to be translated from one world to the other-for you, specifically (mspa 652)
+also, windows can affect your size! (mspa 697)
 
 PULCHRITUDE was originally the useless stat - gained from CANDY CORN
 pulchritude ACTUALLY lets you convince people of things easier: if you're hot enough, nobody can say no! apparently!
+however, your pulchritude will only get you so far... since its effects wear off after you influence someone to do one thing (mspa 606)
 
 vim is gained by drinking coffee, or other intense liqours (like hot sauce) :D
 vim gives you strength. it allows AD to pick up the hutch bust (mspa 361)
@@ -23,14 +28,25 @@ due to the fact you can enter and exit the imaginary plane with windows, we get 
 having a high imagination level also allows you to ignore pain (mspa 448)
 if you have a REALLY high imagination stat, you can imagine anything. (hehe :3) see PI's office, and mspa 505 
 
+the ACTUAL dream moon stuff is introduced on mspa 665.
+(from a player pov) when your character goes unconcious, you gain control of just. that character. but a different gender 
+and from a different time (mspa 667)
+this person seems to actually be a seperate person still... (mspa 527, 499)  
+however, your new character will have a LOT of parralels to the unconcious one. (mspa 672)
+
+mannercite shards let you be nice... if you have enough of them. (mspa 649, 657)
+the monstrance (thing that holds your mannercite shards) is a real thing btw. (mspa 721)
+
+boons let you move busts of weasles, elves, clowns, and pigs (mspa 700)
+
 [ BATTLE MENU ]
 AGRESS: attack with current weapon (a attack)
-BATTLE TECNIQUE: do a SPECIAL MOVE (for free! mspa 530)
+BATTLE TECNIQUE: do a SPECIAL MOVE (costs may vary(mspa 530, mspa 608))
 COMBAT OPERANDI: do a SPECIAL FUCKING MOVE (mspa 528)
 -- custom options --
 - PS -
 PERSUADE:
-MOLLIFY: mulling things over? (pg 551)
+MOLLIFY: for mulling things over, (mspa 551) or just shooting people (mspa 620)
 - AD - 
 PERTURB:
 EXACERBATE: unused?
@@ -43,7 +59,7 @@ ABSCOND: run awayyyyyy!!!!!!!!!! D:
 insulin:
 elf tears: lets you do special moves (mspa 528), and summon animals! (mspa 523)
 animal communion: communication with animals! you are only able to communicate with certain animals - which animals you can communicate with is based on your level. (mspa 516)
-
+animal allegiance: who you're aligned with ^_^ elves or weasles... you decide!
 brutal affronts are crits?
 savage upbraids are mega crits??? (mspa 537)
 AUTO PERRY: something hussie does when he wants to draw something silly :^)
@@ -85,6 +101,7 @@ CHARACTERS:
 PS -> jealous of, and anatgonized by AD. whenever we're reading from PS, AD is framed extremly poorly (mspa 396)
 AD -> apparently feuding with PS, but feels like they should "bury the hatchet" (mspa 359). used to antagonize PS more with notes (mspa 380)... also believes that PI was trapped by PS (mspa 412)
 
+PI -> wants to be polite to all (mspa 641)
 - primary stats - 
 PS: pulchritude
 AD: vim
@@ -97,6 +114,15 @@ AD: stomach (needs to get drunk to puke up whatever's in it)
 PLACES: 
 PS, AD and PI's offices are all next to each other
 AD's hideout is right below PS's. you can travel between them with the dumbwaiter
+there's a portal to an Elf Room in PI's room (mspa 602). it's also an elevator room? (mspa 622)
+
+up the elevator is a bunch of monitors, for keeping track of the Problem Crew (mspa 628)
+this room also has a map of some kingdoms!
+TOP LEFT:
+TOP RIGHT: weasles? elves? probably elves (mspa 639, 650)
+BOTTOM LEFT:
+BOTTOM RIGHT: 
+this room also has a CODE MACHINE which will load a previous state in the game (mspa 676)
 
 through a door in PS's hideout is a room meant to store instruments... though, all the instruments that WERE stored are currently gone. including the ones in that room's picture frames. (mspa 482)
 after PS plays a piano in this room, 3 instruments appear under the pictures!
@@ -107,8 +133,29 @@ on mspa 568, it's revealed that the oboedoor is in the speakeasy!
 
 AD's window leads to a fire escape, which extends to PI's skyscraper-skylight
 
-PI has an elf room in his office. the elves like to keep an eye on him... for some reason. (mspa 556)
+PI has an elf room in his office... yknow. the one that looks like a poster.
+the elves like to keep an eye on him... (mspa 556) maybe due to his height characteristic being vital to the weasles (mspa 625)
 the elf room also leads to the speakeasy! through the fireplace!
+and, under their table (mspa 639), is a hatch to...
 
 for some reason, there's a king weasel poster in the speakeasy that lifts up and turns on a fan when moonlight sonata is played. bluh
 (pg 574)
+beyond the door in the speakeasy is the entrence to MK's layer. maybe? 
+
+WEASEL SHIT PLACE UGH
+after PI gets some eggs for some weasels, he's taken to a spiderhole. he jumps in. it takes years for him to fall.
+once he finishes falling, he's trapped in a room with a medicine cabnet!
+as a Smart Man, he walks into it and falls unconcious, thus redirecting the player's control over him to NB
+
+NB's aparentment...
+there's a music box with a window inside! this window is connected to the shop that an IPS died near :(
+the window window in her apartment leads to... somewhere with MK. sigh. (mspa 698)
+
+the animal room!
+weasel door leads to the elf room elevator room thing. room. the one with the weirdest puzzle ever. (mspa 713)
+
+-- ANIMAL RELATIONS --
+pigs -> hate weasles
+
+elves -> hate weasles
+weasles -> hate elves
