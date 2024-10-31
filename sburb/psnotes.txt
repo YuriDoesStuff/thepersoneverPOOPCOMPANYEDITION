@@ -42,7 +42,7 @@ ABSCOND: run awayyyyyy!!!!!!!!!! D:
 
 insulin:
 elf tears: lets you do special moves (mspa 528), and summon animals! (mspa 523)
-animal communion: communication with animals! you are only able to communicate with certain animals - based on your level. (mspa 516)
+animal communion: communication with animals! you are only able to communicate with certain animals - which animals you can communicate with is based on your level. (mspa 516)
 
 brutal affronts are crits?
 savage upbraids are mega crits??? (mspa 537)
@@ -108,4 +108,7 @@ on mspa 568, it's revealed that the oboedoor is in the speakeasy!
 AD's window leads to a fire escape, which extends to PI's skyscraper-skylight
 
 PI has an elf room in his office. the elves like to keep an eye on him... for some reason. (mspa 556)
-the elf room also leads to the speakeasy!
+the elf room also leads to the speakeasy! through the fireplace!
+
+for some reason, there's a king weasel poster in the speakeasy that lifts up and turns on a fan when moonlight sonata is played. bluh
+(pg 574)
