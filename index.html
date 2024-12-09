@@ -23,6 +23,27 @@
     <meta name="description" content="some gayass updates this site a lot... but also only sometimes. blogs, images, and texts, oh my! remember 2 clear your cache!!">
     <meta name="twitter:image" content="https://thepersonever.neocities.org/images/enter.jpg">
     <meta name="google-site-verification" content="PppiqZFuPKO11ofNEFo5rQ-uHKuGN4Cx1XauK2Vw6mA" />
+
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+<script>
+
+window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+	"preferredRenderer": "canvas",
+	"quality":"low",
+    "autoplay":"on",
+    "unmuteOverlay":"hidden",
+    "letterbox":"off",
+    "showSwfDownload":true,
+    "splashScreen":false,
+    "menu": false,
+    "allowFullscreen": false,
+	"wmode":"transparent",
+	"allowScriptAccess": true
+};
+
+</script>
   </head>
   <body>
 <!--
@@ -33,21 +54,49 @@ a few things of note...
 3- this site was not optimized for safari at all... we dont have a mac of any kind
 -js [not javascript that isnt my name!!!! :,(]
 -->
-<center> <h1><span>I AM A LESBAIN!!!!!!!! RAHHHHHHH</span>
+
+<body style="margin: 0px; background-size: cover;" id="body">
+
+<div id="html" style="margin: auto; text-align: center;">
+<h1><span>I AM A LESBAIN!!!!!!!! RAHHHHHHH</span>
 <br></h1>
 <h3><span>!! <strong>epilepsy warning</strong> !!
 <br> remember 2 clear your cache!! (and to turn on autoplay)
+<br> this site needs javascript to run correctly. click on the enter button when it appears! :D
 <br> <a href=example>if you're on a computer, maybe read this first?</a>
 </span>
-<br></h3>
-<a href=/home.html>
-    <img id=enter style="width: 100%; max-width: 400px;" title="i own this... it's rated g for gamers, apparently :p">
-  </a>
-  <p><span>click the enter image to... enter!!! :)
-</span></p>
+</div>
 
-<br>
-</center>
+<script src=/js/swfobject.js defer>
+</script>
+<div id="swfwrapper" style="width: 100%; max-width: 400px; aspect-ratio: 13/9; overflow: hidden; margin: auto;">
+<div id=swfdiv>
+</div>
+</div>
+
+<script>
+setTimeout( callbackFunction, 1000 );
+function callbackFunction(){
+  var att = { data:"/flashes/tpeintro.swf", width:"100%", height:"100%" };
+  var par = { shit:"foo=bar" };
+  var id = "swfdiv";
+  swfobject.createSWF(att, par, id);
+}
+
+function fullscreenie(){
+document.getElementById("swfwrapper").style = "width: 100vw; height: 100vh; overflow: hidden;";
+document.getElementById("html").style.display = "none";
+document.getElementById("body").style.backgroundImage = "url('/images/bggif.gif')";
+}
+
+function resetti(){
+document.getElementById("swfwrapper").style = "width: 100%; max-width: 400px; aspect-ratio: 13/9; overflow: hidden; margin: auto;";
+document.getElementById("html").style.display = "block";
+document.getElementById("body").style.backgroundImage = "url('/images/indexbg.png')";
+}
+</script>
+
+</div>
  
   </body>
 </html>
