@@ -9,17 +9,37 @@
     body {
   background-image: url("/xdx3xp/tracksbg.png");
   background-position: center;
-  height: 1000px;   
   font-family: "pmdfont"
 
 }
-
 .icon{
  cursor: pointer;
 }
-
     </style>
             <link rel="icon" type="image/jpg" href="/xdx3xp/icon.jpg">
+			
+			<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+<script>
+
+window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+	"preferredRenderer": "canvas",
+	"quality":"low",
+    "autoplay":"on",
+    "unmuteOverlay":"hidden",
+    "letterbox":"off",
+    "showSwfDownload":false,
+    "splashScreen":false,
+    "menu": false,
+    "allowFullscreen": false,
+	"wmode":"transparent",
+	"allowScriptAccess": true,
+	"base":"/xdx3xp/js/"
+};
+
+</script>
+			
    </head>
   <body>
   <center>
@@ -30,27 +50,45 @@
     <h1><span> tracks </span></h1>
 <p><span><a href=https://downloads.thepersonever.net/xdx3xp/ target=_blank>(downloads here)</a></span></p>
   
-<div style="width:700px; height: 350px; background-color: white;">
+  <script src=/js/swfobject.js defer>
+</script>
+<div id="swfwrapper" style="width: 100%; height: 70vh; overflow: hidden; margin: auto;">
+<div id=swfdiv>
+</div>
+</div>
   
-  <h3 style="text-align: left;" id=title><span>melon</span></h3>
-  <p style="text-align: left; position: relative; bottom: 40px;"><img src=/xdx3xp/art/melon.png width=230px id=img></p>
-  
-  <p style="text-align:left;position: relative; bottom: 50px;">
-  <img src=icons/play.png width=50px id=playbutton onclick=play() display=inline class=icon>
-  <img src=icons/pause.png width=50px id=pausebutton onclick=pause() style="display: none;" class=icon>
-  <img src=icons/stop.png width=50px onclick=stop() class=icon>
-  </p>
-  
-  <p style="text-align:left;position: relative; bottom: 120px; left:150px;" id=htmltime>time</p>
-  
-  <p style="text-align:right;position: relative; bottom: 450px; right:5px;" id=DESGARGLE>controls:
-  <br>you need javascript for this lolololol</p>
-  
-  <audio id="audio" type="audio/mpeg" crossorigin="anonymous" src="https://roseycatttttt.github.io/tperesources/xdx3xp/fls2/melon.mp3"></audio>
-  
-  </div>
+  <script>
+  let params = new URLSearchParams(location.search);
+  var glojson; 
+  var songs;
+  var json;
+  var index;
+    fetch("js/songs.json", {cache: "no-cache"})
+    .then((response) => response.json())
+    .then((json) => glojson = json)
+    .then((json) => songs = json.songs)
+    .then((pages) => start(json));
 
-    <p id=trackselector>
+function start(){
+index = songs.findIndex(e => e.url === params.get("song"));
+console.log(index);
+}	
+
+function changeurl(get){
+	var stateObj = { foo: "bar" };
+	history.pushState(stateObj, "page 2", "tracks?song=" + get);
+}
+
+setTimeout( callbackFunction, 1000 );
+function callbackFunction(){
+  var att = { data:"js/ipod.swf", width:"100%", height:"100%" };
+  var par = { FlashVars:"song="+index};
+  var id = "swfdiv";
+  swfobject.createSWF(att, par, id);
+}
+
+</script>
+  
 
     </p>
   
@@ -59,10 +97,6 @@
 <br>
     <a href="home.html"><span>home</span></a>
     <br>
-
-    
-     <script src=js/tracks2.js>
-     </script>
   
   </center>
   </body>

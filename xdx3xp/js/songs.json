@@ -1,32 +1,89 @@
 {
   "songs": [
-    {
-      "title": "welcome!!",
-      "songsrc": "https://downloads.thepersonever.net/xdx3xp/lmms/welcome.mp3",
-      "coversrc": "/images/welcome.jpg",
+    { "title": "melon",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls2/melon.mp3",
+      "coversrc": "/xdx3xp/art/melon.png",
+      "durmin": "3:09",
+      "url": "melon"
+    },
+	{ "title": "software rendering mode",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls2/softwaremode.mp3",
+      "coversrc": "/xdx3xp/art/softwaremode.png",
+      "durmin": "2:14",
+      "url": "softwaremode"
+    },
+	{
+      "title": "aw, crumpets!",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls2/britishslangforbiscut.mp3",
+      "coversrc": "/xdx3xp/art/thebible.png",
+      "durmin": "1:35",
+      "url": "awcrumpets",
+      "desc": "no i'm not british"
+    },
+	{
+      "title": "the burglary of st. jones",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls2/stjones.mp3",
+      "coversrc": "/xdx3xp/art/stjones.png",
+      "durmin": "2:27",
+      "url": "stjones"
+    },
+	{
+      "title": "sunsmasher",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls2/sunsmasher.mp3",
+      "coversrc": "/xdx3xp/art/sunsmasher.png",
+      "durmin": "3:02",
+      "url": "sunsmasher",
+      "desc": "cover of <a href='http://www.youtube.com/watch?v=w0haC4QkPO0' target='_blank'><u><font color='#008000'>sunslammer</font></u></a>, by the homestuck music team"
+    },
+	{
+      "title": "three-sided coin",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls/threesidedcoin.mp3",
+      "coversrc": "/xdx3xp/art/threesidedcoin.png",
+      "durmin": "2:47",
+      "url": "threesidedcoin"
+    },
+	{
+      "title": "Harbinger of a Dreamful Doom (beta mix) </h1>",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls/hoaddbeta2.mp3",
+      "coversrc": "/xdx3xp/art/hoadd.png",
+      "durmin": "3:35",
+      "url": "dreamfuldoom",
+      "desc": "alpha <a href='http://www.youtube.com/watch?v=wJhKvIuhsgE' target='_blank'><u><font color='#008000'>here</font></u></a>"
+    },
+	{
+      "title": "on ya sleeve",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls/sleeve.mp3",
+      "coversrc": "/xdx3xp/art/sleeve.png",
+      "durmin": "2:01",
+      "url": "sleeve"
+    },
+	{
+      "title": "sorry! we had to amputate your arm",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls/amputate.mp3",
+      "coversrc": "/xdx3xp/art/bricks.png",
+      "durmin": "1:44",
+      "url": "amputate"
+    },
+	{
+      "title": "twizzerly",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls/twizzerly.mp3",
+      "coversrc": "/xdx3xp/art/bricks.png",
       "durmin": "2:19",
-      "url": "welcome"
+      "url": "twizzerly"
+    },
+	{
+      "title": "rush-RAWR",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/lmms/rushrawr.mp3",
+      "coversrc": "/xdx3xp/art/bricks.png",
+      "durmin": "1:10",
+      "url": "rushrawr"
     },
     {
-      "title": "augh",
-      "songsrc": "https://downloads.thepersonever.net/xdx3xp/lmms/welcome.mp3",
-      "coversrc": "/images/augh.jpg",
-      "durmin": "UGH!",
-      "url": "augh"
-    },
-    {
-      "title": "stereo adventures",
-      "songsrc": "https://downloads.thepersonever.net/xdx3xp/lmms/stereoadventures.mp3",
-      "coversrc": "/images/stereo.jpg",
-      "durmin": "2:57",
-      "url": "stereoadventures"
-    },
-    {
-      "title": "extra stupid",
-      "songsrc": "https://downloads.thepersonever.net/xdx3xp/lmms/extrastupid.mp3",
-      "coversrc": "/images/stupid.jpg",
-      "durmin": "1:33",
-      "url": "extrastupid"
+      "title": "adventures in just <i>not caring anymore</i>",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/lmms/justnotcaring.mp3",
+      "coversrc": "/xdx3xp/art/bricks.png",
+      "durmin": "1:40",
+      "url": "justnotcaring"
     },
     {
       "title": "hocotatians...",
@@ -35,90 +92,33 @@
       "durmin": "1:17",
       "url": "hocotatians"
     },
-    {
-      "title": "adventures in just <em>not caring anymore</em>",
-      "songsrc": "https://downloads.thepersonever.net/xdx3xp/lmms/justnotcaring.mp3",
-      "coversrc": "/xdx3xp/art/bricks.png",
-      "durmin": "1:40",
-      "url": "justnotcaring"
+	{
+      "title": "extra stupid",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/lmms/extrastupid.mp3",
+      "coversrc": "/images/stupid.jpg",
+      "durmin": "1:33",
+      "url": "extrastupid"
     },
-        {
-      "title": "rush-RAWR",
-      "songsrc": "https://downloads.thepersonever.net/xdx3xp/lmms/rushrawr.mp3",
-      "coversrc": "/xdx3xp/art/bricks.png",
-      "durmin": "1:10",
-      "url": "rushrawr"
+	{
+      "title": "stereo adventures",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/lmms/stereoadventures.mp3",
+      "coversrc": "/images/stereo.jpg",
+      "durmin": "2:57",
+      "url": "stereoadventures"
+    },
+	{
+      "title": "augh",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/lmms/augh.mp3",
+      "coversrc": "/images/augh.jpg",
+      "durmin": "UGH!",
+      "url": "augh"
     },
     {
-      "title": "twizzerly",
-      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls/twizzerly.mp3",
-      "coversrc": "/xdx3xp/art/bricks.png",
+      "title": "welcome!!",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/lmms/welcome.mp3",
+      "coversrc": "/images/welcome.jpg",
       "durmin": "2:19",
-      "url": "twizzerly"
-    },
-    {
-      "title": "sorry! we had to amputate your arm",
-      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls/amputate.mp3",
-      "coversrc": "/xdx3xp/art/bricks.png",
-      "durmin": "1:44",
-      "url": "amputate"
-    },
-    {
-      "title": "on ya sleeve",
-      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls/sleeve.mp3",
-      "coversrc": "/xdx3xp/art/sleeve.png",
-      "durmin": "2:01",
-      "url": "sleeve"
-    },
-    {
-      "title": "Harbinger of a Dreamful Doom (beta mix) </h1>",
-      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls/hoaddbeta2.mp3",
-      "coversrc": "/xdx3xp/art/hoadd.png",
-      "durmin": "3:35",
-      "url": "dreamfuldoom",
-      "desc": "alpha <a href=https://www.youtube.com/watch?v=wJhKvIuhsgE target=_blank>here</a>"
-    },
-    {
-      "title": "three-sided coin",
-      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls/threesidedcoin.mp3",
-      "coversrc": "/xdx3xp/art/threesidedcoin.png",
-      "durmin": "2:47",
-      "url": "threesidedcoin"
-    },
-    {
-      "title": "sunsmasher",
-      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls2/sunsmasher.mp3",
-      "coversrc": "/xdx3xp/art/sunsmasher.png",
-      "durmin": "3:02",
-      "url": "sunsmasher",
-      "desc": "cover of <a href=https://www.youtube.com/watch?v=w0haC4QkPO0 target=_blank>sunslammer</a>, by the homestuck music team"
-    },
-    {
-      "title": "the burglary of st. jones",
-      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls2/stjones.mp3",
-      "coversrc": "/xdx3xp/art/stjones.png",
-      "durmin": "2:27",
-      "url": "stjones"
-    },
-    {
-      "title": "aw, crumpets!",
-      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls2/britishslangforbiscut.mp3",
-      "coversrc": "/xdx3xp/art/thebible.png",
-      "durmin": "1:35",
-      "url": "awcrumpets",
-      "desc": "no i'm not british"
-    },
-    { "title": "software rendering mode",
-      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls2/softwaremode.mp3",
-      "coversrc": "/xdx3xp/art/softwaremode.png",
-      "durmin": "2:14",
-      "url": "softwaremode"
-    },
-    { "title": "melon",
-      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls2/melon.mp3",
-      "coversrc": "/xdx3xp/art/melon.png",
-      "durmin": "3:09",
-      "url": "melon"
+      "url": "welcome"
     }
   ]
 }
