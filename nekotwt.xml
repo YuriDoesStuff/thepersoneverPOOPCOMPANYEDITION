@@ -5,6 +5,14 @@
 <description>a nekoweb rss feed... thing. remember 2 clear ur cache!!</description>
 
 <item>
+<title>test part 2</title>
+<pubDate>Fri, 13 Dec 2024 20:56:03 GMT</pubDate>
+<guid isPermaLink="false">2</guid>
+<link>https://thepersonever.net/</link>
+<description>ugh. gotta set up guid on the rssgen page. https://psfla.net/tests/rss.html btw</description>
+</item>	
+
+<item>
 <title>woohoo nekotests</title>
 <pubDate>Fri, 13 Dec 2024 19:31:07 GMT</pubDate>
 <guid isPermaLink="false">1</guid>
