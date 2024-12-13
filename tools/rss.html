@@ -1,0 +1,61 @@
+<h1>rss.html</h1>
+<p>a simple rss item creator</p>
+
+<br>
+
+<p>url (include https)</p>
+<textarea id="url"></textarea>
+
+<br>
+
+<p>title</p>
+<textarea id="title"></textarea>
+
+<br>
+
+<p>body</p>
+<textarea id=body></textarea>
+
+<br>
+
+<p>guid</p>
+<textarea id=guid></textarea>
+<input
+type="checkbox"
+id="guidcheck"
+>isPermaLink?</input>
+
+<br>
+
+<p><button onclick="mkoutput()">create output</button></p>
+
+<p>output</p>
+<textarea id=out></textarea>
+
+<script>
+
+	function mkoutput(){
+		title = document.getElementById('title').value;		
+		body = document.getElementById('body').value;
+		url = document.getElementById('url').value;
+		guid = document.getElementById('guid').value;
+		var ispermalink = "";
+
+		if(document.getElementById('guidcheck').checked == false){
+		ispermalink = " isPermaLink='false'";
+		}
+
+		localStorage.setItem("urlname", url);
+
+		document.getElementById('out').value = `<item>
+<title>`+title+`</title>
+<pubDate>`+ new Date().toUTCString() +`</pubDate>
+<link>`+url+`</link>
+<guid`+ispermalink+`>`+guid+`</guid>
+<description>`+body+`</description>
+</item>	`
+	}
+
+document.getElementById("url").value = localStorage.getItem("urlname");
+
+</script>
