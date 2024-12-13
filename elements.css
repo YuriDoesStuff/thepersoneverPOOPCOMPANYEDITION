@@ -52,3 +52,54 @@ left: 200px;
 .follow {
 
 }
+
+.post-box {
+position: relative;
+border: solid 3px black;
+border-radius: 0;
+z-index: 1;
+background-image:url(https://thepersonever.nekoweb.org/images/nekoweb/jaderoom.gif);
+background-size: cover;
+background-position: bottom;
+}
+
+.post-box > p  {
+   color: black;
+   font-family: 'Courier New', monospace;
+   background-color: white;
+   z-index: 1;
+   width: fit-content;
+}
+.post-box > span{
+z-index:  1;
+color: black;
+background-color: white;
+width: fit-content;
+font-family: 'Courier New', monospace;
+}
+.post-box .post-title {
+z-index:  1;
+background-color: white;
+width: fit-content;
+color: black;
+font-family: 'Courier New', monospace;
+}
+
+.post-box .post-dot {
+display: none;	
+}
+
+
+.post-box:after {
+background-image: url(https://thepersonever.nekoweb.org/images/nekoweb/nekotwt.png);
+   background-size: cover;
+    display: inline-block;
+    height: 100%;
+    aspect-ratio: 1/1;
+    content:"";
+
+position: absolute;
+left: 0;
+bottom: 0;
+image-rendering: pixelated;
+}

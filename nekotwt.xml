@@ -5,10 +5,18 @@
 <description>a nekoweb rss feed... thing. remember 2 clear ur cache!!</description>
 
 <item>
+<title>postbox done!</title>
+<pubDate>Fri, 13 Dec 2024 23:31:04 GMT</pubDate>
+<link>https://thepersonever.net/</link>
+<guid isPermaLink='false'>postboxdone</guid>
+<description>yeah that's really all i have. i hope it looks good :p</description>
+</item>	
+
+<item>
 <title>okay cool. good. nice.</title>
 <pubDate>Fri, 13 Dec 2024 21:23:00 GMT</pubDate>
 <guid isPermaLink="false">3</guid>
-<link>https://thepersonever.net/</link>
+<link>https://thepersonever.net/tools/rss</link>
 <description>okay figured it out. nekoweb wants two articles until it starts posting on the feed. okay.
 	also i moved it to https://thepersonever.net/tools/rss if you want to use my shitty item generator</description>
 </item>
