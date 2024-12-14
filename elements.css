@@ -61,16 +61,17 @@ z-index: 1;
 background-image:url(https://thepersonever.nekoweb.org/images/nekoweb/jaderoom.gif);
 background-size: cover;
 background-position: bottom;
+
 }
 
-.post-box > p  {
+.post-box .post-box-inner > p  {
    color: black;
    font-family: 'Courier New', monospace;
    background-color: white;
    z-index: 1;
    width: fit-content;
 }
-.post-box > span{
+.post-box .post-box-inner > span{
 z-index:  1;
 color: black;
 background-color: white;
