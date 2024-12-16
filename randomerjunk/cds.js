@@ -9,13 +9,13 @@ function showrev(){
 function spike(){
  document.getElementById('title').innerHTML= '<span>Elvis Costello - Spike</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/kimh6ae.jpg");  
- document.getElementById('para').innerHTML = '<span>this... is not my favorite album. but it&apos;s still good! <br> the instrumentals are alright, and the lyrics are great on their own, but i feel like elvis&apos;s preformance isn&apos; perfect <br> its great though! i like it :) <br><br> 7/10 - favorite track: ms macbeth </span>'; 
+ document.getElementById('para').innerHTML = '<span>this isn&apos;t my favorite album, but it still holds a special place in my heart. my dad gave me this cd when i first got a walkman, and thus i&apos;ve listened to it for... a while. again, it&apos;s not my favorite album anymore, but it&apos;s still good! <br> the instrumentals are pretty alright, and the lyrics are great on their own, but i feel like elvis&apos;s incredible preformance distracts from them. <br> spike is still great though! i like it a lot :) <br><br> 7/10 - favorite track: ms macbeth </span>'; 
 }
 
 function spiritphone(){
  document.getElementById('title').innerHTML= '<span>Lemon Demon - Spirit Phone</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/o3CPiw8.jpg");  
- document.getElementById('para').innerHTML = '<span> while not my personal favorite, spirit phone demonstrates a ton of prowess in songwriting and production. give it a listen if you haven&apos;t! even if you don&quot;t like anything else in neil&quot;s discography! <br> it uses a cardboard case. i don&apos;t really like that :( <br><br> 9/10 - favorite track: spiral of ants </span>'; 
+ document.getElementById('para').innerHTML = '<span> while not my personal favorite, spirit phone demonstrates a ton of prowess in songwriting and production. give it a listen if you haven&apos;t! even if you don&apos;t like anything else in neil&apos;s discography! <br> it uses a cardboard case. i don&apos;t really like that :( <br><br> 9/10 - favorite track: spiral of ants </span>'; 
 }
 
 function naturetapes(){
@@ -27,7 +27,7 @@ function naturetapes(){
 function iambecome(){
  document.getElementById('title').innerHTML= '<span>Lemon Demon - I Am Become Christmas</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/NOqU8Nu.jpg");  
- document.getElementById('para').innerHTML = '<span> -- bought on vinyl -- <br><br>this is neil&apos;s first ep, and the harbinger of the "modern" lemon demon era <br>its on the shorter side of lemon demon projects (~15 minutes long), but each and every song is unique and interesting :D <br> from being depressed due to snow, to actual body horror, theres a lot packed into this release <br> i also have the cd release. it uses a cardboard case. buyer beware! <br><br> 8/10 - favorite track: aurora borealis</span>'; 
+ document.getElementById('para').innerHTML = '<span> -- bought on vinyl -- <br><br>this is neil&apos;s first ep, and the harbinger of the "modern" lemon demon era <br>its on the shorter side of lemon demon projects (~15 minutes long), but each and every song is unique and interesting :D <br> from being depressed due to snow, to actual body horror, theres a lot packed into this release <br> i also have the cd release now!! it uses a cardboard case. buyer beware! :( <br><br> 8/10 - favorite track: aurora borealis</span>'; 
 }
 
 function viewmonster(){
@@ -39,25 +39,25 @@ function viewmonster(){
 function dinosaurchestra(){
  document.getElementById('title').innerHTML= '<span>Lemon Demon - Dinosaurchestra</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/tKqV7I4.jpg");  
- document.getElementById('para').innerHTML = '<span>this. is the first album i listened to in full. ever. <br> great lyrics, amazing instrumentals, and a summery vibe make this one of my favorite albums. <br> that and it being the first album i bought might have something to do with it being my favorite <br><br> 10/10 - favorite track: nothing worth loving <br> isnt askew</span>'; 
+ document.getElementById('para').innerHTML = '<span>this is the first album i <i>chose</i> to listen to in full! <br> great lyrics, amazing instrumentals, and a summery vibe make this one of my favorite albums. <br> all of that along with it being the first album i bought might have something to do with dinosaurchestra being tied my favorite album <br><br> 10/10 - favorite track: nothing worth loving <br> isnt askew</span>'; 
 }
 
 function damnskippy(){
  document.getElementById('title').innerHTML= '<span>Lemon Demon - Damn Skippy</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/bHgM7FL.jpg");  
- document.getElementById('para').innerHTML = '<span>this album got me through 2021 that was not a good year <br> damn skippy is the fourth lemon demon album, and kick-started the "showdown era" of lemon demon. <br> with a faster pace and more variation in sound and lyrics than neil&quot;s previous albums, this is one of the first albums by neil that feels... intentional <br> each album beforehand seemed a lot more like "kid downloaded flstudio and started making shit in his bedroom" <br><br> 10/10 - favorite track: subtle oddities </span>'; 
+ document.getElementById('para').innerHTML = '<span>this album got me through 2021 that was not a good year <br> damn skippy is the fourth lemon demon album, kick-started the "showdown era" of lemon demon, and is tied for my favorite album! <br> with a faster pace and more variation in sound and lyrics than neil&apos;s previous albums, this is one of the first albums by neil that feels... intentional <br> each album beforehand seemed a lot more like "kid downloaded flstudio and started making shit in his bedroom", but damn skippy still has a very homemade feel. <br><br> 10/10 - favorite track: subtle oddities </span>'; 
 }
 
 function httj(){
  document.getElementById('title').innerHTML= '<span>Lemon Demon - First 3 Albums (burned cds)</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/SiMVuZD.jpg");  
- document.getElementById('para').innerHTML = '<span>i burnt these 3 albums on blank cds back in 2022, so im just gonna talk about each of them here. don&quot;t wanna reuse images! <br> hip to the javabean - most developed for its time. apparently, this the first studio album, and it really shows in the mixing... <br> 7/10 - favorite track: relativity <br> live from the haunted candle shop - while not amazing, i love how insane it is. only for real lemonheads<br> 8/10 - favorite track: mold el mono <br> clown circus - this was first lemon demon album, and it definitely feels like it. theres a lot of filler, but the better songs are still! pretty good! <br> 6/10 - favorite track: fire motif</span>'; 
+ document.getElementById('para').innerHTML = '<span>i burnt these 3 albums on blank cds back in 2022, so im just gonna talk about each of them here. don&apos;t wanna write more javascript! <br> hip to the javabean - most developed lemon demon album for its time! apparently, this the first studio album, and it really shows in the mixing... <br> 7/10 - favorite track: relativity <br> live from the haunted candle shop - while not amazing, i love how insane it is. only for real lemonheads<br> 8/10 - favorite track: mold el mono <br> clown circus - this was first lemon demon album, and it definitely feels like it. theres a lot of filler, but the better songs are still! pretty good! <br> 6/10 - favorite track: fire motif</span>'; 
 }
 
 function astrolounge(){
  document.getElementById('title').innerHTML= '<span>Smash Mouth - Astro Lounge</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/GR52CIH.jpg");  
- document.getElementById('para').innerHTML = '<span>"what did you think of this album" its pretty good <br> the instrumentals are... alright, and the lyrics are... kinda interesting! (more interesting than some other music ive listened to...) but other than that, its just. nice! <br><br> 7/10 - favorite track: radio</span>'; 
+ document.getElementById('para').innerHTML = '<span>"what did you think of this album" its pretty good <br> the instrumentals are... alright, and the lyrics are... kinda interesting! (more interesting than some other music ive listened to...) but other than that, its just... good <br><br> 7/10 - favorite track: radio</span>'; 
 }
 
 function goodbye4track(){
@@ -69,7 +69,7 @@ function goodbye4track(){
 function simpsons(){
  document.getElementById('title').innerHTML= '<span>The Simpsons Sing the Blues</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/HiKEmcW.jpg");  
- document.getElementById('para').innerHTML = '<span>i dont actually like this album <br> it just feels like it was made for people to go "oh wow the simpsons music!!!! ill take 10 please". that trick worked on me as evident here <br>i just dont think the music is for me. also there&apos; the white people blues thing <br><br> 5/10 - favorite song: look at all those idiots </span>'; 
+ document.getElementById('para').innerHTML = '<span>i dont actually like this album <br> it just feels like it was made for people to go "oh wow the simpsons music!!!! ill take 10 please". that trick worked on me as evident here <br>i just dont think the music is for me. also there&apos; the white people blues thing <br><br> 4/10 - favorite song: look at all those idiots </span>'; 
 }
 
 function badhairday(){
