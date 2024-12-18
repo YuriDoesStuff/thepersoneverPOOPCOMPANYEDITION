@@ -61,7 +61,8 @@ z-index: 1;
 background-image:url(https://thepersonever.nekoweb.org/images/nekoweb/jaderoom.gif);
 background-size: cover;
 background-position: bottom;
-
+overflow-y: auto;
+overflow-x: hidden;
 }
 
 .post-box .post-box-inner > p  {
@@ -103,4 +104,5 @@ position: absolute;
 left: 0;
 bottom: 0;
 image-rendering: pixelated;
+
 }
