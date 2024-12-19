@@ -16,7 +16,59 @@
      background-size:100%;
      background-repeat:repeat;
     }
-    
+	
+	.buttons{
+		max-width: 200px;
+	}
+
+	.buttons > img{
+		width: 150px;
+	}
+	
+	
+	.prebrs{
+		display: none;
+	}
+	
+	#div{
+	background-color: #FFFFFF;
+	height:justify;
+	width:50%; 
+	top: 5%
+	background-color:white; 
+	background-image: none; 
+	background-size:500px; 
+	position: absolute;
+	right: 25%;
+	}
+	
+	
+	@media (max-width: 800px) {
+		
+		.postbrs{
+			display: none;
+		}
+		.buttons{
+			float:none !important;
+			text-align: center;	
+			width: 100%;
+		}
+		.prebrs{
+			display: inline;	
+		}
+		
+		.buttons > img{
+			width: 100%;
+		}
+		
+		#div{
+			width: 100%;
+			position: static;
+		}
+
+    }
+	
+	
     </style>
   </head>
   <body>
@@ -27,22 +79,35 @@
 <script src=art.js>
 </script>
 
-<img src=images/icons/paper2024.png onclick="paper2024()" width=150px style="position:absolute; top:100px; right:60px; cursor: pointer; ">
-<img src=images/icons/paper2023.png onclick="paper2023()" width=150px style="position:absolute; top:300px; right:60px; cursor: pointer; ">
-<img src=images/icons/olderpaper.png onclick="paperolder()" width=150px style="position:absolute; top:500px; right:60px; cursor: pointer; ">
+<div class=prebrs>
+<h1><br></h1>
+</div>
 
 
-<img src=images/icons/computer2024.png onclick="computer2024()" width=150px style="position:absolute; top:150px; left:60px; cursor: pointer; ">
-<img src=images/icons/computer2023.png onclick="computer2023()" width=150px style="position:absolute; top:350px; left:60px; cursor: pointer; ">
-<img src=images/icons/computer2022.png onclick="computer2022()" width=150px style="position:absolute; top:550px; left:60px; cursor: pointer; ">
-<img src=images/icons/computerolder.png onclick="computerolder()" width=150px style="position:absolute; top:750px; left:60px; cursor: pointer; ">
-<br>
 <button id=hide src=images/temp300.png onclick="hide()" width=150px style="display:none;">hide</button>
 
-<br>
-<div id=div style="height:justify;width:700px; background-color:white; background-image: none; background-size:500px;">
+<div id=div>
 <a id=innerbleh> </a></div>
 
+<div class=buttons style="float: right;">
+<img src=images/icons/paper2024.png onclick="paper2024()">
+<img src=images/icons/paper2023.png onclick="paper2023()"> 
+<img src=images/icons/olderpaper.png onclick="paperolder()">
+</div>
+
+
+<div class=buttons style="float: left;">
+<div class=postbrs>
+<h1><br></h1>
+</div>
+<img src=images/icons/computer2024.png onclick="computer2024()">
+<img src=images/icons/computer2023.png onclick="computer2023()">
+<img src=images/icons/computer2022.png onclick="computer2022()">
+<img src=images/icons/computerolder.png onclick="computerolder()">
+</div>
+<br>
+
+<br>
 </center>
   </body>
 </html>

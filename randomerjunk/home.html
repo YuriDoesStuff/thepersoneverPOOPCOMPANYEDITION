@@ -14,6 +14,25 @@
     body{
       background-image: url(images/randombg.png);
     }
+	
+	  .container{
+  max-width: 60vw;
+  margin: none;
+  }
+  .contained{
+  display: inline-block;
+  max-width: 30%;
+  }
+  
+    @media (max-width: 800px) {
+	.container{
+		max-width: 100vw;
+	}
+	.contained{
+		max-width: 80%;
+	}
+ 
+}
     
     </style>
   </head>
@@ -23,36 +42,32 @@
 <h3><span>this is pretty much just a collection page... but its also a collection for things ive made!</span></h3>
 <br>
 <br>
-
-<table>
-<tr>
-<td><center><a href=art.html><h2>art!</h2></a></center></td>
-<td><center><a href=cds.html><h2>cds!</h2></a></center></td>
-<td><center><a href=games.html><h2>games!</h2></a></center></td>
-</tr>
-<tr>
-<td><center> <img src=images/icons/art.png width=200px> </center></td>
-<td><center> <img src=images/icons/cds.png width=200px> </center></td>
-<td><center> <img src=images/icons/games.png width=200px> </center></td>
-</tr>
-
-<tr>
-<td><center><a href=photos.html><h2>photos!</h2></a></center></td>
-<td><center><a href=photoshops.html><h2>old photoshops!</h2></a></center></td>
-<td><center><a href=flashes.html><h2>flashes!</h2></a></center></td> 
-</tr>
-<tr>
-<td><center> <img src=images/icons/pictures.png width=200px> </center></td>
-<td><center> <img src=images/icons/photoshops.png width=200px> </center></td>
-<td><center> <img src=images/temp300.png width=200px> </center></td>
-</tr>
-
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</table>
+<div class=container>
+    <div class=contained>
+	    <p><span>art!</span></p>
+        <a href=art.html><img src=images/icons/art.png width=90%></a>
+    </div>
+	<div class=contained>
+	    <p><span>cds!</span></p>
+        <a href=cds.html><img src=images/icons/cds.png width=90%></a>
+    </div>
+	<div class=contained>
+	    <p><span>games!</span></p>
+        <a href=games.html><img src=images/icons/games.png width=90%></a>
+    </div>
+	<div class=contained>
+	    <p><span>pictures!</span></p>
+        <a href=photos.html><img src=images/icons/pictures.png width=90%></a>
+    </div>
+	<div class=contained>
+	    <p><span>photoshops!</span></p>
+        <a href=photoshops.html><img src=images/icons/photoshops.png width=90%></a>
+    </div>
+	<div class=contained>
+	    <p><span>flashes!</span></p>
+        <a href=flashes.html><img src=images/temp300.png width=90%></a>
+    </div>
+</div>
 
 <br>
 <br>
