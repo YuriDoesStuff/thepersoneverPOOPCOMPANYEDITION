@@ -29,13 +29,25 @@ p {
 a {
 font-size: 35px;
 }
-body {
+html, body {
+  margin: 0px;
   background-image: url("bg.png");
   background-size: cover;
-  height: 1000px;   
-  font-family: "pmdfont"
+  font-family: "pmdfont";
+  background-position: center;
+  min-height: 100vh;
 }
 
 small{
  font-size:17px; 
 }
+
+.logo{
+	width: 30%
+}
+
+  @media (max-width: 800px) {
+	.logo{
+		width: 80%;
+	}
+  }
