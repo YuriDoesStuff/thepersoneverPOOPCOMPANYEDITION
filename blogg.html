@@ -28,11 +28,21 @@ footer{
  background-color: #0080FF; 
  outline: 20px #80FFFF;
 }
+
+			.blog{
+			aspect-ratio:4/3; width: 90%;
+			}
     
-          @media (width: 800px) {
+  @media (max-width: 800px) {
             .ack{
               width: 100vw;
-            }
+            }			
+			#brs{
+			display: none;
+			}
+			.blog{
+			aspect-ratio: 3/4;
+			}
     }
 </style>
     <meta charset="UTF-8">
@@ -57,10 +67,13 @@ footer{
 <br>
 
 <div class=ack>
+
 <br>
 <br>
 <br>
 <br>
+
+<div id=brs>
 <br>
 <bR>
 <br>
@@ -68,7 +81,8 @@ footer{
 <br>
 <br>
 <br>
-<iframe src="iframes/bblawhgg.html" style="aspect-ratio:4/3; width: 90%;"></iframe>
+</div>
+<iframe src="iframes/bblawhgg.html" class=blog></iframe>
 </div>
 
 <br>
