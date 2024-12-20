@@ -26,52 +26,52 @@ function hunpix(){
 }
 
 function neilcloud(){
- document.getElementById('bigimg').innerHTML = '<img src=/images/neilcloud.png height=500px onclick=hide()>';  
+ document.getElementById('bigimg').innerHTML = '<img src=/images/neilcloud.png   onclick=hide()>';  
   hunpix();
 }
 
 function skippy(){
- document.getElementById('bigimg').innerHTML = '<img src=/images/musicicon.png height=500px onclick=hide()>';  
+ document.getElementById('bigimg').innerHTML = '<img src=/images/musicicon.png   onclick=hide()>';  
   hunpix();
 }
 
 function spirithell(){
- document.getElementById('bigimg').innerHTML = '<img src=https://i.imgur.com/6XmsMCk.jpg height=500px onclick=hide()>';  
+ document.getElementById('bigimg').innerHTML = '<img src=https://i.imgur.com/6XmsMCk.jpg   onclick=hide()>';  
   hunpix();
 }
 
 function thanksnotreal(){
- document.getElementById('bigimg').innerHTML = '<img src=https://i.imgur.com/GWmpJk5.png height=500px onclick=hide()>';  
+ document.getElementById('bigimg').innerHTML = '<img src=https://i.imgur.com/GWmpJk5.png   onclick=hide()>';  
   hunpix();
 }
 
 function viewmonster(){
- document.getElementById('bigimg').innerHTML = '<img src=https://i.imgur.com/aGQFtQt.jpg height=500px onclick=hide()>';  
+ document.getElementById('bigimg').innerHTML = '<img src=https://i.imgur.com/aGQFtQt.jpg   onclick=hide()>';  
   hunpix();
 }
 
 function wall(){
- document.getElementById('bigimg').innerHTML = '<img src=https://i.imgur.com/ixCyvpM.png height=500px onclick=hide()>';  
+ document.getElementById('bigimg').innerHTML = '<img src=https://i.imgur.com/ixCyvpM.png   onclick=hide()>';  
   hunpix();
 }
 
 function monstermonster(){
- document.getElementById('bigimg').innerHTML = '<img src=https://i.imgur.com/4kkS9xq.jpg height=500px onclick=hide()>';  
+ document.getElementById('bigimg').innerHTML = '<img src=https://i.imgur.com/4kkS9xq.jpg   onclick=hide()>';  
   hunpix();
 }
 
 function car(){
- document.getElementById('bigimg').innerHTML = '<img src=https://i.imgur.com/rt1wxP6.jpg height=500px onclick=hide()>';  
+ document.getElementById('bigimg').innerHTML = '<img src=https://i.imgur.com/rt1wxP6.jpg   onclick=hide()>';  
   hunpix();
 }
 
 function peter(){
- document.getElementById('bigimg').innerHTML = '<img src=https://i.imgur.com/SIyDEqc.jpg height=500px onclick=hide()>';  
+ document.getElementById('bigimg').innerHTML = '<img src=https://i.imgur.com/SIyDEqc.jpg   onclick=hide()>';  
   hunpix();
 }
 
 function california(){
- document.getElementById('bigimg').innerHTML = '<img src=https://i.imgur.com/6EU1A40.jpg height=500px onclick=hide()>';  
+ document.getElementById('bigimg').innerHTML = '<img src=https://i.imgur.com/6EU1A40.jpg   onclick=hide()>';  
   hunpix();
 }
 

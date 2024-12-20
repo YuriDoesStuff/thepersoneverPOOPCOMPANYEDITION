@@ -15,6 +15,31 @@
   background-size: 300px; 
   background-repeat: repeat;
 }
+
+
+.maindiv{
+height:auto;
+width:55vw; 
+background-color:white;
+}
+
+#clickto{
+position:absolute;top:50px; right: 280px; z-index: -1;
+}
+
+#bigimg > img{
+width: 100%;
+}
+
+  @media (max-width: 800px) {
+	.maindiv{
+	width: 100%;
+	}
+	#clickto{
+	right: 0;
+	}
+}
+
 </style>
   </head>
   <body>
@@ -26,11 +51,11 @@
 <script src=photoshops.js>
 </script>
 
-<img src=images/clickto.png width=150px style="position:absolute;top:50px; right: 280px; z-index: -1;">
+<img src=images/clickto.png width=150px id=clickto>
 god these are so old
 <h2><br></h2>
 
-<div style="height:justify;width:950px; background-color:white;">
+<div class=maindiv>
 <a id=bigimg></a>
 <br>
 <img src=/images/neilcloud.png width=300px id=neilcloud onclick=neilcloud()>
