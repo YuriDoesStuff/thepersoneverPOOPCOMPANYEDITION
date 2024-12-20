@@ -18,7 +18,21 @@
         cursor: pointer;
         border: 3px solid black; 
       }
+	  
+	  .mainimg{
+	  width:55%; 
+	  cursor: pointer;
+	  }
         
+		  @media (max-width: 800px) {
+				.preview{
+					height: unset;
+					max-width: 100%;
+				}
+				.mainimg{
+				width: 100%;
+				}
+			}
     </style>
   </head>
   <body>
@@ -47,7 +61,7 @@
   <script>
   function yeah(p1){
   document.getElementById("banner").innerHTML = document.getElementById(p1).alt;
-  document.getElementById("bigimg").innerHTML = "<img src="+ document.getElementById(p1).src + " width=55% style='cursor: pointer;'><h1></h1>";
+  document.getElementById("bigimg").innerHTML = "<img src="+ document.getElementById(p1).src + " class=mainimg><h1></h1>";
     editpreview("auto", "20vh");
     document.getElementById("slides").style.width = "80%";
  
