@@ -38,7 +38,6 @@ window.RufflePlayer.config = {
 
 </script>
   </head>
-  <body>
 <!--
 sigh... if your seeing this, i assume that your going to look into the contents of each webpage.
 a few things of note... 
@@ -57,13 +56,14 @@ a few things of note...
 <br> remember 2 clear your cache!! (and to turn on autoplay)
 <br> this site needs javascript to run correctly. click on the enter button when it appears! :D
 <br> <a href=example>if you're on a computer, maybe read this first?</a>
-</span>
+</span></h3>
 </div>
 
 <script src=/js/swfobject.js defer>
 </script>
-<div id="swfwrapper" style="width: 100%; max-width: 400px; aspect-ratio: 13/9; overflow: hidden; margin: auto;">
+<div id="swfwrapper" style="width: 100%; max-width: 400px; aspect-ratio: 13/9; overflow: hidden; margin: auto; text-align: center; background-image: url('images/enterload.jpg'); background-size: auto 100%; background-position: center; background-repeat: no-repeat;">
 <div id=swfdiv>
+
 </div>
 </div>
 
@@ -74,6 +74,10 @@ function callbackFunction(){
   var par = { shit:"foo=bar" };
   var id = "swfdiv";
   swfobject.createSWF(att, par, id);
+}
+
+function loaded(){
+document.getElementById("swfwrapper").style.backgroundImage = "unset";
 }
 
 function fullscreenie(){
