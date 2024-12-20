@@ -5,6 +5,16 @@
 <description>a nekoweb rss feed... thing. remember 2 clear ur cache!!</description>
 
 <item>
+<title>mobile updates + complaining about text limit</title>
+<pubDate>Fri, 20 Dec 2024 15:44:41 GMT</pubDate>
+<link>https://thepersonever.net/nekotwt.rss</link>
+<guid isPermaLink='false'>mobile1</guid>
+<description>hi! i updated parts of my site recently to make it more mobile-friendly. the main five TPE pages, and all of xDx3xP are now a lot easier to browse on vertical devices! i'm still working on random junk though, so expect that to be updated a little later &lt;/3
+i also found out yesterday that nekoweb TRIES to cap its rss feeds' length so that text doesn't overflow. it doesn't really do a good job at it though, since text still overflows a lot on less-wide screens :/ 
+you can click on this post to go to my rss feed! so that you can put it in a better rss reader!!! but i'll still try to keep my rss posts shorter from now on. try.</description>
+</item>	
+
+<item>
 <title>more small news</title>
 <pubDate>Wed, 18 Dec 2024 16:18:11 GMT</pubDate>
 <link>https://thepersonever.net/flashes/pikitorytest</link>
