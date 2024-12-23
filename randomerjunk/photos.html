@@ -25,6 +25,14 @@ background-color:white;
 position:absolute;top:50px; right: 280px; z-index: -1;
 }
 
+.smallimg > img{
+max-height: 100px;
+}
+
+.medimg > img{
+max-width: 300px;
+}
+
 #bigimg > img{
 width: 100%;
 }
@@ -53,10 +61,16 @@ width: 100%;
 <h1><br></h1>
 <div class=maindiv>
 <a id=bigimg></a>
-<img src=https://i.imgur.com/7G9j0eT.jpg width=300px id=ldcds onclick=ldcds()>
-<img src=https://i.imgur.com/EbTuMLN.jpg width=300px id=myst onclick=myst()>
-<img src=https://i.imgur.com/AVLAjw0.jpg width=300px id=cars onclick=cars()>
-<img src=https://i.imgur.com/tKqV7I4.jpg width=300px id=dino onclick=dino()>
+
+<div id=indiv class=medimg>
+<img src=https://i.imgur.com/3Ws07K1.jpg id=dinguscraft onclick="newswitch('3Ws07K1', 'idiot photo (shot on dingus)')">
+<img src=https://i.imgur.com/TQwqDPb.jpg id=dingus onclick="newswitch('TQwqDPb', 'THE DINGUS!!!!')">
+<img src=https://i.imgur.com/t41w8ca.jpg id=dinguscup onclick="newswitch('t41w8ca', 'cup... (shot on dingus)')">
+<img src=https://i.imgur.com/7G9j0eT.jpg id=ldcds onclick=newswitch("7G9j0eT")>
+<img src=https://i.imgur.com/EbTuMLN.jpg id=myst onclick=newswitch("EbTuMLN")>
+<img src=https://i.imgur.com/AVLAjw0.jpg id=cars onclick=newswitch("AVLAjw0")>
+<img src=https://i.imgur.com/tKqV7I4.jpg id=dino onclick=newswitch("tKqV7I4")>
+</div>
 </div>
 
 </center>
