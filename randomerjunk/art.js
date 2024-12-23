@@ -3,8 +3,6 @@ document.getElementById('hide').style.display = 'inline';
 document.getElementById("div").style.backgroundImage = "url(/images/paper.jpeg)";
 document.getElementById("div").style.backgroundSize = "500px";
 document.getElementById('innerbleh').innerHTML = `
-
-
 <h2>oh</h2> <img src=https://i.imgur.com/S1WzrAy.png width=500px>
 <h2>...and in rolls christmas</h2> <img src=https://i.imgur.com/vO0r6Dl.jpg width=500px>
 <h2>the squeaker!...</h2> <img src=https://i.imgur.com/o8UXRme.jpg width=500px>
