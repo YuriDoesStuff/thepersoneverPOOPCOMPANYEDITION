@@ -3,6 +3,104 @@ document.getElementById('hide').style.display = 'inline';
 document.getElementById("div").style.backgroundImage = "url(/images/paper.jpeg)";
 document.getElementById("div").style.backgroundSize = "500px";
 document.getElementById('innerbleh').innerHTML = `
+
+
+<h2>oh</h2> <img src=https://i.imgur.com/S1WzrAy.png width=500px>
+<h2>...and in rolls christmas</h2> <img src=https://i.imgur.com/vO0r6Dl.jpg width=500px>
+<h2>the squeaker!...</h2> <img src=https://i.imgur.com/o8UXRme.jpg width=500px>
+<h2>the "good" scale(TM)</h2> <img src=https://i.imgur.com/i6MuMWB.jpg width=500px>
+<h2>vent art</h2> <img src=https://i.imgur.com/GsDWlGN.jpg width=500px>
+<h2>full of LEAD!!!</h2> <img src=https://i.imgur.com/3BpQ4JI.jpg width=500px>
+<h2>plucky fucky and cucky</h2> <img src=https://i.imgur.com/ixDInQt.jpg width=500px>
+<h2>cool guy...</h2> <img src=https://i.imgur.com/0jx45d1.jpg width=500px>
+<h2>i like tvs</h2> <img src=https://i.imgur.com/VCyOBYe.jpg width=500px>
+<h2>better inspector!</h2> <img src=https://i.imgur.com/KXGZ6uY.jpg width=500px>
+<h2>i like pencils</h2> <img src=https://i.imgur.com/OmEHFnC.jpg width=500px>
+<h2>headcrab inspector?</h2> <img src=https://i.imgur.com/mJIK3WD.jpg width=500px>
+<h2>hi.</h2> <img src=https://i.imgur.com/Pp7iQNa.jpg width=500px>
+<h2>the fucking piece of shit that needs to kill itself</h2> <img src=https://i.imgur.com/0vfyW3J.jpg width=500px>
+<h2>i forgot how to draw again...</h2> <img src=https://i.imgur.com/deDhyhJ.jpg width=500px>
+<h2>PENCIL ROCKET...</h2> <img src=https://i.imgur.com/HSG0iZE.jpg width=500px>
+<h2>is she okay? she's wiggling away, so i guess that means i should cling tighter <!--i'm into girls that hate me--></h2> <img src=https://i.imgur.com/RwWgnYL.jpg width=500px>
+<h2><br></h2> <img src=https://i.imgur.com/ipyHBkK.jpg width=500px>
+<h2>bad!</h2> <img src=https://i.imgur.com/DG0Ot8S.jpg width=500px>
+<h2>he got elected</h2> <img src=https://i.imgur.com/F99u5xL.jpg width=500px>
+<h2>good!</h2> <img src=https://i.imgur.com/qFrC3vQ.jpg width=500px>
+<h2>figuring out how to draw <i>me</i></h2> <img src=https://i.imgur.com/VZ61jd4.jpg width=500px>
+<h2>yeah i don't care about leaking this :p (pikitory planing 3)</h2> <img src=https://i.imgur.com/5zwsjvJ.jpg width=500px>
+<h2>bitches hate my fake music notation (pikitory planing 2)</h2> <img src=https://i.imgur.com/3AX9XAq.jpg width=500px>
+<h2>pikitory planing :D</h2> <img src=https://i.imgur.com/Rg0OZoH.jpg width=500px>
+<h2>PLEASE. fill up this general for me?</h2> <img src=https://i.imgur.com/PyO0853.jpg width=500px>
+<h2>im shit at drawing</h2> <img src=https://i.imgur.com/TYex70z.jpg width=500px>
+<h2>@andrewhussie i drew your son</h2> <img src=https://i.imgur.com/ndtmEM0.jpg width=500px>
+<h2>who the fuck is this</h2> <img src=https://i.imgur.com/ONCosvK.jpg width=500px>
+<h2>hi max!</h2> <img src=https://i.imgur.com/Cj1d0oP.jpg width=500px>
+<h2>dog...</h2> <img src=https://i.imgur.com/AME6er8.jpg width=500px>
+<h2>unfinished final shot</h2> <img src=https://i.imgur.com/J5RLEIl.jpg width=500px>
+<h2>planning</h2> <img src=https://i.imgur.com/or6qEXy.jpg width=500px>
+<h2>i didn't know how to do this... so i just made it fade out in the final version</h2> <img src=https://i.imgur.com/5EBsOPQ.jpg width=500px>
+<h2>for something that never happened</h2> <img src=https://i.imgur.com/t1JETu7.jpg width=500px>
+<h2>static</h2> <img src=https://i.imgur.com/x2vliPH.jpg width=500px>
+<h2>neppy!</h2> <img src=https://i.imgur.com/ZkBRIv0.jpg width=500px>
+<h2>okay i like how i drew myself here</h2> <img src=https://i.imgur.com/MbUqZDn.jpg width=500px>
+<h2>AHHH SECRETS</h2> <img src=https://i.imgur.com/whAl8i5.jpg width=500px>
+<h2>character designs for 13337...?</h2> <img src=https://i.imgur.com/26WhhGQ.jpg width=500px>
+<h2>thank you for drawing this jaythedevguy</h2> <img src=https://i.imgur.com/JgFfZOA.jpg width=500px>
+<h2>uncomfortable</h2> <img src=https://i.imgur.com/AO52dZs.jpg width=500px>
+<h2>ok cool</h2> <img src=https://i.imgur.com/XDP561Q.jpg width=500px>
+<h2>UGH</h2> <img src=https://i.imgur.com/pCnjol2.jpg width=500px>
+<h2>i forgot how i draw again</h2> <img src=https://i.imgur.com/h6sQ25F.jpg width=500px>
+<h2>phpWAr example 2</h2> <img src=https://i.imgur.com/tab2SoW.jpg width=500px>
+<h2>phpWAr example</h2> <img src=https://i.imgur.com/6ldUyxV.jpg width=500px>
+<h2>phpWAr planing...</h2> <img src=https://i.imgur.com/8UDSUqC.jpg width=500px>
+
+<!--
+<h2>planning 3</h2> <img src=https://i.imgur.com/rTaW6oU.jpg width=500px>
+<h2>planning 2</h2> <img src=https://i.imgur.com/jT09Dbi.jpg width=500px>
+<h2>planning 1</h2> <img src=https://i.imgur.com/swfhdbF.jpg width=500px>
+
+also hi sneakass
+
+-->
+
+<h2>BOOM!</h2> <img src=https://i.imgur.com/FVaUWPl.jpg width=500px>
+<h2>i like her</h2> <img src=https://i.imgur.com/7jUxLjn.jpg width=500px>
+<h2>alchemy! (part 2)</h2> <img src=https://i.imgur.com/fKg8dV0.jpg width=500px>
+<h2>alchemy! (part 1)</h2> <img src=https://i.imgur.com/YZhmOxO.jpg width=500px>
+<h2>happy</h2> <img src=https://i.imgur.com/2PmJTcl.jpg width=500px>
+<h2>unfinished slut</h2> <img src=https://i.imgur.com/LQHhLUe.jpg width=500px>
+<h2>the planties!!!!</h2> <img src=https://i.imgur.com/hamskyp.jpg width=500px>
+<h2>the planties...</h2> <img src=https://i.imgur.com/h5YZpw4.jpg width=500px>
+<h2>the bitchass (and squidward)</h2> <img src=https://i.imgur.com/yAxqEuB.jpg width=500px>
+<h2>the car...</h2> <img src=https://i.imgur.com/Qac52pF.jpg width=500px>
+<h2>not many people came to gsa...</h2> <img src=https://i.imgur.com/Un0Saks.jpg width=500px>
+<h2>jogging!</h2> <img src=https://i.imgur.com/yIUrhcU.jpg width=500px>
+<h2>contingency (part 2)</h2> <img src=https://i.imgur.com/nmaYMyL.jpg width=500px>
+<h2>contingency</h2> <img src=https://i.imgur.com/PC9uWsN.jpg width=500px>
+<h2>the dipshit</h2> <img src=https://i.imgur.com/CJfdQty.jpg width=500px>
+<h2>&gt;_@</h2> <img src=https://i.imgur.com/Y7CfSoC.jpg width=500px>
+<h2>i am bad at drawing!</h2> <img src=https://i.imgur.com/uZchEfM.jpg width=500px>
+<h2>the asshole</h2> <img src=https://i.imgur.com/RemL8KP.jpg width=500px>
+<h2>the shitface</h2> <img src=https://i.imgur.com/7TnFFzD.jpg width=500px>
+<h2>why i don't do commissions</h2> <img src=https://i.imgur.com/4NV6EnT.jpg width=500px>
+<h2>shitty luna</h2> <img src=https://i.imgur.com/8sk68Gz.jpg width=500px>
+<h2>homophobic sonic</h2> <img src=https://i.imgur.com/mdLInsb.jpg width=500px><p>(he's not actually homophobic i just drew him before the queers)</p>
+<h2>new artstyle, new catthings!</h2> <img src=https://i.imgur.com/75FwMQX.jpg width=500px>
+<h2>how do i draw her</h2> <img src=https://i.imgur.com/ArQ2whf.jpg width=500px>
+<h2>how do i draw her...</h2> <img src=https://i.imgur.com/joewrBZ.jpg width=500px>
+<h2>i'm scared to ink this one</h2> <img src=https://i.imgur.com/oAkfZlI.jpg width=500px>
+<h2>thank you rose thenefariousanglerfish, for actually helping</h2> <img src=https://i.imgur.com/FyMPX8q.jpg width=500px>
+<h2>apparently my triangle is shit and i need to kill myself</h2> <img src=https://i.imgur.com/E1VlVU7.jpg width=500px>
+<h2>does this look good? what about this?</h2> <img src=https://i.imgur.com/oRukyro.jpg width=500px>
+<h2>THE LSENDER ... SKLLEND... LSLENDAR... MANM :(</h2> <img src=https://i.imgur.com/FFIn9gD.jpg width=500px>
+<h2>ugly rat bastard</h2> <img src=https://i.imgur.com/pS7IQep.jpg width=500px>
+<h2>so slrty!</h2> <img src=https://i.imgur.com/utq9Mhc.jpg width=500px>
+<h2>what even is hair... really...</h2> <img src=https://i.imgur.com/tb0lmL0.jpg width=500px>
+<h2>why the FUCK is she skinny</h2> <img src=https://i.imgur.com/zGyczpW.jpg width=500px>
+<h2>i love earthbound...</h2> <img src=https://i.imgur.com/3NuxKDH.jpg width=500px>
+<h2>DONK</h2> <img src=https://i.imgur.com/qYFwL59.jpg width=500px>
+<h2>inking will always make your art look better!</h2> <img src=https://i.imgur.com/KpKZbfg.jpg width=500px>
+<h2>unfinished... due to school ending</h2> <img src=https://i.imgur.com/gdbccvf.jpg width=500px>
 <h2>i hate performance!</h2> <img src=https://i.imgur.com/hQPwS5O.jpg width=500px>
 <h2>trying to figure out how to draw myself</h2> <img src=https://i.imgur.com/NvxarrY.jpg width=500px> <h2>gleeble glorp!</h2> <img src=https://i.imgur.com/4hkDsMD.jpg width=500px> <h2>hit with a brick!</h2> <img src=https://i.imgur.com/FKUvzVA.jpg width=500px> <h2>augh!!!!! :(</h2> <img src=https://i.imgur.com/D7AzTCG.jpg width=500px>`;
 }
