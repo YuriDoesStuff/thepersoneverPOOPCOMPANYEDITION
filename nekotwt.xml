@@ -5,6 +5,14 @@
 <description>a nekoweb rss feed... thing. remember 2 clear ur cache!!</description>
 
 <item>
+<title>new blog post</title>
+<pubDate>Fri, 03 Jan 2025 12:42:38 GMT</pubDate>
+<link>https://thepersonever.net/blogg</link>
+<guid isPermaLink='false'>blog325</guid>
+<description>my head hurts</description>
+</item>	
+
+<item>
 <title>something more to say, actually</title>
 <pubDate>Mon, 23 Dec 2024 03:36:41 GMT</pubDate>
 <link>https://thepersonever.net/randomerjunk/art</link>
