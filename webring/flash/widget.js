@@ -41,7 +41,7 @@ delete webring;
 
 	function makeswf(NAME, PREV, NEXT, RANDO){
 		console.log("running logic for making flash");
-		var att = { data:"https://thepersonever.net/webring/flash/widgets/"+NAME+".swf", width:"100%", height:"100%" };
+		var att = { data:"https://downloads.thepersonever.net/webring/flash/"+NAME+".swf", width:"100%", height:"100%" };
 		var par = { flashVars:"previous="+PREV+"&next="+NEXT+"&random="+RANDO };
 		var id = "swfdiv";
 		swfobject.createSWF(att, par, id);
