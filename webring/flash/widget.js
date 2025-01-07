@@ -6,7 +6,7 @@ webring = {
 
   // list of sites in the ring
   sites: [
-    "https://localhost/",
+	"https://localhost/",
     "https://thepersonever.net/"
   ],
 
@@ -21,7 +21,7 @@ webring = {
 //  stylesheet: "https://your_site_here.neocities.org/folder/widget.css",
 
   // html inserted instead of your widget on sites that aren't in the ring
-  error: "<div>This site isn't part of the webring yet.</div>",
+  error: "<div><a href=https://thepersonever.net/webring/flash/><img src=https://downloads.thepersonever.net/webring/flash/unknown.gif></a></div>",
 
 };
 
