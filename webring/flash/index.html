@@ -21,11 +21,29 @@
 };
 
 </script>
+
+<style>
+.leftdiv{
+float: left; width: 48%;
+}
+.rightdiv{
+float: right; width: 48%; text-align: right;
+}
+
+  @media (max-width: 800px) {
+	.leftdiv{
+		max-width: 100%; width: 100%; 
+	}
+	.rightdiv{
+		max-width: 100%;  width: 100%;
+	}
+  }
+</style>
 	</head>
 	<body>
 
-<h1 style="margin: none; text-align: center; width: 100%;"><img src=images/logo.png style="max-width:100%; height:20vh;"></h1>
-<div style="float: left; max-width: 48%;">
+<h1 style="margin: none; text-align: center;"><img src=images/logo.png style="max-width:100%; max-height:20vh;"></h1>
+<div class="leftdiv">
 <h2><span>a macromedia/adobe flash webring!</span></h2>
 <p><span>this webring is for people who use flash in their websites! any site that utilizes flash is welcome here - from small animations, to full music videos, to stuff that even bends what flash is</span></p>
 
@@ -71,7 +89,7 @@
 
 </div>
 
-<div style="float: right; max-width: 48%; text-align: right;">
+<div class="rightdiv">
 <p>
 <span>current members:</span>
 <br><a href=https://thepersonever.net/ target=_blank><span>thepersonever.net</span></a>
@@ -79,7 +97,7 @@
 <script src=/js/swfobject.js defer></script>
 <script defer src=widget.js></script>
 
-	<div id="swfwrapper" style="width: 300px; aspect-ratio: 1/1; overflow: hidden;">
+	<div id="swfwrapper" style="width: 300px; aspect-ratio: 1/1; overflow: hidden; float: right;">
 		<div id=swfdiv>
 
 		</div>
