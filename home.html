@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>thepersonever!</title>
+			<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+		<script>
+			window.RufflePlayer = window.RufflePlayer || {};
+			window.RufflePlayer.config = {
+			"preferredRenderer": "canvas",
+			"quality":"low",
+			"autoplay":"on",
+			"unmuteOverlay":"hidden",
+			"letterbox":"off",
+			"showSwfDownload":false,
+			"splashScreen":false,
+			"menu": false,
+			"allowFullscreen": false,
+			"wmode":"transparent",
+			"allowScriptAccess": true
+};
+
+</script>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <link rel="icon" type="image/jpg" href="/homeicon.jpg">
     <style>
@@ -63,6 +81,7 @@
   right: 11%;
   border: 3px solid black;
   position:absolute;
+  z-index: 2;
 }
 
 .logo{
@@ -223,12 +242,12 @@
 <img src=/images/GUB.png class=abimg style="position: absolute; top: 46%; left: 18.5%; z-index: -10;" height=15%>
 <img src=/images/chaowalk.gif class=abimg height=15% style="position: absolute; right: 14%; top: 38%;">
 <img src=/images/sboyrb.png class=abimg style="position: absolute; top: 64%; left: 6%;" height=16% title="currently fighting the homestuck (and losing)">
-<img src=/images/dinogif.webp class=abimg style="position: absolute; top: 2%; right: 12%;" height=10%>
+<img src=/images/dinogif.webp class=abimg style="position: absolute; top: 2%; right: 12%; z-index: 2;" height=10%>
 <img src=/images/smiledraw.gif class=abimg height=15% style="position: absolute; top: 22%; left: 1%;">
 <img src=/images/howtolive.png class=abimg style="position: absolute; top: 12%; right: 1%; z-index: -1; height: 25%;">
 <img src=/images/shadowspin.gif class=abimg height=23% style="position: absolute; top: 24%; left: 5%; z-index: -11;">
 <img src=/images/gameboy.gif class=abimg height=20% style="position: absolute; top: 2%; left: 8%; z-index: -5;">
-<img src=/images/onion.png class=abimg style="position: absolute; top: 30%; right: 10%; z-index: -1;" height=25%>
+<img src=/images/onion.png class=abimg style="position: absolute; top: 30%; right: 10%; z-index: 1;" height=25%>
 
    
     <!-- multi-image elements -->
@@ -249,12 +268,20 @@
 <a href="https://www.youtube.com/c/Pikman6000/videos" class=abimg target=_blank> <img src=/images/engie.gif height=17% style="position:absolute; top: 45vh; left:5vw; z-index: -10;" title="PIKMIN!!!!!!"></a>
 <a href=/partay.html class=abimg><img src=/images/Mouse.png class=abimg height=9.5% style="position: absolute; top:41vh; left: 26.5vw; z-index: 19; -webkit-transform: scaleX(-1); transform: scaleX(-1);"></a>
 <a href="https://bloodbound.loveslife.biz/"><img src=/images/child.png class=abimg height=14.5% style="position: absolute; top: 37vh; left: 22vw; z-index: 20;"></a>    
-<a href="https://pfq.link/?50kGR" target=_blank><img src="https://pfq.link/?50kGR=party_oras.png" class=abimg style="position: absolute; top: 0px; right: 0px; z-index: 0;" height=9%></a>
+<a href="https://pfq.link/?50kGR" target=_blank><img src="https://pfq.link/?50kGR=party_oras.png" class=abimg style="position: absolute; top: 0px; right: 0px; z-index: 1;" height=9%></a>
 <a href=secrets/backpack.html class=abimg><img src=/images/backpack.jpeg height=13% style="position: absolute; top:39%; right: 24%; z-index: -1;"></a>
 <a href=nutshell.html class=abimg><img src=/images/wallnut.png class=abimg height=20% style="position: absolute; top: 36%; right: 17%; z-index: 12;"></a>
 <a href="/pikmin/" class=abimg><img src=/images/collect.png height=12% style="position: absolute; top: 38%; right: 0.3%;"></a>
   <!-- image end -->
   
+  <script src=/js/swfobject.js defer></script>
+<script defer src=/webring/flash/widget.js></script>
+
+	<div id="swfwrapper" style="width: 15%; aspect-ratio: 1/1; overflow: hidden; position: absolute; top: 5%; right: 15%; background-color: purple;">
+		<div id=swfdiv>
+
+		</div>
+	</div>
 
   </center>
   
