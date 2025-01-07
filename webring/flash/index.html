@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<title>the Flashfans webring!</title>
 	    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
 		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 		<script>
@@ -34,10 +35,40 @@
 <h3><span>rules</span></h3>
 <p><span>- your site must include flash content
 <br>- your widget must contain an interactive element
-<br>- if your site has adult content, you must state so on your landing page, and mark your widget with an 18+ disclaimer
 <br>- neither your site nor widget may contain malicious code
 <br>- your widget may not contain autoplaying audio
 </span></p>
+
+<span>wrapper div:</span>
+<br><textarea>
+<script src=/js/swfobject.js defer></script>
+<script defer src=https://thepersonever.net/webring/flash/widget.js></script>
+	<div id="swfwrapper" style="width: 300px; aspect-ratio: 1/1; overflow: hidden;">
+		<div id=swfdiv>
+
+		</div>
+	</div>
+</textarea>
+<br><span>reccomended ruffle config (put this in the head of your site!)</span>
+<br><textarea>
+<script>
+			window.RufflePlayer = window.RufflePlayer || {};
+			window.RufflePlayer.config = {
+			"preferredRenderer": "canvas",
+			"quality":"low",
+			"autoplay":"on",
+			"unmuteOverlay":"hidden",
+			"letterbox":"off",
+			"showSwfDownload":false,
+			"splashScreen":false,
+			"menu": false,
+			"allowFullscreen": false,
+			"wmode":"transparent",
+			"allowScriptAccess": true
+};
+</script>
+</textarea>
+
 </div>
 
 <div style="float: right; max-width: 48%; text-align: right;">
@@ -45,7 +76,6 @@
 <span>current members:</span>
 <br><a href=https://thepersonever.net/ target=_blank><span>thepersonever.net</span></a>
 </p>
-
 <script src=/js/swfobject.js defer></script>
 <script defer src=widget.js></script>
 
@@ -54,7 +84,7 @@
 
 		</div>
 	</div>
-</div>
 
+</div>
 	</body>
 </html>
