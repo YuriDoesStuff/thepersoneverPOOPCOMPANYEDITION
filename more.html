@@ -17,20 +17,20 @@
 window.RufflePlayer = window.RufflePlayer || {};
 window.RufflePlayer.config = {
 	"openUrlMode": "allow",
-    "backgroundColor": "000000",
     "autoplay":"on",
     "unmuteOverlay":"hidden",
     "letterbox":"on",
     "showSwfDownload":true,
     "splashScreen":false,
     "menu": false,
-    "allowFullscreen": true
+    "allowFullscreen": true,
+	"wmode":"transparent"
 };
 
 </script>
    <style>
      .flashdiv{
-       width: 40%; aspect-ratio: 4/3; boader: 0px;
+	   width: 100%; max-width: 650px; aspect-ratio: 4/3; overflow: hidden; margin: auto; text-align: center; background-image: url('flashes/temshopcs6.png'); background-size: auto 100%; background-position: center; background-repeat: no-repeat;
      }
      @media (width < 800px){
        .flashdiv {
@@ -55,10 +55,7 @@ window.RufflePlayer.config = {
        <script src=/js/swfobject.js defer>
 </script>
 <div id=swfdiv>
-uh. i guess swfobject doesn't exist.
-<br>CONTACT WEBMASTER: webmaster@psfla.net
 </div>
-
 <script>
 setTimeout( callbackFunction, 1000 );
 function callbackFunction(){
