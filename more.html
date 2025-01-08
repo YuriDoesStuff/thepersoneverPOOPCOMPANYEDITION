@@ -19,18 +19,18 @@ window.RufflePlayer.config = {
 	"openUrlMode": "allow",
     "autoplay":"on",
     "unmuteOverlay":"hidden",
-    "letterbox":"on",
-    "showSwfDownload":true,
     "splashScreen":false,
     "menu": false,
     "allowFullscreen": true,
-	"wmode":"transparent"
-};
-
+	"wmode":"transparent",
+	"renderer":"canvas",
+	"contextMenu":"off"
+}
+window.RufflePlayer.container.hidden = true;
 </script>
    <style>
      .flashdiv{
-	   width: 100%; max-width: 650px; aspect-ratio: 4/3; overflow: hidden; margin: auto; text-align: center; background-image: url('flashes/temshopcs6.png'); background-size: auto 100%; background-position: center; background-repeat: no-repeat;
+	   width: 100%; max-width: 640px; aspect-ratio: 4/3; overflow: hidden; margin: auto; text-align: center; background-image: url('flashes/temshopcs6.png'); background-size: auto 100%; background-position: center; background-repeat: no-repeat;
      }
      @media (width < 800px){
        .flashdiv {
@@ -54,8 +54,10 @@ window.RufflePlayer.config = {
 
        <script src=/js/swfobject.js defer>
 </script>
+<!-- <div id=hidder style="height: 100%; max-width: 640px; aspect-ratio: 4/3; display: none;"> -->
 <div id=swfdiv>
 </div>
+<!-- </div> -->
 <script>
 setTimeout( callbackFunction, 1000 );
 function callbackFunction(){
@@ -63,7 +65,13 @@ function callbackFunction(){
   var par = { flashvars:"foo=bar" };
   var id = "swfdiv";
   swfobject.createSWF(att, par, id);
+  
   }
+  
+ function loaded(asdf){
+	console.log("hiii :D");
+
+ }
 </script>
       </div>
     </center>
