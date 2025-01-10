@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>what's jade thinking about?</title>
+		<style>
+			body{
+				background-color: white;
+				margin: auto;
+				text-align: center;
+				font-family: Courier New;
+			}
+		</style>
+		
+		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+		<script>
+			window.RufflePlayer = window.RufflePlayer || {};
+			window.RufflePlayer.config = {
+				"preferredRenderer": "canvas",
+				"quality":"low",
+				"autoplay":"on",
+				"unmuteOverlay":"hidden",
+				"letterbox":"off",
+				"showSwfDownload":true,
+				"splashScreen":false,
+				"menu": false,
+				"allowFullscreen": false,
+				"wmode":"transparent",
+				"allowScriptAccess": true
+			};
+		</script>
+	</head>
+	<body>
+		<a style="position: absolute; float: left; display: block;" href=index.html>home</a>
+		
+		<script src=/js/swfobject.js defer></script>
+		<div id="swfwrapper" style="height: 100vh;  aspect-ratio: 4/3; overflow: hidden; margin: auto; text-align: center;">
+			<div id=swfdiv>
+
+			</div>
+		</div>
+
+		<script>
+			  let params = new URLSearchParams(location.search);
+			  var glojson; 
+			  var thoughts;
+			  var json;
+			  var index;
+				fetch("thoughts.json", {cache: "no-cache"})
+				.then((response) => response.json())
+				.then((json) => glojson = json)
+				.then((json) => thoughts = glojson.thoughts)
+				.then((pages) => start(json));
+
+			function start(){
+				index = params.get("t");
+				var att = { data:"jadethink.swf", width:"100%", height:"100%" };
+				var par = { flashVars:"text="+thoughts[index].text};
+				var id = "swfdiv";
+				swfobject.createSWF(att, par, id);
+				
+				prev = index - 1;
+				next = index + 1;
+				
+				if (thoughts[prev].text !== null){
+					console.log("prev works");
+				}
+				else{
+					console.log("prev doesn't work");
+				}
+				if (typeof thoughts[next].text !== null){
+					console.log("next works");
+				}
+				else{
+					console.log("next doesn't work");
+				}
+			}
+		</script>
+	</body>
+</html>
