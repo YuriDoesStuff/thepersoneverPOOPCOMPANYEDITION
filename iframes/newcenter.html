@@ -76,9 +76,10 @@ let username = "thepersonever"; // <<<--- Insert your username here!
     const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
 
     var oldviews = commaize((json.views + 303460));
+	var commaviews = commaize(json.views);
   
     if (document.getElementById("updated")) document.getElementById("updated").innerHTML = `<span>last updated ${updated}!</span>`;
-    if (document.getElementById("visitors")) document.getElementById("visitors").innerHTML = `<span>${oldviews} hits (${json.views} on nekoweb, 303,460 from neocities)</span>`;
+    if (document.getElementById("visitors")) document.getElementById("visitors").innerHTML = `<span>${oldviews} hits (${commaviews} on nekoweb, 303,460 from neocities)</span>`;
     if (document.getElementById("followers")) document.getElementById("followers").innerHTML = `<span>${json.followers} nekoweb followers :D <a href=https://nekoweb.org/follow/thepersonever target=_blank>join the club!</a></span>`;
   } catch (error) {
     console.error(error);
