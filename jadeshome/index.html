@@ -40,7 +40,23 @@
 		</div>
 		<div>
 			<h3>what i'm thinking about</h3>
-			<a href=thinktest.html?t=0>test</a>
+			<a id=thinker href=thinktest.html?t=0>test</a>
+			<script>
+			  let params = new URLSearchParams(location.search);
+			  var glojson; 
+			  var thoughts;
+			  var json;
+			  var index;
+				fetch("thoughts.json", {cache: "no-cache"})
+				.then((response) => response.json())
+				.then((json) => glojson = json)
+				.then((json) => thoughts = glojson.thoughts)
+				.then((pages) => start(json));
+
+			function start(){
+			document.getElementById("thinker").href = "thinktest.html?t="+(thoughts.length - 1);
+			}
+			</script>
 		</div>
 	</div>
 	</body>
