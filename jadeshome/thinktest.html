@@ -30,7 +30,12 @@
 		</script>
 	</head>
 	<body>
-		<a style="position: absolute; float: left; display: block;" href=index.html>home</a>
+		<div style="position: absolute; float: left; display: block;">
+			<a href=index.html>home</a>
+			<a href=index.html>all</a>
+			<a href=index.html id=next style="display: none;">next</a>
+			<a href=index.html id=prev style="display: none;">previous</a>
+		</div>
 		
 		<script src=/js/swfobject.js defer></script>
 		<div id="swfwrapper" style="height: 100vh;  aspect-ratio: 4/3; overflow: hidden; margin: auto; text-align: center;">
@@ -52,26 +57,24 @@
 				.then((pages) => start(json));
 
 			function start(){
-				index = params.get("t");
+				index = parseInt(params.get("t"));
 				var att = { data:"jadethink.swf", width:"100%", height:"100%" };
 				var par = { flashVars:"text="+thoughts[index].text};
 				var id = "swfdiv";
 				swfobject.createSWF(att, par, id);
 				
-				prev = index - 1;
-				next = index + 1;
+				var prev = index - 1;
+				var next = index + 1;
 				
-				if (thoughts[prev].text !== null){
+				if (prev in thoughts){
 					console.log("prev works");
+					document.getElementById("prev").href = "thinktest.html?t="+prev;
+					document.getElementById("prev").style.display = "inline";
 				}
-				else{
-					console.log("prev doesn't work");
-				}
-				if (typeof thoughts[next].text !== null){
+				if (next in thoughts){
 					console.log("next works");
-				}
-				else{
-					console.log("next doesn't work");
+					document.getElementById("next").href = "thinktest.html?t="+next;
+					document.getElementById("next").style.display = "inline";
 				}
 			}
 		</script>
