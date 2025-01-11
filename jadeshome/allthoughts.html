@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>what's jade thinking about?</title>
+		<style>
+			body{
+				background-color: white;
+				margin: auto;
+				text-align: center;
+				font-family: Courier New;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h1>all thoughts</h1>
+			<p id=logarea></p>
+		</div>
+
+		<script>
+			  let params = new URLSearchParams(location.search);
+			  var text = document.getElementById("logarea");
+			  var glojson; 
+			  var thoughts;
+			  var json;
+			  var index;
+				fetch("thoughts.json", {cache: "no-cache"})
+				.then((response) => response.json())
+				.then((json) => glojson = json)
+				.then((json) => thoughts = glojson.thoughts)
+				.then((pages) => start(json));
+
+			function start(){
+				logs(thoughts, (thoughts.length - 1))
+			}
+			
+  
+			function logs(pages, max){
+				var currentnum; 
+				if (max == "none"){  
+				 currentnum = (pages.length -1);
+				  
+				  while (currentnum > 0){
+					addlog(currentnum, pages);
+					currentnum -= 1;
+				  }
+				 addlog(0, pages);
+				 }
+				else{
+				  currentnum = (pages.length -1);
+				  
+				  while (max > -1){
+					addlog(currentnum, pages);
+					currentnum -= 1;
+					max -=1;
+				  }
+				  var wrapper = document.createElement("div");
+				  wrapper.style = "textAlign: center; margin: auto;";
+				  wrapper.innerHTML = "<br><a href=index.html>home</a>"
+				  
+				  text.appendChild(wrapper);
+				 }
+			}
+
+
+			function addlog(currentnum, pages){
+				var newlink = document.createElement("a");
+				newlink.innerHTML = currentnum;
+				newlink.style = "display: block;";
+				newlink.href = "thoughts.html?t="+(currentnum);
+			  
+				text.appendChild(newlink);
+			}
+		</script>
+	</body>
+</html>

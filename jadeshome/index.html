@@ -39,8 +39,7 @@
 			</p>
 		</div>
 		<div>
-			<h3>what i'm thinking about</h3>
-			<a id=thinker href=thinktest.html?t=0>test</a>
+			<h3><a id=thinker href=thoughts.html?t=0>what i'm thinking about</a></h3>
 			<script>
 			  let params = new URLSearchParams(location.search);
 			  var glojson; 
@@ -54,7 +53,7 @@
 				.then((pages) => start(json));
 
 			function start(){
-			document.getElementById("thinker").href = "thinktest.html?t="+(thoughts.length - 1);
+			document.getElementById("thinker").href = "thoughts.html?t="+(thoughts.length - 1);
 			}
 			</script>
 		</div>

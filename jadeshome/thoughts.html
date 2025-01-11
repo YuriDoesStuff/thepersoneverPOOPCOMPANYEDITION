@@ -32,7 +32,7 @@
 	<body>
 		<div style="position: absolute; float: left; display: block;">
 			<a href=index.html>home</a>
-			<a href=index.html>all</a>
+			<a href=allthoughts.html>all</a>
 			<a href=index.html id=next style="display: none;">next</a>
 			<a href=index.html id=prev style="display: none;">previous</a>
 		</div>
@@ -69,12 +69,12 @@
 				
 				if (prev in thoughts){
 					console.log("prev works");
-					document.getElementById("prev").href = "thinktest.html?t="+prev;
+					document.getElementById("prev").href = "thoughts.html?t="+prev;
 					document.getElementById("prev").style.display = "inline";
 				}
 				if (next in thoughts){
 					console.log("next works");
-					document.getElementById("next").href = "thinktest.html?t="+next;
+					document.getElementById("next").href = "thoughts.html?t="+next;
 					document.getElementById("next").style.display = "inline";
 				}
 			}
