@@ -9,6 +9,17 @@
 				text-align: center;
 				font-family: Courier New;
 			}
+			#swfwrapper{
+				height: 100vh;
+			}
+			  @media (max-width: 1000px) {
+				a{
+					font-size: 0.5in;
+				}
+				#swfwrapper{
+					width: 100vw; max-width: 100%; height: unset; max-height: unset;
+				}
+			}
 		</style>
 		
 		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
@@ -30,7 +41,7 @@
 		</script>
 	</head>
 	<body>
-		<div style="position: absolute; float: left; display: block;">
+		<div style="position: absolute; float: left; display: block; z-index: 20;">
 			<a href=index.html>home</a>
 			<a href=allthoughts.html>all</a>
 			<a href=index.html id=next style="display: none;">next</a>
@@ -38,7 +49,7 @@
 		</div>
 		
 		<script src=/js/swfobject.js defer></script>
-		<div id="swfwrapper" style="height: 100vh;  aspect-ratio: 4/3; overflow: hidden; margin: auto; text-align: center;">
+		<div id="swfwrapper" style="position: relative; bottom: 0; aspect-ratio: 4/3; overflow: hidden; margin: auto; text-align: center;">
 			<div id=swfdiv>
 
 			</div>
