@@ -21,7 +21,7 @@ function dookie(){
 function americanidiot(){
  document.getElementById('title').innerHTML= '<span>Green Day - American Idiot</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/LOCqguC.jpg");  
- document.getElementById('para').innerHTML = '<span>an incredible album, focusing on a young, kinda idiotic guy with a shit upbringing. its got a great story, and captures a lot of emotions incredibly well! please go listen to it<br><br> 9/10 - favorite track: give me novacaine/track 12 (homecoming)</span>'; 
+ document.getElementById('para').innerHTML = '<span>an incredible album, focusing on a young jesus allegory with a shit upbringing, the queen of arson, and the hellscape that is a 2004 suburb. its got a great story, and captures a lot of emotions incredibly well! please go listen to it<br><br> 9/10 - favorite track: track 2 (jesus of suburbia)/give me novacaine/track 12 (homecoming)/whatsername</span>'; 
 }
 
 function owt(){
