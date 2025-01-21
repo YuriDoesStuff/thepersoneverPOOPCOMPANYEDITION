@@ -1,3 +1,14 @@
+function paper2025(){
+document.getElementById('hide').style.display = 'inline';
+document.getElementById("div").style.backgroundImage = "url(images/looseleaf.jpeg)";
+document.getElementById("div").style.backgroundSize = "500px";
+document.getElementById('innerbleh').innerHTML = `
+<h2>side harley</h2> <img src=https://i.imgur.com/DQ3S8Oe.jpeg width=500px>
+<h2>how i look at the us flag</h2> <img src=https://i.imgur.com/AV1buSt.jpeg width=500px>
+<h2>woohoo doodles</h2> <img src=https://i.imgur.com/40pkTbf.jpeg width=500px>
+<h2>fffflashfans!</h2> <img src=https://i.imgur.com/dKVj3wD.jpeg width=500px>
+`}
+
 function paper2024(){
 document.getElementById('hide').style.display = 'inline';
 document.getElementById("div").style.backgroundImage = "url(/images/paper.jpeg)";
