@@ -803,14 +803,14 @@ info.setAttribute('onclick', 'bm64info()');
   crt.style = "display: none;";
 
 if (comingfrom2 == false && muteis == false) {
-    audio.src = "https://roseycatttttt.github.io/tperesources/xdx3xp/lmms/bm64loop.mp3";
+    audio.src = "https://downloads.thepersonever.net/xdx3xp/lmms/bm64loop.mp3";
     audio.play();
     playing.style = "display: inline;";
     comingfrom2 = false
 }
 else if (mute == true) {
     comingfrom2 = false
-    audio.src = "https://roseycatttttt.github.io/tperesources/xdx3xp/lmms/bm64loop.mp3";
+    audio.src = "https://downloads.thepersonever.net/xdx3xp/lmms/bm64loop.mp3";
 }
 else {
     comingfrom2 = false
