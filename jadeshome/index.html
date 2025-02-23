@@ -41,29 +41,13 @@
 		<div>
 			<h3>what i'm working on</h3>
 			<p><a>pikitory</a> - a ~30 second flash, set to ken ashcorp's ultimate territory 
-			<br>going insane while trying to upgrade my ipod
-			<br>playing through every mainline sonic game with my girlfriend
+			<br>not having all fs in school
+			<br>playing through final doom's two episodes
 			<br>planning to actually start <a href=https://bloodhouse.neocities.org/index_2 target=_blank>bloodbound</a>
 			</p>
 		</div>
 		<div>
-			<h3><a id=thinker href=thoughts?t=0>what i'm thinking about</a></h3>
-			<script>
-			  let params = new URLSearchParams(location.search);
-			  var glojson; 
-			  var thoughts;
-			  var json;
-			  var index;
-				fetch("thoughts.json", {cache: "no-cache"})
-				.then((response) => response.json())
-				.then((json) => glojson = json)
-				.then((json) => thoughts = glojson.thoughts)
-				.then((pages) => start(json));
-
-			function start(){
-			document.getElementById("thinker").href = "thoughts?t="+(thoughts.length - 1);
-			}
-			</script>
+			<h3><a href=thoughts>what i'm thinking about</a></h3>
 		</div>
 	</div>
 	</body>
