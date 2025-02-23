@@ -57,6 +57,8 @@
 
 		<script>
 			let params = new URLSearchParams(location.search);
+			
+			var stateObj = { foo: "bar" };
 			var glojson; 
 			var thoughts;
 			var json;
@@ -68,7 +70,13 @@
 				.then((pages) => start(json));
 
 			function start(){
-				index = parseInt(params.get("t"));
+				if (params.get("t") == null || params.get("t") > (thoughts.length -1) || params.get("t") < 0){
+					index = thoughts.length -1;
+					history.pushState(stateObj, "page 2", "thoughts?t="+index);
+				}
+				else{
+					index = parseInt(params.get("t"));
+				}
 				console.log(index.toString());
 				var att = { data:"jadethink.swf", width:"100%", height:"100%" };
 				var par = { flashVars:"text="+thoughts[index].text};
@@ -109,8 +117,6 @@
 					index -= 1;				
 				}
 				makeclickers();
-				
-				var stateObj = { foo: "bar" };
 				history.pushState(stateObj, "page 2", "thoughts?t="+index);
 				
 				var swfdiv = document.getElementById("swfdiv");
