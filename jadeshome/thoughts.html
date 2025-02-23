@@ -44,8 +44,8 @@
 		<div style="position: absolute; float: left; display: block; z-index: 20;">
 			<a href=index.html>home</a>
 			<a href=allthoughts.html>all</a>
-			<a href=index.html id=next style="display: none;">next</a>
-			<a href=index.html id=prev style="display: none;">previous</a>
+			<a href=javascript:changeurl(true); id=next style="display: none;">next</a>
+			<a href=javascript:changeurl(false); id=prev style="display: none;">previous</a>
 		</div>
 		
 		<script src=/js/swfobject.js defer></script>
@@ -56,11 +56,11 @@
 		</div>
 
 		<script>
-			  let params = new URLSearchParams(location.search);
-			  var glojson; 
-			  var thoughts;
-			  var json;
-			  var index;
+			let params = new URLSearchParams(location.search);
+			var glojson; 
+			var thoughts;
+			var json;
+			var index;
 				fetch("thoughts.json", {cache: "no-cache"})
 				.then((response) => response.json())
 				.then((json) => glojson = json)
@@ -74,20 +74,47 @@
 				var par = { flashVars:"text="+thoughts[index].text};
 				var id = "swfdiv";
 				swfobject.createSWF(att, par, id);
-				
+			}
+			
+			function itsdone(){
+				console.log("it's done");
+				makeclickers();
+			}
+			
+			function makeclickers(){
 				var prev = index - 1;
 				var next = index + 1;
 				
 				if (prev in thoughts){
-					console.log("prev works");
-					document.getElementById("prev").href = "thoughts?t="+prev;
 					document.getElementById("prev").style.display = "inline";
 				}
+				else{
+					document.getElementById("prev").style.display = "none";
+				}
+				
 				if (next in thoughts){
-					console.log("next works");
-					document.getElementById("next").href = "thoughts?t="+next;
 					document.getElementById("next").style.display = "inline";
 				}
+				else{
+					document.getElementById("next").style.display = "none";
+				}
+
+			}
+			
+			function changeurl(forward){
+				if (forward == true){
+					index += 1; 
+				}
+				else{
+					index -= 1;				
+				}
+				makeclickers();
+				
+				var stateObj = { foo: "bar" };
+				history.pushState(stateObj, "page 2", "thoughts?t="+index);
+				
+				var swfdiv = document.getElementById("swfdiv");
+				swfdiv.changetext(thoughts[index].text);
 			}
 		</script>
 	</body>
