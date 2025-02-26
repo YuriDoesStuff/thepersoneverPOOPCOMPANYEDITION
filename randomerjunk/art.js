@@ -3,10 +3,13 @@ document.getElementById('hide').style.display = 'inline';
 document.getElementById("div").style.backgroundImage = "url(images/looseleaf.jpeg)";
 document.getElementById("div").style.backgroundSize = "500px";
 document.getElementById('innerbleh').innerHTML = `
-<h2>side harley</h2> <img src=https://i.imgur.com/DQ3S8Oe.jpeg width=500px>
-<h2>how i look at the us flag</h2> <img src=https://i.imgur.com/AV1buSt.jpeg width=500px>
-<h2>woohoo doodles</h2> <img src=https://i.imgur.com/40pkTbf.jpeg width=500px>
-<h2>fffflashfans!</h2> <img src=https://i.imgur.com/dKVj3wD.jpeg width=500px>
+<h2><span>girl harried</span></h2> <img src=https://i.imgur.com/F4sNMlM.jpeg width=500px>
+<h2><span>rewritten...</span></h2> <img src=https://i.imgur.com/vro31R1.jpeg width=500px>
+<h2><span>side harley</span></h2> <img src=https://i.imgur.com/DQ3S8Oe.jpeg width=500px>
+<h2><span>reward: FIVE FREE WEBPAGES!!</span></h2> <img src=https://i.imgur.com/JCMoe7I.jpeg width=500px>
+<h2><span>how i look at the us flag</span></h2> <img src=https://i.imgur.com/AV1buSt.jpeg width=500px>
+<h2><span>woohoo doodles</span></h2> <img src=https://i.imgur.com/40pkTbf.jpeg width=500px>
+<h2><span>fffflashfans!</span></h2> <img src=https://i.imgur.com/dKVj3wD.jpeg width=500px>
 `}
 
 function paper2024(){
