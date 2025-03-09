@@ -1,5 +1,11 @@
 {
   "songs": [
+    { "title": "ultrahell",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls2/ultrahell.mp3",
+      "coversrc": "/xdx3xp/art/ultrahell.png",
+      "url": "ultrahell",
+	  "desc": "my take on a heaven pierce her/ultrakill style track. called ultrahell because fl studio's ui looks exactly like hell"
+    },
     { "title": "melon",
       "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls2/melon.mp3",
       "coversrc": "/xdx3xp/art/melon.png",
