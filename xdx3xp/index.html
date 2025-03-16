@@ -14,16 +14,12 @@
         display: inline-block;
         margin: 25px;
     }
-    .card .img-top {
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-    }
-    .card:hover .img-top {
-        display: inline;
-    }
+#enter{
+  content: url("enter1.png")
+}
+#enter:hover{
+  content: url("enter2.png");
+}
 
 
        body {
@@ -45,10 +41,7 @@
 <h3><span> xDx3xP's index!!!</span></h3>
 <h1><font color="#1CC3E2"><span>click the image !!</span></font></h1>
 <a href=home.html>
-    <div class="card">
-     <img src="enter2.png" class="img-top" style="left: -80px;width: 290px; position:absolute; top: 70px; ">
-    	<img src="enter1.png" style="left: -80px; width: 290px; position:absolute; top: 70px;">
-    </div>
+<img id=enter>
 </a>
 </center>
 
