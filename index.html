@@ -83,17 +83,71 @@ document.getElementById("swfwrapper").style.backgroundImage = "unset";
 function fullscreenie(){
 document.getElementById("swfwrapper").style = "width: 100vw; height: 100vh; overflow: hidden;";
 document.getElementById("html").style.display = "none";
+document.getElementById("lowerhtml").style.display = "none";
 document.getElementById("body").style.backgroundImage = "url('/images/bggif.gif')";
 }
 
 function resetti(){
 document.getElementById("swfwrapper").style = "width: 100%; max-width: 400px; aspect-ratio: 13/9; overflow: hidden; margin: auto;";
 document.getElementById("html").style.display = "block";
+document.getElementById("lowerhtml").style.display = "block";
 document.getElementById("body").style.backgroundImage = "url('/images/indexbg.png')";
 }
 </script>
 
+<center>
+
 </div>
+	
+<div id="lowerhtml">
+    <p>
+		<a href="http://www.mabsland.com/Adoption.html" style="width:88;" target=_blank><img src="/images/web14.gif" title="website content rating - web 14"></a>
+		<br>
+		<a href=https://fairyland.fanlistings.net/pmd/ target=_blank> <img src=/images/pmdfanlist.jpg title="pmd fanlistings"></a>
+		<a href=https://fans.thislove.nu/mozilla/ target=_blank> <img src=/images/ffoxfanlist.png title="firefox fanlistings"></a>
+		<a href=https://fan.kalechips.net/pikmin/ target=_blank><img src=/images/pikfanlist.png title="pikmin fanlistings"></a>
+
+		<br><span><asdf id=updated></asdf>
+		<br><asdf id=visitors></asdf>
+		<br><asdf id=followers></asdf>
+	</span></p> 
+  
+	<p><span>you can find the code to put your stats up on your site 
+		<a href=https://max.nekoweb.org/resources/nekoweb-stats/ target=_blank>here!
+	</a></span></p>
+      
+<script>
+
+// this script is under the MIT license (https://max.nekoweb.org/resources/license.txt)
+
+let username = "thepersonever"; // <<<--- Insert your username here!
+
+(async () => {
+  try {
+    const request = await fetch(`https://nekoweb.org/api/site/info/${username}`,);
+    const json = await request.json();
+
+    const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+    const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+    var oldviews = commaize((json.views + 303460));
+	var commaviews = commaize(json.views);
+  
+    if (document.getElementById("updated")) document.getElementById("updated").innerHTML = `<span>last updated ${updated}!</span>`;
+    if (document.getElementById("visitors")) document.getElementById("visitors").innerHTML = `<span>${oldviews} hits (${commaviews} on nekoweb, 303,460 from neocities)</span>`;
+    if (document.getElementById("followers")) document.getElementById("followers").innerHTML = `<span>${json.followers} nekoweb followers :D <a href=https://nekoweb.org/follow/thepersonever target=_blank>join the club!</a></span>`;
+  } catch (error) {
+    console.error(error);
+    // If you wish to insert some fallback here, you may do so!
+  }
+})();
+ 
+function commaize(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+</script>
+</div>
+</center>
  
   </body>
 </html>
