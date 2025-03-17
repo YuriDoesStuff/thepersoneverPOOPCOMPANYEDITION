@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>the good scale (tm)</title>
+		<style>
+			body{
+				background-color: white;
+				margin: auto;
+				text-align: center;
+				font-family: Courier New;
+			}
+			  @media (max-width: 1000px) {
+				a{
+					font-size: 0.5in;
+				}
+				#swfwrapper{
+					width: 100vw; max-width: 100%; height: unset; max-height: unset;
+				}
+			}
+
+  .container{
+  max-width: 60vw;
+  margin: auto;
+  }
+  .contained{
+  display: inline-block;
+  width: 23%;
+  vertical-align: top;
+  }
+		</style>
+		
+		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+		<script>
+			window.RufflePlayer = window.RufflePlayer || {};
+			window.RufflePlayer.config = {
+				"preferredRenderer": "canvas",
+				"quality":"low",
+				"autoplay":"on",
+				"unmuteOverlay":"hidden",
+				"letterbox":"off",
+				"showSwfDownload":true,
+				"splashScreen":false,
+				"menu": false,
+				"allowFullscreen": false,
+				"wmode":"transparent",
+				"allowScriptAccess": true
+			};
+		</script>
+	</head>
+	<body>
+		<div style="position: absolute; display: block; z-index: 20; right: 0; text-align: left; max-width: 40vw;">
+			<a href=index.html style="text-align: right; float: right;">home</a>
+			
+			<h1 id="bigtitle"></h1>
+			<p id="bigdescription"></p>
+		</div>
+	<div style="transform: translateX(-20vw)">
+		<script src=/js/swfobject.js defer></script>
+		<div id="swfwrapper" style="position: relative; bottom: 0; overflow: hidden; margin: auto; text-align: center; width: 60vw; aspect-ratio: 2.51/1;">
+			<div id=swfdiv>
+
+			</div>
+		</div>
+			
+		<div class=container>
+			<div class=contained id="psy">
+			</div>
+			<div class=contained id="pikmin">
+			</div>
+			<div class=contained id="evan">
+			</div>
+			<div class=contained id="nitw">
+			</div>
+		</div>	
+
+		<script>
+			setTimeout( callbackFunction, 1000 );
+				function callbackFunction(){
+				var att = { data:"goodscale.swf", width:"100%", height:"100%" };
+				var par = { shit:"foo=bar" };
+				var id = "swfdiv";
+				swfobject.createSWF(att, par, id);
+			} 
+		
+			var tiernumber = 0;
+			var firsttime = true;
+
+			var glojson; 
+			var tiers;
+			var json;
+			var index;
+				fetch("goodscale.json", {cache: "no-cache"})
+				.then((response) => response.json())
+				.then((json) => glojson = json)
+				.then((json) => tiers = glojson.tiers[0])
+				.then((pages) => start(json));
+
+			function start(json){
+				makerow(tiers.nitw, document.getElementById("nitw"), "nitw");
+				makerow(tiers.evan, document.getElementById("evan"), "evan");
+				makerow(tiers.pikmin, document.getElementById("pikmin"), "pikmin");
+				makerow(tiers.psy, document.getElementById("psy"), "psy");
+			}			
+
+			function makerow(tier, target, texttier){	
+				var newthing = document.createElement("a");
+				newthing.innerHTML = tier[tiernumber].name;
+				newthing.style = "display:block;";
+				if(tier[tiernumber].description != null){
+					console.log(texttier);
+					newthing.href = "javascript:checkthing(tiers."+texttier+"["+tiernumber+"])";
+				}
+				target.appendChild(newthing);
+
+				tiernumber += 1;
+
+				if(tiernumber < tier.length){
+					makerow(tier, target, texttier);
+				}
+				else{
+					tiernumber = 0;
+					firsttime = true;
+				}
+			} 
+			
+			function checkthing(thing){
+				document.getElementById("bigtitle").innerHTML = (thing.name);
+				document.getElementById("bigdescription").innerHTML = (thing.description);
+			}
+		
+		</script>
+	</body>
+</html>
