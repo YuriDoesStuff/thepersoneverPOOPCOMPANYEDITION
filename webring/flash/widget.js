@@ -6,8 +6,8 @@ webring = {
 
   // list of sites in the ring
   sites: [
-	"https://localhost/",
-    "https://thepersonever.net/"
+    "https://thepersonever.net/",
+	"https://saturnbuddy.com/"
   ],
 
   // html inserted as your widget
@@ -26,7 +26,7 @@ webring = {
 };
 
 // code
-webring.index = location.href.startsWith("file://") ? 0 : webring.sites.findIndex(url => location.href.startsWith(url));
+webring.index = location.href.startsWith("https://localhost/") ? 0 : webring.sites.findIndex(url => location.href.startsWith(url));
 if (webring.index === -1) document.currentScript.outerHTML = webring.error;
 else {
 //  let sheet = document.createElement("link");
@@ -41,7 +41,7 @@ delete webring;
 
 	function makeswf(NAME, PREV, NEXT, RANDO){
 		console.log("running logic for making flash");
-		var att = { data:"https://downloads.thepersonever.net/webring/flash/"+NAME+".swf", width:"100%", height:"100%" };
+		var att = { data: "https://downloads.thepersonever.net/webring/flash/"+NAME+".swf", width:"100%", height:"100%" };
 		var par = { flashVars:"previous="+PREV+"&next="+NEXT+"&random="+RANDO };
 		var id = "swfdiv";
 		swfobject.createSWF(att, par, id);
