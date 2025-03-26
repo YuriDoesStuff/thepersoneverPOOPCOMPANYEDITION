@@ -29,6 +29,12 @@
       "title": "transitions...",
       "date_published": "4/29, 2024",
       "content_html": "yesterday, i created the function for changing which room you're in!<br>in the flash i'm basing my game off of, only one area (or room of june's house) is loaded at a time. when a door is clicked, the game goes through a transition before loading another area!<br>to recreate this function in godot, i had to first create the transitions, then set up the code to change the area scene. due to the modularity of scenes, i wanted to create a door scene that would have dynamically changed properties defined by the area, and have those atributes read by the root script to decide what would happen. i was able to create the transitions and door-thing easily, but i had trouble with changing the world's scene... i have the world set on a scene *within* the root node, and wanted to only change that scene. creating multiple scenes for different spaces seemed... unnecessary. unfortunatly, i could only find tutorials on how to change the root scene online! i ended up having to create a child of the root node with a different name, renaming the original scene, deleting the original scene, and then finally naming the new scene with the original's name.<br>that's it for today's log, i'll be working on the next room as soon as i can!! :D"
+    },
+    {
+	"id":"5",
+	"title":"LOST MEDIA???",
+	"date_published":"3/26, 2025",
+	"content_html":"ok so. a while ago i was poking around my old discord dms with scalarknight. and i was like \"oh yeah the walkaround exists! let's go find the project files :D\" <br> and i couldnt find them <br> at ALL <br> so yeah. bloodbound walkaround is LOST MEDIA?????? :( <br> idk maybe i'll learn godot when i'm satisfied with my flash skills"
     }
   ]
   
