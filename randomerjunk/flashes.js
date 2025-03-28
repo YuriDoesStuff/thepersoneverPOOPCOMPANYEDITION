@@ -60,11 +60,11 @@ function changeflash(num){
 	document.getElementById('swfwrapper').style.maxWidth = flashes[num].width;
 	document.getElementById('swfwrapper').style.backgroundColor = flashes[num].color;
 	
-	if(flashes[num].comment != null){
+	if(flashes[num].comment != undefined){
 		document.getElementById("commentbox").innerHTML = flashes[num].comment;
 	}
 	else{
-		console.log("commentbox")
+		document.getElementById("commentbox").innerHTML = "";
 	}
 	
 	changeurl(flashes[num].url);

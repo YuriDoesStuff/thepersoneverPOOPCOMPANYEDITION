@@ -1,12 +1,49 @@
 {
   "flashes": [
+  		{"title":"preloader test",
+		"loc":"flashes/preloadertest.swf",
+		"url":"preloadertest",
+		"width":"550px",
+		"height":"400px",
+		"color":"#ffffff"
+		},
+		{"title":"I CAN IMAGINE ANYTHING",
+		"loc":"flashes/PIanything.swf",
+		"url":"PIanything",
+		"width":"650px",
+		"height":"450px",
+		"color":"#ffffff"
+		},
+		{"title":"[s] aw, crumpets! twitter video",
+		"loc":"flashes/thebible_twitter.swf",
+		"url":"awcrumpets",
+		"width":"600px",
+		"height":"600px",
+		"color":"#ffffff",
+		"comment":"unfinished animation i was going to post on twitter to premote <i>aw, crumpets!</i> <br> i'm still not british"
+		},
+      	{"title":"fighting game jump &quot;recording&quot;",
+		"loc":"flashes/fightgame_jumprec.swf",
+		"url":"fgjr",
+		"width":"550px",
+		"height":"400px",
+		"color":"#999999",
+		"comment":"really old - made to showcase an idea i had for a jumping move in a fighting game. i showcased it poorly"
+		},
+    	{"title":"tablet test",
+		"loc":"flashes/tablettest.swf",
+		"url":"tablettest",
+		"width":"550px",
+		"height":"400px",
+		"color":"#ffffff",
+		"comment":"made this to test out my drawing tablet in flash"
+		},
   		{"title":"skaia lights test",
 		"loc":"flashes/skaialightstest.swf",
 		"url":"SLT",
-		"width":"650px",
-		"height":"450px",
-		"color":"#000000",
-		"comment":"none lolll!"
+		"width":"550px",
+		"height":"400px",
+		"color":"#000000"
 		}
 	]
 }
