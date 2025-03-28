@@ -16,6 +16,28 @@
   background-repeat: repeat;
 }
 </style>
+
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+<script>
+
+window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+	"preferredRenderer": "canvas",
+	"quality":"low",
+    "autoplay":"on",
+    "unmuteOverlay":"hidden",
+    "letterbox":"off",
+    "showSwfDownload":true,
+    "splashScreen":false,
+    "menu": false,
+    "allowFullscreen": false,
+	"wmode":"transparent",
+	"allowScriptAccess": true
+};
+
+</script>
+
   </head>
   <body>
 <center>
@@ -23,16 +45,26 @@
 <h1 style=position:absolute;top:-40px;left:5px><span>flashes!</span></h1>
 <a href=home.html style=position:absolute;top:70px;left:5px><span>back home</span></a>
 
-<script src=flashes.js>
+<script src=/js/swfobject.js defer>
 </script>
-<h1><br></h1>
-<iframe id=player src=/flashes/testflash/testflash.html style="width: 100%; max-width: 640px; aspect-ratio: 4/3; border: 0px;" scrolling=no frameBorder="0"></iframe>
 
-<p></p>
+<h1><span id=title>woof</span></h1>
 
-<div style="height:justify;width:950px; background-color:white;">
-<a href=#testflash onclick="testflash();">test flash</a>
+<div id="swfwrapper" style="width: 100%; max-width: 400px; height: 500px; overflow: hidden; margin: auto; text-align: center; background-size: auto 100%; background-position: center; background-repeat: no-repeat;">
+<div id=swfdiv>
+
 </div>
+</div>
+
+<!-- <iframe id=player src=/flashes/testflash/testflash.html style="width: 100%; max-width: 640px; aspect-ratio: 4/3; border: 0px;" scrolling=no frameBorder="0"></iframe> -->
+
+<p><span id="commentbox"></span></p>
+
+<div id="selector" style="height:justify;width:950px; background-color:white;">
+</div>
+
+<script src=flashes.js defer>
+</script>
 
 </center>
   </body>
