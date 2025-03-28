@@ -39,7 +39,7 @@ function start(firstrun){
  function addlink(currentnum){
 var newlink = document.createElement("a");
 var a = document.createElement("a");
-a.innerHTML = `&nbsp;`;
+a.innerHTML = `&nbsp;-&nbsp;`;
 newlink.innerHTML =  `<span>`+flashes[currentnum].title+`</span>`;
 newlink.href = "javascript:changeflash("+currentnum+");";
 newlink.onclick = changeflash.bind(newlink, currentnum);
@@ -49,7 +49,6 @@ links.appendChild(newlink);
 	links.appendChild(a);
 	currentnum += 1;
 	addlink(currentnum);
-	console.log("PEEENIS");
   }
 }
 
@@ -73,5 +72,5 @@ function changeflash(num){
 
 function changeurl(get){
 var stateObj = { foo: "bar" };
-   history.pushState(stateObj, "page 2", "flashes.html?f=" + get);
+   history.pushState(stateObj, "page 2", "flashes?f=" + get);
 }
