@@ -9,6 +9,16 @@
 				text-align: center;
 				font-family: Courier New;
 			}
+			
+			#swfwrapper{
+				position: relative; bottom: 0; overflow: hidden; margin: auto; text-align: center; width: 60vw; aspect-ratio: 2.51/1;
+			}
+			
+			  @supports not (aspect-ratio: 2.51/1;) {
+				#swfwrapper{
+					width: 816px; height: 325px; 
+				}
+			  }
 			  @media (max-width: 1000px) {
 				a{
 					font-size: 0.5in;
@@ -56,7 +66,7 @@
 		</div>
 	<div style="transform: translateX(-20vw)">
 		<script src=/js/swfobject.js defer></script>
-		<div id="swfwrapper" style="position: relative; bottom: 0; overflow: hidden; margin: auto; text-align: center; width: 60vw; aspect-ratio: 2.51/1;">
+		<div id="swfwrapper">
 			<div id=swfdiv>
 
 			</div>
