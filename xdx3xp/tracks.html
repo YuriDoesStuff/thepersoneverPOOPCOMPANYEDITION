@@ -34,8 +34,7 @@ window.RufflePlayer.config = {
     "menu": false,
     "allowFullscreen": false,
 	"wmode":"transparent",
-	"allowScriptAccess": true,
-	"base":"/xdx3xp/js/"
+	"allowScriptAccess": true
 };
 
 </script>
@@ -80,7 +79,7 @@ function changeurl(get){
 
 setTimeout( callbackFunction, 1000 );
 function callbackFunction(){
-  var att = { data:"js/ipod.swf", width:"100%", height:"100%" };
+  var att = { data:"js/ipod.swf", width:"100%", height:"100%", wmode:"transparent"};
   var par = { FlashVars:"song="+index};
   var id = "swfdiv";
   swfobject.createSWF(att, par, id);
