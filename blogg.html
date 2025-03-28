@@ -30,7 +30,14 @@ footer{
 }
 
 			.blog{
-			aspect-ratio:4/3; width: 90%;
+			aspect-ratio:4/3!important; width: 90%;
+			
+			}
+			
+			@supports not (aspect-ratio:4/3) {
+				.blog {
+					height: 80vh;
+				}
 			}
     
   @media (max-width: 800px) {
