@@ -61,7 +61,7 @@ a few things of note...
 
 <script src=/js/swfobject.js defer>
 </script>
-<div id="swfwrapper" style="width: 100%; max-width: 400px; aspect-ratio: 13/9; overflow: hidden; margin: auto; text-align: center; background-image: url('images/enterload.jpg'); background-size: auto 100%; background-position: center; background-repeat: no-repeat;">
+<div id="swfwrapper" style="width: 100%; max-width: 480px; height: 330px; overflow: hidden; margin: auto; text-align: center; background-image: url('images/enterload.jpg'); background-size: auto 100%; background-position: center; background-repeat: no-repeat;">
 <div id=swfdiv>
 
 </div>
@@ -70,7 +70,7 @@ a few things of note...
 <script>
 setTimeout( callbackFunction, 1000 );
 function callbackFunction(){
-  var att = { data:"/flashes/tpeintro.swf", width:"100%", height:"100%" };
+  var att = { data:"/flashes/tpeintro.swf", width:"100%", height:"100%", wmode:"transparent" };
   var par = { shit:"foo=bar" };
   var id = "swfdiv";
   swfobject.createSWF(att, par, id);
