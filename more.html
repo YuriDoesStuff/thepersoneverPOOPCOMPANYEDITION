@@ -26,15 +26,16 @@ window.RufflePlayer.config = {
 	"renderer":"canvas",
 	"contextMenu":"off"
 }
-window.RufflePlayer.container.hidden = true;
+
 </script>
    <style>
      .flashdiv{
-	   width: 100%; max-width: 640px; aspect-ratio: 4/3; overflow: hidden; margin: auto; text-align: center; background-image: url('flashes/temshopcs6.png'); background-size: auto 100%; background-position: center; background-repeat: no-repeat;
+	   width: 100%; max-width: 640px; height: 480px; aspect-ratio: 4/3!important; overflow: hidden; margin: auto; text-align: center; background-image: url('flashes/temshopcs6.png'); background-size: auto 100%; background-position: center; background-repeat: no-repeat;
      }
      @media (width < 800px){
        .flashdiv {
          width:100vw;
+		 height: unset;
        }
      }
     </style>
@@ -54,10 +55,10 @@ window.RufflePlayer.container.hidden = true;
 
        <script src=/js/swfobject.js defer>
 </script>
-<!-- <div id=hidder style="height: 100%; max-width: 640px; aspect-ratio: 4/3; display: none;"> -->
-<div id=swfdiv>
-</div>
-<!-- </div> -->
+
+	<div id=swfdiv>
+	</div>
+
 <script>
 setTimeout( callbackFunction, 1000 );
 function callbackFunction(){
