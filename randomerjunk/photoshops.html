@@ -17,59 +17,97 @@
 }
 
 
-.maindiv{
-height:auto;
-width:55vw; 
-background-color:white;
-}
-
-#clickto{
-position:absolute;top:50px; right: 280px; z-index: -1;
-}
-
-#bigimg > img{
-width: 100%;
-}
-
-  @media (max-width: 800px) {
-	.maindiv{
-	width: 100%;
-	}
-	#clickto{
-	right: 0;
-	}
-}
-
-</style>
+      .preview{
+        height: 30vh;
+        cursor: pointer;
+      }
+	  
+	  .mainimg{
+	  max-width:60%; 
+	  max-height: 80vh;
+	  cursor: pointer;
+	  }
+        
+		  @media (max-width: 800px) {
+				.preview{
+					height: unset;
+					max-width: 100%;
+				}
+				.mainimg{
+				width: 100%;
+				max-width: unset;
+				max-height: unset;
+				}
+				#bannerh1{
+				transform:translateY(50%);
+				}
+			}
+    </style>
   </head>
   <body>
-<center>
-
+  
+    <center>
 <h1 style=position:absolute;top:-40px;left:5px><span>photoshops!</span></h1>
 <a href=home.html style=position:absolute;top:70px;left:5px><span>back home</span></a>
 
-<script src=photoshops.js>
-</script>
+	  
+        <h1 id=bannerh1><span id=banner><br></span></h1>
 
-<img src=images/clickto.png width=150px id=clickto>
-god these are so old
-<h2><br></h2>
+<a id=bigimg onclick=none()></a>
 
-<div class=maindiv>
-<a id=bigimg></a>
-<br>
-<img src=/images/neilcloud.png width=300px id=neilcloud onclick=neilcloud()>
-<img src=/images/musicicon.png width=300px id=skippy onclick=skippy()>
-<img src=https://i.imgur.com/6XmsMCk.jpg width=300px id="spirithell" onclick="spirithell()">
-<img src=https://i.imgur.com/GWmpJk5.png width=300px id="thanksnotreal" onclick="thanksnotreal()">
-<img src=https://i.imgur.com/aGQFtQt.jpg width=300px id="viewmonster" onclick="viewmonster()">
-<img src=https://i.imgur.com/ixCyvpM.png width=300px id="wall" onclick="wall()">
-<img src=https://i.imgur.com/4kkS9xq.jpg width=300px id="monstermonster" onclick="monstermonster()">
-<img src=https://i.imgur.com/rt1wxP6.jpg width=300px id="car" onclick="car()">
-<img src=https://i.imgur.com/SIyDEqc.jpg width=300px id="peter" onclick="peter()">
-<img src=https://i.imgur.com/6EU1A40.jpg width=300px id="california" onclick="california()">
+ <div id=slides style="height:justify;width:60%;">
+
+<img src=https://i.imgur.com/ltYd2zZ.png class=preview id=TEOnekoweb alt="the entire internet: the end of nekoweb" onclick='yeah("TEOnekoweb")'>
+<img src=https://i.imgur.com/YHeuRfX.png class=preview id=idiot alt="idiot" onclick='yeah("idiot")'>
+<img src=https://i.imgur.com/lgQfg1T.png class=preview id=egbertstuck alt="EGBERT HOMESTUCK: THE THOUSAND YEAR session" onclick='yeah("egbertstuck")'>
+<img src=/images/neilcloud.png class=preview id=neilcloud alt="neilcloud" onclick='yeah("neilcloud")'>
+<img src=https://i.imgur.com/HoAQMs3.png class=preview id=toxiceryuri alt="toxicer yuri (also hi ren)" onclick='yeah("toxiceryuri")'>
+<img src=https://i.imgur.com/L7JDmWy.png class=preview id=pikstuck alt="pikstuck" onclick='yeah("pikstuck")'>
+<img src=/images/musicicon.png class=preview id=skippy alt="damn skippy recreation" onclick='yeah("skippy")'>
+<img src=https://i.imgur.com/6XmsMCk.jpg class=preview id=spirithell alt="spirithell" onclick='yeah("spirithell")'>
+<img src=https://i.imgur.com/GWmpJk5.png class=preview id=thanksnotreal alt="nature tapes recreation" onclick='yeah("thanksnotreal")'>
+<img src=https://i.imgur.com/aGQFtQt.jpg class=preview id=viewmonster alt="view monster recreation" onclick='yeah("viewmonster")'>
+<img src=https://i.imgur.com/ixCyvpM.png  class=preview id=wall alt="i peed myself :(" onclick='yeah("wall")'>
+<img src=https://i.imgur.com/4kkS9xq.jpg class=preview id=monstermonster alt="the monster monster" onclick='yeah("monstermonster")'>
+
+
 </div>
-
-</center>
+        <p><a href=/computer/><span>back</span></a></p>
+        
+  
+  <script>
+  function yeah(p1){
+  document.getElementById("banner").innerHTML = document.getElementById(p1).alt;
+  document.getElementById("bigimg").innerHTML = "<img src="+ document.getElementById(p1).src + " class=mainimg><h1></h1>";
+    editpreview("auto", "20vh");
+    document.getElementById("slides").style.width = "80%";
+ 
+  }
+  function none(){
+    document.getElementById("banner").innerHTML = "<br>";
+    document.getElementById("bigimg").innerHTML ="";
+    editpreview("inherent", "inherent", true);
+    
+    document.getElementById("slides").style.width = "60%";
+  }
+    
+   function editpreview(width, height, remove){
+        var elements = document.querySelectorAll('.preview');
+        if (remove == true){
+          console.log("UGH");
+              for(var i=0; i<elements.length; i++){
+                 elements[i].style.removeProperty('width');;
+                  elements[i].style.removeProperty('height');
+               }
+        }
+        else{
+              for(var i=0; i<elements.length; i++){
+                 elements[i].style.width = width;
+                  elements[i].style.height = height;
+               }
+            }
+         }
+  </script>
+    </center>
   </body>
 </html>

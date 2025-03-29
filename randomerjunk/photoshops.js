@@ -75,7 +75,10 @@ function california(){
   hunpix();
 }
 
-/*<img src=https://i.imgur.com/6XmsMCk.jpg width=300px id="spirithell" onclick="spirithell()">
+/*
+<img src=/images/neilcloud.png width=300px id=neilcloud onclick=neilcloud()>
+<img src=/images/musicicon.png width=300px id=skippy onclick=skippy()>
+<img src=https://i.imgur.com/6XmsMCk.jpg width=300px id="spirithell" onclick="spirithell()">
 <img src=https://i.imgur.com/GWmpJk5.png width=300px id="thanksnotreal" onclick="thanksnotreal()">
 <img src=https://i.imgur.com/aGQFtQt.jpg width=300px id="viewmonster" onclick="viewmonster()">
 <img src=https://i.imgur.com/ixCyvpM.png width=300px id="wall" onclick="wall()">
