@@ -9,7 +9,7 @@ function showrev(){
 function spike(){
  document.getElementById('title').innerHTML= '<span>Elvis Costello - Spike</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/kimh6ae.jpg");  
- document.getElementById('para').innerHTML = '<span>this isn&apos;t my favorite album, but it still holds a special place in my heart. my dad gave me this cd when i first got a walkman, and thus i&apos;ve listened to it for... a while. again, it&apos;s not my favorite album anymore, but it&apos;s still good! <br> the instrumentals are pretty alright, and the lyrics are great on their own, but i feel like elvis&apos;s incredible performance distracts from them. <br> spike is still great though! i like it a lot :) <br><br> 7/10 - favorite track: ms macbeth </span>'; 
+ document.getElementById('para').innerHTML = '<span>i like this one a lot <br> my dad gave me this cd when i first got a walkman, and thus i&apos;ve listened to it for... a while. it&apos;s not my favorite album anymore, but it&apos;s still really good! <br> the instrumentals range from pretty good to pretty great, and the lyrics are always poignant <br>i usually get distracted from the lyrics because i focus more on the instrumentals but i think that&apos;s just a me thing<br><br> 7/10 - favorite track: coal train robberies </span>'; 
 }
 
 function dookie(){
