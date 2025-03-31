@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>portfolio</title>
+		<style>
+			body{
+				background: linear-gradient(#eeeeee, #d6d6d6);
+				min-height: 100vh;
+				height: 100%;
+				
+				margin: auto;
+				text-align: center;
+				font-family: Courier New;
+			}
+			
+			#imgdiv > img{
+			max-width: 30vw;
+			}
+			
+			#swfwrapper{
+				overflow: hidden;
+			}
+		</style>
+		
+		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+		<script>
+			window.RufflePlayer = window.RufflePlayer || {};
+			window.RufflePlayer.config = {
+				"preferredRenderer": "canvas",
+				"quality":"low",
+				"autoplay":"on",
+				"unmuteOverlay":"hidden",
+				"letterbox":"off",
+				"showSwfDownload":false,
+				"splashScreen":false,
+				"allowFullscreen": false,
+				"wmode":"transparent",
+				"allowScriptAccess": true
+			};
+		</script>
+	</head>
+	<body>
+
+	<p>i've never needed a portfolio before so i just made this kinda quick haha</p>
+	
+	<h2>drawings</h2>
+	
+	<div id=imgdiv><img src=/images/umcrop.png>
+	<br><img src=https://i.imgur.com/AME6er8.jpg>
+	</div>
+	
+	<h2>flashes</h2>
+	
+	<h3>pikitory (incredibly unfinished)</h3>
+	<div id="swfwrapper" style="width: 650; height: 450px;">
+		<div id="/flashes/pikitory.swf">
+		</div>
+	</div>
+	
+	<h3>psfla page 43</h3>
+	<div id="swfwrapper" style="width: 650; height: 450px;">
+		<div id="/flashes/00043.swf">
+		</div>
+	</div>
+	
+	
+	<script src=/js/swfobject.js defer></script>
+	<script>
+	setTimeout( callbackFunction, 1000, "/flashes/pikitory.swf", "650", "450");
+	setTimeout( callbackFunction, 1000, "/flashes/00043.swf", "600", "450");
+	function callbackFunction(url, widthpara, heightpara){
+		var att = { data:url, width:widthpara, height:heightpara, wmode:"transparent"};
+		var par = {foo:"bar"};
+		var id = url;
+		swfobject.createSWF(att, par, id);
+	}
+	</script>
+
+	</body>
+</html>
