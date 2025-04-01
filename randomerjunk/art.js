@@ -3,6 +3,9 @@ document.getElementById('hide').style.display = 'inline';
 document.getElementById("div").style.backgroundImage = "url(images/looseleaf.jpeg)";
 document.getElementById("div").style.backgroundSize = "500px";
 document.getElementById('innerbleh').innerHTML = `
+<h2><span>you know how sometimes the back of your head gets fuzzy</span></h2> <img src=https://i.imgur.com/4VM63WE.jpeg width=500px>
+<h2><span>made this in capitalism class</span></h2> <img src=https://i.imgur.com/jCNrlL9.jpeg width=500px>
+<h2><span>THE ANTI SICKNESS</span></h2> <img src=https://i.imgur.com/T8qDty7.jpeg width=500px>
 <h2><span>girl harried</span></h2> <img src=https://i.imgur.com/F4sNMlM.jpeg width=500px>
 <h2><span>rewritten...</span></h2> <img src=https://i.imgur.com/vro31R1.jpeg width=500px>
 <h2><span>side harley</span></h2> <img src=https://i.imgur.com/DQ3S8Oe.jpeg width=500px>
