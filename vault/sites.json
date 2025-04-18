@@ -55,6 +55,13 @@
             "image":"phone",
             "desc":"back before i knew about responsive CSS, i tried to make a mobile version of my entire website - subsites and all. it didn't really work well though, due to the fact i JUST used css and static html!! i wasn't able nor cared enough to keep up with everything i did on the main site, so scope issues killed TPE mobile early"
         },
+		"tests":{
+            "siteurl":"https://thepersonever.net/tests/",
+            "sitename":"tests",
+            "timerange":"late 2022 - aug. 2024 ",
+            "image":"tests",
+            "desc":"before this site was made locally (and synced with git), i tested things on my site with the neocities and nekoweb ides! the linked page holds a collection of tests and unfinished pages from that era. you can also see how much better my art has gotten even since making this flash lol"
+        },
         "infobutton":{
             "siteurl":"https://github.com/rosefloase/tpevault",
             "sitename":"vault",
