@@ -10,27 +10,16 @@
 				font-family: Courier New;
 			}
 			
-			#swfwrapper{
-				position: relative; bottom: 0; overflow: hidden; margin: auto; text-align: center; width: 60vw; aspect-ratio: 2.51/1;
-			}
-			
-			  @supports not (aspect-ratio: 2.51/1;) {
-				#swfwrapper{
-					width: 816px; height: 325px; 
-				}
-			  }
 			  @media (max-width: 1000px) {
 				a{
 					font-size: 0.5in;
-				}
-				#swfwrapper{
-					width: 100vw; max-width: 100%; height: unset; max-height: unset;
 				}
 			}
 
   .container{
   max-width: 60vw;
   margin: auto;
+  float: left;
   }
   .contained{
   display: inline-block;
@@ -38,24 +27,6 @@
   vertical-align: top;
   }
 		</style>
-		
-		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-		<script>
-			window.RufflePlayer = window.RufflePlayer || {};
-			window.RufflePlayer.config = {
-				"preferredRenderer": "canvas",
-				"quality":"low",
-				"autoplay":"on",
-				"unmuteOverlay":"hidden",
-				"letterbox":"off",
-				"showSwfDownload":true,
-				"splashScreen":false,
-				"menu": false,
-				"allowFullscreen": false,
-				"wmode":"transparent",
-				"allowScriptAccess": true
-			};
-		</script>
 	</head>
 	<body>
 		<div style="position: absolute; display: block; z-index: 20; right: 0; text-align: left; max-width: 40vw;">
@@ -64,15 +35,8 @@
 			<h1 id="bigtitle"></h1>
 			<p id="bigdescription"></p>
 		</div>
-	<div style="transform: translateX(-20vw)">
-		<script src=/js/swfobject.js defer></script>
-		<div id="swfwrapper">
-			<div id=swfdiv>
-
-			</div>
-		</div>
-			
 		<div class=container>
+					<img src=images/goodscale.gif style="width: 100%; image-rendering: pixelated;">
 			<div class=contained id="psy">
 			</div>
 			<div class=contained id="pikmin">
@@ -83,15 +47,7 @@
 			</div>
 		</div>	
 
-		<script>
-			setTimeout( callbackFunction, 1000 );
-				function callbackFunction(){
-				var att = { data:"goodscale.swf", width:"100%", height:"100%" };
-				var par = { shit:"foo=bar" };
-				var id = "swfdiv";
-				swfobject.createSWF(att, par, id);
-			} 
-		
+		<script>		
 			var tiernumber = 0;
 			var firsttime = true;
 
