@@ -9,13 +9,13 @@ function showrev(){
 function spike(){
  document.getElementById('title').innerHTML= '<span>Elvis Costello - Spike</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/kimh6ae.jpg");  
- document.getElementById('para').innerHTML = '<span>i like this one a lot <br> my dad gave me this cd when i first got a walkman, and thus i&apos;ve listened to it for... a while. it&apos;s not my favorite album anymore, but it&apos;s still really good! <br> the instrumentals range from pretty good to pretty great, and the lyrics are always poignant <br>i usually get distracted from the lyrics because i focus more on the instrumentals but i think that&apos;s just a me thing<br><br> 7/10 - favorite track: coal train robberies </span>'; 
+ document.getElementById('para').innerHTML = '<span>i like this one a lot <br> my dad gave me this cd when i first got a walkman, and thus i&apos;ve listened to it for... a while. it&apos;s not my favorite album anymore, but it&apos;s still really good! <br> the instrumentals range from pretty good to pretty great, and the lyrics are always poignant <br>i usually get distracted from the lyrics because i focus more on the instrumentals but i think that&apos;s just a me thing<br><br> 6/10 - favorite track: coal train robberies </span>'; 
 }
 
 function dookie(){
  document.getElementById('title').innerHTML= '<span>Green Day - Dookie</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/E5fGWPG.jpg");  
- document.getElementById('para').innerHTML = '<span>a pretty good album, focusing on a shit(ish) guy with a shit life<br><br> 7/10 - favorite track: welcome to paradise</span>'; 
+ document.getElementById('para').innerHTML = '<span>a pretty good album, focusing on a shit(ish) guy with a shit life. i don&apos;t think there&apos;s a track in this album i don&apos;t like!<br><br> 7/10 - favorite track: welcome to paradise</span>'; 
 }
 
 function americanidiot(){
@@ -75,25 +75,25 @@ function damnskippy(){
 function httj(){
  document.getElementById('title').innerHTML= '<span>Lemon Demon - First 3 Albums (burned cds)</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/SiMVuZD.jpg");  
- document.getElementById('para').innerHTML = '<span>i burnt these 3 albums on blank cds back in 2022, so i&apos;m just gonna talk about each of them here. don&apos;t wanna write more javascript! <br> hip to the javabean - most developed lemon demon album for its time! apparently, this the first studio album, and it really shows in the mixing... <br> 7/10 - favorite track: relativity <br> live from the haunted candle shop - while not amazing, i love how insane it is. only for real lemonheads<br> 8/10 - favorite track: mold el mono <br> clown circus - this was first lemon demon album, and it definitely feels like it. there&apos;s a lot of filler, but the better songs are still! pretty good! <br> 6/10 - favorite track: fire motif</span>'; 
+ document.getElementById('para').innerHTML = '<span>i burnt these 3 albums on blank cds back in 2022, so i&apos;m just gonna talk about each of them here. don&apos;t wanna write more javascript! <br> hip to the javabean - most developed lemon demon album for its time! apparently, this the first studio album, and it really shows in the mixing... <br> 6/10 - favorite track: relativity <br> live from the haunted candle shop - while not amazing, i love how insane it is. only for real lemonheads<br> 7/10 - favorite track: mold el mono <br> clown circus - this was first lemon demon album, and it definitely feels like it. there&apos;s a lot of filler, but the better songs are still! pretty good! <br> 5/10 - favorite track: fire motif</span>'; 
 }
 
 function astrolounge(){
  document.getElementById('title').innerHTML= '<span>Smash Mouth - Astro Lounge</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/GR52CIH.jpg");  
- document.getElementById('para').innerHTML = '<span>"what did you think of this album" its pretty good <br> the instrumentals are... alright, and the lyrics are... kinda interesting! (more interesting than some other music ive listened to...) but other than that, its just... good <br><br> 7/10 - favorite track: radio</span>'; 
+ document.getElementById('para').innerHTML = '<span>"what did you think of this album" its pretty good <br> the instrumentals are pretty alright, and the lyrics range from kinda to pretty interesting! but other than that, its just... generally good <br><br> 7/10 - favorite track: radio</span>'; 
 }
 
 function goodbye4track(){
  document.getElementById('title').innerHTML= '<span>Logan Whitewurst - Goodbye, My 4-Track</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/lZTArdP.jpg");  
- document.getElementById('para').innerHTML = '<span>this is such a silly album oh my god :3 <br> if you&apos;re having a bad day, give this album a listen!!! it has tons of soundbytes, irreverent lyrics, and a cozy texture to each song <br> there&apos;s also some more sentimental songs in it, which i enjoy a LOT as well<br><br> 8/10 - favorite track: do the confusion/your brain fell out</span>'; 
+ document.getElementById('para').innerHTML = '<span>this is such a silly album i love it <br> if you&apos;re having a bad day, give this album a listen!!! it has tons of soundbytes, irreverent lyrics, and a nice, comfortable texture to each song <br> there&apos;s also some more sentimental songs in it, which i enjoy a LOT as well<br><br> 8/10 - favorite track: do the confusion/your brain fell out</span>'; 
 }
 
 function simpsons(){
  document.getElementById('title').innerHTML= '<span>The Simpsons Sing the Blues</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/HiKEmcW.jpg");  
- document.getElementById('para').innerHTML = '<span>i dont actually like this album <br> it just feels like it was made for people to go "oh wow the simpsons music!!!! ill take 10 please". that trick worked on me as evident here <br>i just don&apos;t think the music is for me. also there&apos; the white people blues thing <br><br> 4/10 - favorite song: look at all those idiots </span>'; 
+ document.getElementById('para').innerHTML = '<span>i dont actually like this album <br> it just feels like it was made for people to go "oh wow the simpsons music!!!! ill take 10 please". that trick worked on me as evident here <br>i just don&apos;t think the music is for me. <br><br> 4/10 - favorite song: look at all those idiots </span>'; 
 }
 
 function tommy(){
@@ -136,5 +136,5 @@ function normalalbum(){
 function eial(){
  document.getElementById('title').innerHTML= '<span>Will Wood - Everything is a Lot</span>';
  document.getElementById('image').setAttribute("src", "/images/albums/eial.jpg");  
- document.getElementById('para').innerHTML = '<span>--bought digitally -- <br><br> this album is... alright <br> i think i listen to will wood for the #mental illness music #not for the downward spiral of a divorced man <br> ...the instrumentals are great, if a little repetitive throughout the album due to using the same ish set of instruments being used for each song <br><br> 7/10 - favorite track: front street</span>'; 
+ document.getElementById('para').innerHTML = '<span>--bought digitally -- <br><br> this album is... alright <br> i think i listen to will wood for the #mental illness music #not for the downward spiral of a divorced man <br> ...the instrumentals are great, but can feel a little repetitive throughout the album due to using the same ish set of instruments being used for each song <br><br> 7/10 - favorite track: front street</span>'; 
 }
