@@ -9,13 +9,13 @@ function showrev(){
 function spike(){
  document.getElementById('title').innerHTML= '<span>Elvis Costello - Spike</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/kimh6ae.jpg");  
- document.getElementById('para').innerHTML = '<span>i like this one a lot <br> my dad gave me this cd when i first got a walkman, and thus i&apos;ve listened to it for... a while. it&apos;s not my favorite album anymore, but it&apos;s still really good! <br> the instrumentals range from pretty good to pretty great, and the lyrics are always poignant <br>i usually get distracted from the lyrics because i focus more on the instrumentals but i think that&apos;s just a me thing<br><br> 6/10 - favorite track: coal train robberies </span>'; 
+ document.getElementById('para').innerHTML = '<span>i like this one a lot <br> my dad gave me this cd when i first got a walkman, and thus i&apos;ve listened to it for... a while. it&apos;s not my favorite album anymore, but it&apos;s still really good! <br> the instrumentals range from pretty good to pretty great, and the lyrics are always poignant <br>i usually get distracted from the lyrics because i focus more on the instrumentals but i think that&apos;s just a me thing<br><br> 7/10 - favorite track: coal train robberies </span>'; 
 }
 
 function dookie(){
  document.getElementById('title').innerHTML= '<span>Green Day - Dookie</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/E5fGWPG.jpg");  
- document.getElementById('para').innerHTML = '<span>a pretty good album, focusing on a shit(ish) guy with a shit life. i don&apos;t think there&apos;s a track in this album i don&apos;t like!<br><br> 7/10 - favorite track: welcome to paradise</span>'; 
+ document.getElementById('para').innerHTML = '<span>a pretty good album, focusing on a shit(ish) guy with a shit life. i don&apos;t think there&apos;s a track in this album i don&apos;t like!<br><br> 8/10 - favorite track: welcome to paradise</span>'; 
 }
 
 function americanidiot(){
