@@ -65,7 +65,7 @@
 
 			function addlog(currentnum, pages){
 				var newlink = document.createElement("a");
-				newlink.innerHTML = currentnum;
+				newlink.innerHTML = currentnum+" - "+thoughts[currentnum].month+"/"+thoughts[currentnum].day+"/"+thoughts[currentnum].year ;
 				newlink.style = "display: block;";
 				newlink.href = "thoughts?t="+(currentnum);
 			  
