@@ -3,6 +3,11 @@ document.getElementById('hide').style.display = 'inline';
 document.getElementById("div").style.backgroundImage = "url(images/looseleaf.jpeg)";
 document.getElementById("div").style.backgroundSize = "500px";
 document.getElementById('innerbleh').innerHTML = `
+<h2><span>pikitory practice</span></h2> <img src=https://i.imgur.com/XqZmuhd.jpeg width=500px>
+<h2><span>hi raz</span></h2> <img src=https://i.imgur.com/7WdiFI1.jpeg width=500px>
+<h2><span>EVIL JARGLET</span></h2> <img src=https://i.imgur.com/mnKux6b.jpeg width=500px>
+<h2><span>i like her</span></h2> <img src=https://i.imgur.com/H7U35A1.jpeg width=500px>
+<h2><span>living rent free in my mind.</span></h2> <img src=https://i.imgur.com/6qdz3AN.jpeg width=500px>
 <h2><span>you know how sometimes the back of your head gets fuzzy</span></h2> <img src=https://i.imgur.com/4VM63WE.jpeg width=500px>
 <h2><span>made this in capitalism class</span></h2> <img src=https://i.imgur.com/jCNrlL9.jpeg width=500px>
 <h2><span>THE ANTI SICKNESS</span></h2> <img src=https://i.imgur.com/T8qDty7.jpeg width=500px>
