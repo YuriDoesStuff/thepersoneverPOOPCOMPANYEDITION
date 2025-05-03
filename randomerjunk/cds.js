@@ -6,6 +6,12 @@ function showrev(){
   document.getElementById('review').setAttribute.style.display = "inline";
 }
 
+function maggot(){
+ document.getElementById('title').innerHTML= '<span>Dazey and the Scouts - Maggot</span>';
+ document.getElementById('image').setAttribute("src", "https://i.imgur.com/6HBGVdl.jpeg");  
+ document.getElementById('para').innerHTML = '<span>i kinda just got this album, so this is just a placeholder for now. i usually need a while to think about an album before it fully "clicks"... that&apos;s why my reviews for dookie and american idiot were so shit for a while, and why the reviews for my will wood albums continue to suck... (for now! rah!!!)<br><br> 7/10 <!-- - favorite track: coal train robberies <br> hi! i need to listen to this album more before i have a favorite song for it --></span>'; 
+}
+
 function spike(){
  document.getElementById('title').innerHTML= '<span>Elvis Costello - Spike</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/kimh6ae.jpg");  
@@ -15,13 +21,13 @@ function spike(){
 function dookie(){
  document.getElementById('title').innerHTML= '<span>Green Day - Dookie</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/E5fGWPG.jpg");  
- document.getElementById('para').innerHTML = '<span>a pretty good album, focusing on a shit(ish) guy with a shit life. i don&apos;t think there&apos;s a track in this album i don&apos;t like!<br><br> 8/10 - favorite track: welcome to paradise</span>'; 
+ document.getElementById('para').innerHTML = '<span>a pretty good album, focusing on a lonely guy with a shit life. i really like the moments in the album that focus on how the main character feels, and the shit he does to try and feel like he&apos;s in control <br> i don&apos;t think there&apos;s a track in this album i don&apos;t like!<br><br> 8/10 - favorite track: when i come around</span>'; 
 }
 
 function americanidiot(){
  document.getElementById('title').innerHTML= '<span>Green Day - American Idiot</span>';
  document.getElementById('image').setAttribute("src", "https://i.imgur.com/LOCqguC.jpg");  
- document.getElementById('para').innerHTML = '<span>an incredible album, focusing on a young jesus allegory with a shit upbringing, the queen of arson, and the hellscape that is a 2004 suburb. its got a great story, and captures a lot of emotions incredibly well! please go listen to it<br><br> 9/10 - favorite track: track 2 (jesus of suburbia)/give me novacaine/track 12 (homecoming)/whatsername</span>'; 
+ document.getElementById('para').innerHTML = '<span>an incredible album, focusing on a young jesus allegory with a shit upbringing, the queen of arson, and the hellscape that is a 2004 suburb. its got a great story, and captures a lot of emotions incredibly well! please go listen to it<br><br> 10/10 - favorite track: track 2 (jesus of suburbia)/give me novacaine/track 12 (homecoming)/whatsername</span>'; 
 }
 
 function owt(){
