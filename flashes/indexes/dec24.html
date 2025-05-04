@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proships please don't touch me</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="/icons/tpe.png">
+    <style>
+    
+    body{
+     background-image: url(/images/indexbg.png); 
+    }
+
+    </style>
+    <meta name="description" content="some gayass updates this site a lot... but also only sometimes. blogs, images, and texts, oh my! remember 2 clear your cache!!">
+    <meta name="twitter:image" content="https://thepersonever.neocities.org/images/enter.jpg">
+    <meta name="google-site-verification" content="PppiqZFuPKO11ofNEFo5rQ-uHKuGN4Cx1XauK2Vw6mA" />
+
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+<script>
+
+window.RufflePlayer = window.RufflePlayer || {};
+window.RufflePlayer.config = {
+	"wmode":"transparent",
+	"preferredRenderer": "canvas",
+	"quality":"low",
+    "autoplay":"on",
+    "unmuteOverlay":"hidden",
+    "letterbox":"off",
+    "showSwfDownload":true,
+    "splashScreen":false,
+    "menu": false,
+    "allowFullscreen": false,
+	"allowScriptAccess": true
+};
+
+</script>
+  </head>
+<!--
+sigh... if your seeing this, i assume that your going to look into the contents of each webpage.
+a few things of note... 
+1- almost every comment is just ctrl f fodder... there isnt really any actual documentation
+2- most of these webpages aren't really... constructed great. we've gotten better over time, but theres still a *lot* of work arounds 
+3- this site was not optimized for safari at all... we dont have a mac of any kind
+-js [not javascript that isnt my name!!!! :,(]
+-->
+
+<body style="margin: 0px; background-size: cover;" id="body">
+
+<div id="html" style="margin: auto; text-align: center;">
+<h1><span>I AM A LESBAIN!!!!!!!! RAHHHHHHH</span>
+<br></h1>
+<h3><span>!! <strong>epilepsy warning</strong> !!
+<br> remember 2 clear your cache!! (and to turn on autoplay)
+<br> this site needs javascript to run correctly. click on the enter button when it appears! :D
+<br> <a href=example>if you're on a computer, maybe read this first?</a>
+</span></h3>
+</div>
+
+<script src=/js/swfobject.js defer>
+</script>
+<div id="swfwrapper" style="width: 100%; max-width: 480px; height: 330px; overflow: hidden; margin: auto; text-align: center; background-image: url('/images/enterload.jpg'); background-size: auto 100%; background-position: center; background-repeat: no-repeat;">
+<div id=swfdiv>
+
+</div>
+</div>
+
+<script>
+setTimeout( callbackFunction, 1000 );
+function callbackFunction(){
+  var att = { data:"dec24.swf", width:"100%", height:"100%", wmode:"transparent" };
+  var par = { shit:"foo=bar" };
+  var id = "swfdiv";
+  swfobject.createSWF(att, par, id);
+}
+
+function loaded(){
+document.getElementById("swfwrapper").style.backgroundImage = "unset";
+}
+
+function fullscreenie(){
+document.getElementById("swfwrapper").style = "width: 100vw; height: 100vh; overflow: hidden;";
+document.getElementById("html").style.display = "none";
+document.getElementById("lowerhtml").style.display = "none";
+document.getElementById("body").style.backgroundImage = "url('/images/bggif.gif')";
+}
+
+function resetti(){
+document.getElementById("swfwrapper").style = "width: 100%; max-width: 480px; height: 330px; overflow: hidden; margin: auto; text-align: center;";
+document.getElementById("html").style.display = "block";
+document.getElementById("lowerhtml").style.display = "block";
+document.getElementById("body").style.backgroundImage = "url('/images/indexbg.png')";
+}
+</script>
+
+<center>
+
+</div>
+	
+<div id="lowerhtml">
+    <p>
+		<a href="http://www.mabsland.com/Adoption.html" style="width:88;" target=_blank><img src="/images/web14.gif" title="website content rating - web 14"></a>
+		<br>
+		<a href=https://fairyland.fanlistings.net/pmd/ target=_blank> <img src=/images/pmdfanlist.jpg title="pmd fanlistings"></a>
+		<a href=https://fans.thislove.nu/mozilla/ target=_blank> <img src=/images/ffoxfanlist.png title="firefox fanlistings"></a>
+		<a href=https://fan.kalechips.net/pikmin/ target=_blank><img src=/images/pikfanlist.png title="pikmin fanlistings"></a>
+
+		<br><span><asdf id=updated></asdf>
+		<br><asdf id=visitors></asdf>
+		<br><asdf id=followers></asdf>
+	</span></p> 
+  
+	<p><span>you can find the code to put your stats up on your site 
+		<a href=https://max.nekoweb.org/resources/nekoweb-stats/ target=_blank>here!
+	</a></span></p>
+	
+	<p><span>tested with <a href=https://librewolf.net/ target=_blank>librewolf</a> (firefox) and <a href=https://thorium.rocks/ target=_blank>thorium</a> (chromium), using windows 10
+  <br>flash content runs insane on thorium! check it out if you can</span></p>
+      
+<script>
+
+// this script is under the MIT license (https://max.nekoweb.org/resources/license.txt)
+
+let username = "thepersonever"; // <<<--- Insert your username here!
+
+(async () => {
+  try {
+    const request = await fetch(`https://nekoweb.org/api/site/info/${username}`,);
+    const json = await request.json();
+
+    const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+    const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+    var oldviews = commaize((json.views + 303460));
+	var commaviews = commaize(json.views);
+  
+    if (document.getElementById("updated")) document.getElementById("updated").innerHTML = `<span>last updated ${updated}!</span>`;
+    if (document.getElementById("visitors")) document.getElementById("visitors").innerHTML = `<span>${oldviews} hits (${commaviews} on nekoweb, 303,460 from neocities)</span>`;
+    if (document.getElementById("followers")) document.getElementById("followers").innerHTML = `<span>${json.followers} nekoweb followers :D <a href=https://nekoweb.org/follow/thepersonever target=_blank>join the club!</a></span>`;
+  } catch (error) {
+    console.error(error);
+    // If you wish to insert some fallback here, you may do so!
+  }
+})();
+ 
+function commaize(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+</script>
+</div>
+</center>
+ 
+  </body>
+</html>
