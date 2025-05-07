@@ -1,0 +1,125 @@
+@font-face {
+    font-family:sansation;
+    src: url('/resc/font/Sansation_Regular.ttf')  format("truetype");
+}
+
+body {
+  background-color: #ccffff;
+  color: #000000;
+  font-family:"sansation";
+  padding:1%;	
+}
+
+.postimage{
+max-width: 90%;
+}
+
+#blog{
+ font-size: 0.2in;
+}
+
+.header{
+	width: 60%; 
+	margin: auto;
+	border-style: solid;
+	border-width: medium;
+	border-color: green;
+	border-radius: 3px;
+	height: 12vw;
+	background-color: #e6ffff;
+	position: relative;
+}
+
+.headerimg{
+	height: 12vw; 
+	display: block; 
+	position: absolute; 
+	top: 0px; 
+	border-style: none solid none none; 
+	border-width: medium; 
+	border-color: green;
+}
+
+.main{
+	background-color: #99ff66;
+	
+	border-style: solid solid none solid;
+	border-width: medium;
+	border-color: green;
+	border-radius: 3px;
+}
+
+.body{
+	width: 60%;
+	margin: auto;
+	overflow: auto;
+	background-color: #99ff66;
+	
+	border-style: solid;
+	border-width: medium;
+	border-color: green;
+	border-radius: 3px;
+}
+
+.navtext{
+	text-align: right; 
+	overflow: auto; 
+	height: 12vw;
+}
+
+a:link{
+	color: #00c;
+}
+
+a:visited{
+ color: #000066;
+}
+
+a:hover{
+ color: #b3b3ff;
+}
+
+a:active{
+ color: #ffffff;
+}
+
+h1{
+ font-size: 0.3in;
+}
+
+p{
+ font-size: 0.2in;
+}
+
+a{
+ font-size: 0.25in;
+}
+
+a2{
+ font-size: 0.25in;
+}
+
+.latestpages{
+	display: block; 
+	float: right;
+	text-align: left;
+	width: 35%;
+}
+
+@media screen and (max-device-width: 1024px) {
+
+.body{
+padding: 0;
+margin: auto;
+width: 100%;
+}
+
+.header{
+	width: 100%; 
+}
+
+.latestpages{
+	width: 100%;
+}
+
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' href='/resc/style/main.css' media='screen' type='text/css' />
+	<link rel='stylesheet' href='/resc/style/13337.css' media='screen' type='text/css' />
+	
+		<title>13337</title>
+	
+  </head>
+  <body style="margin:auto; text-align: center;">
+		<div class=header>
+					<div class=navtext> 
+						
+							<a href=/>index</a> <br>
+						
+							<a href=/a/testadventure/1/>test adventure</a> <br>
+						
+					</div>
+				<a href=/><img src=/resc/img/psfla.png class=headerimg></a>
+		</div>
+	<h1>13337</h1>
+	<div class=body>
+		<div id=pagecontent>
+			<img src=../files/terminal.gif>
+			<img src=../files/pages/00001.gif>
+
+			<p> </p>
+
+			
+				<div class=linkdiv>
+					<a2 class=next>&gt; <a class=next href=../2>next page</a></a2>
+				</div>
+			
+			
+			<div style="float: left; display: inline;"> 
+				
+				<div id="controlsdiv">&nbsp;<a href="javascript:savegame();" onclick="">save game</a><a>&nbsp;</a> <a href="javascript:loadgame();">load game</a><a>&nbsp;</a> <a href="javascript:deletegame();">whipe game</a></div>
+			</div>
+			
+			<div id="whendiv" style="float: right; float: bottom; display: inline;">
+				<div id="when">
+					<a href="javascript:alert('drawn by floase')">credits</a>
+					<br> <a2>13337 - page 1 - 7/7/24</a2>
+				</div>
+			</div>
+			
+		<!-- the pagelimit is 2 -->
+	</div>
+	<script>
+function savegame(){
+	localStorage.setItem("13337", 1);
+}
+
+function loadgame(){
+	if (localStorage.getItem("13337")){
+		window.location.href="../"+localStorage.getItem("13337");
+		}
+	else{
+		alert("no save present for this adventure!! click \"save game\" to save your game");
+	}
+}
+
+function deletegame(){
+  
+  if (confirm("deleting your saved game!") == true) {
+  localStorage.removeItem("13337");
+  }
+ }
+
+var chatshown = false;
+
+function showchat(){
+  if (chatshown == false){
+    document.getElementById("talkdiv").style.display = "block";
+    document.getElementById("showchat").id = "hidechat";
+    chatshown = true;
+  }
+  else{
+    document.getElementById("talkdiv").style.display = "none";
+    document.getElementById("hidechat").id = "showchat";
+    chatshown = false;
+  }
+}
+	</script>
+  </body>
+</html>
