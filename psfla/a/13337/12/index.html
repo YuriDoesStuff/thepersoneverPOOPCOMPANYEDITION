@@ -56,13 +56,13 @@
 
 			
 				<div class=linkdiv>
-					<a2 class=next>&gt; <a class=next href=../13>look around for source of pager</a></a2>
+					<a2 class=next>&gt; <a class=next href=../13/>look around for source of pager</a></a2>
 				</div>
 			
 			
 			<div style="float: left; display: inline;"> 
 				
-				<a href="../1/" class="13337">restart</a><a class="small 13337">&nbsp;</a> <a href="../11" class="13337">go back</a>
+				<a href="../1/" class="13337">restart</a><a class="small 13337">&nbsp;</a> <a href="../11/" class="13337">go back</a>
 				
 				<div id="controlsdiv">&nbsp;<a href="javascript:savegame();" onclick="">save game</a><a>&nbsp;</a> <a href="javascript:loadgame();">load game</a><a>&nbsp;</a> <a href="javascript:deletegame();">whipe game</a></div>
 			</div>
@@ -84,7 +84,7 @@ function savegame(){
 
 function loadgame(){
 	if (localStorage.getItem("13337")){
-		window.location.href="../"+localStorage.getItem("13337");
+		window.location.href="../"+localStorage.getItem("13337")/;
 		}
 	else{
 		alert("no save present for this adventure!! click \"save game\" to save your game");
