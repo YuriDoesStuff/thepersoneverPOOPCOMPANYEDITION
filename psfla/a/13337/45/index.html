@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' href='/resc/style/main.css' media='screen' type='text/css' />
+	<link rel='stylesheet' href='/resc/style/13337.css' media='screen' type='text/css' />
+	
+		<title>13337 > Luna: Ask Max to honk the horn, but the horn is a strange invention of science fiction, yet still a truck horn</title>
+	
+	<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script>
+		window.RufflePlayer = window.RufflePlayer || {};
+		window.RufflePlayer.config = {
+			"wmode":"transparent",
+			"preferredRenderer": "canvas",
+			"quality":"low",
+			"autoplay":"on",
+			"unmuteOverlay":"hidden",
+			"letterbox":"off",
+			"showSwfDownload":true,
+			"splashScreen":false,
+			"menu": false,
+			"allowFullscreen": false,
+			"allowScriptAccess": true
+		};
+	</script>
+  </head>
+  <body style="margin:auto; text-align: center;">
+		<div class=header>
+					<div class=navtext> 
+						
+							<a href=/>index</a> <br>
+						
+							<a href=/a/13337/1/>13337</a> <br>
+						
+							<a href=/a/testadventure/1/>test adventure</a> <br>
+						
+					</div>
+				<a href=/><img src=/resc/img/psfla.png class=headerimg></a>
+		</div>
+	<h1>Luna: Ask Max to honk the horn, but the horn is a strange invention of science fiction, yet still a truck horn</h1>
+	<div class=body>
+		<div id=pagecontent>
+		
+		
+			<img src=../files/terminal.gif>
+		 
+		
+			<img src=../files/pages/00045.gif>
+		
+		
+			<br><small>pagetype is image</small>
+			
+			<p><div id=showchat onclick=showchat()></div> <br> <div id=talkdiv><luna>uh <br> hey <br> trucker guy? <br> can you honk the horn, and have the horn be a strange invention of science fiction<br><br> while still being a truck horn</luna><br><trucker><br>... <br></trucker></div></p>
+
+			
+				<div class=linkdiv>
+					<a2 class=next>&gt; <a class=next href=../46>=-></a></a2>
+				</div>
+			
+			
+			<div style="float: left; display: inline;"> 
+				
+				<a href="../1/" class="13337">restart</a><a class="small 13337">&nbsp;</a> <a href="../44" class="13337">go back</a>
+				
+				<div id="controlsdiv">&nbsp;<a href="javascript:savegame();" onclick="">save game</a><a>&nbsp;</a> <a href="javascript:loadgame();">load game</a><a>&nbsp;</a> <a href="javascript:deletegame();">whipe game</a></div>
+			</div>
+			
+			<div id="whendiv" style="float: right; float: bottom; display: inline;">
+				<div id="when">
+					<a href="javascript:alert('drawn and written by floase, prompt by Renaissanceman via psfla forums')">credits</a>
+					<br> <a2>13337 - page 45 - 10/6/24</a2>
+				</div>
+			</div>
+		<!-- the pagelimit is 51 -->
+		</div>
+	</div>
+	<p></p>
+	<div id=lowerbit class=body>
+		<div style="width: 100%; margin: auto; color: black; display: block;">
+			<div style="width: 100%; float: right; background-color: #ffffff; text-align: left; border-radius: 3px; border-color: #ffffff; border-width: medium; ">
+				<p>quickprompt</p>
+				<iframe src="https://www3.cbox.ws/box/?boxid=3539308&amp;boxtag=LOtDw5" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+		</div>
+	</div>
+	
+	<br>
+		
+	
+	<script>
+function savegame(){
+	localStorage.setItem("13337", 45);
+}
+
+function loadgame(){
+	if (localStorage.getItem("13337")){
+		window.location.href="../"+localStorage.getItem("13337");
+		}
+	else{
+		alert("no save present for this adventure!! click \"save game\" to save your game");
+	}
+}
+
+function deletegame(){
+  
+  if (confirm("deleting your saved game!") == true) {
+  localStorage.removeItem("13337");
+  }
+ }
+
+var chatshown = false;
+
+function showchat(){
+  if (chatshown == false){
+    document.getElementById("talkdiv").style.display = "block";
+    document.getElementById("showchat").id = "hidechat";
+    chatshown = true;
+  }
+  else{
+    document.getElementById("talkdiv").style.display = "none";
+    document.getElementById("hidechat").id = "showchat";
+    chatshown = false;
+  }
+}
+
+
+	</script>
+  </body>
+</html>

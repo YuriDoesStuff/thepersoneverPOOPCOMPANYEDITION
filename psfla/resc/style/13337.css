@@ -11,6 +11,7 @@ body {
 	background-color: #000000;
 	border-color: green;
 	padding: 0.5vw;
+	overflow-x: hidden;
 }
 
 .linkdiv{
@@ -27,11 +28,11 @@ body {
       height: 75px;
 	  margin: auto;
       background-size: 100% 100% ;
-      background-image: url("files/showchat1.png"); 
+      background-image: url("/a/13337/files/showchat1.png"); 
 	  cursor: pointer;
 }
 #showchat:hover{
-     background-image: url("files/showchat2.png"); 
+     background-image: url("/a/13337/files/showchat2.png"); 
 }
 
 #hidechat{
@@ -39,11 +40,11 @@ body {
       height: 75px;
 	  margin: auto;
       background-size: 100% 100% ;
-      background-image: url("files/hidechat1.png"); 
+      background-image: url("/a/13337/files/hidechat1.png"); 
 	  cursor: pointer;
 }
 #hidechat:hover{
-     background-image: url("files/hidechat2.png"); 
+     background-image: url("/a/13337/files/hidechat2.png"); 
 }
     
 #talkdiv{
