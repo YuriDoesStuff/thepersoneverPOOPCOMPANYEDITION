@@ -1,5 +1,0 @@
----
-layout: testadventure.njk
----
-
-^_^

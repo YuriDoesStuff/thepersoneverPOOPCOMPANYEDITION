@@ -3,8 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<link rel='stylesheet' href='/resc/style/13337.css' media='screen' type='text/css' />
+	
 	<link rel='stylesheet' href='/resc/style/main.css' media='screen' type='text/css' />
-    <title>PSFLA - welcome!</title>
+	
+		<title>PSFL adventures</title>
+	
   </head>
   <body style="margin:auto; text-align: center;">
 		<div class=header>
@@ -19,13 +24,78 @@
 					</div>
 				<a href=/><img src=/resc/img/psfla.png class=headerimg></a>
 		</div>
-	<p></p>
+	<h1></h1>
 	<div class=body>
-		<h1>welcome!</h1>
-<p>hi! this is a test page for a rewrite of <a href="https://psfla.net/">PSFLA</a>'s code!</p>
-<p>created by <a href="https://thepersonever.net/">thepersonever</a>, and made with <a href="https://www.11ty.dev/">11ty</a> &lt;3</p>
-<p><a href="test">next page</a></p>
+		    <style>	
+	.body{
+	padding: 0;
+	}
+	.leeet:link{
+color: #00ff00;
+}
 
+	.leeet:visited{
+color: green;
+}
+
+	.leeet:hover{
+color: #66ff99;
+}
+
+	.leeet:active{
+color: #e6ffee;
+}	
+    </style>
+	
+	<!-- box for current adventure -->
+<div class="body" style='background-color: #000000; margin-left: 0; color: #ffffff; margin: unset; overflow-x: hidden; padding: 3px;'>
+	<h1>13337</h1>
+	<div class=imgdiv style='max-width: 600px;'>
+		<img src=/a/13337/files/terminal.gif class=story>
+		<img src=/a/13337/files/pages/00001.gif class=story>
+	</div> 
+	<p> </p>
+	<br> <div style='float: left; display: block; width: 100%; text-align: left; margin-right: 6%; margin-bottom: 4vh;'><a2 class="next" id=nextlink>> </a2><a class="next leeet" id=nextlink href='/a/13337/2/' style='text-align:left;'>begin</a></div>
+		<div style='display: block; height: 9vh'>
+			  <div style='float: left; display: inline;'>
+				<center>
+					<div id=controlsdiv></div>
+				</center>
+			  </div>    
+		<div id=whendiv style='float: bottom; display: inline;'>
+			<div id=when style="float: right;">
+				<a class=leeet href="javascript:alert('drawn by floase')">credits</a>
+				<br><a2>13337 - page 1 - 7/7/24</a2>
+			</div>
+			<div style="float:left; text-align: left;">
+				<br>
+				<a class=leeet style="display: inline;" href="javascript:loadgame()">load game</a><a class=leeet>&nbsp;</a><a class=leeet style="display: inline;" href="javascript:deletegame()">whipe game</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<p>hi! this is a test for a rewrite of <a href=https://psfla.net/ target=_blank>PSFLA</a>'s code!
+
+<br>created by <a href=https://thepersonever.net/ target=_blank>thepersonever</a>, and made with <a href=https://www.11ty.dev/ target=_blank>11ty</a> &lt;3 </p>
+
+<script>
+function loadgame(){
+	if (localStorage.getItem("13337")){
+		window.location.href="/a/13337/"+localStorage.getItem("13337")+"/";
+		}
+	else{
+		alert("no save present for this adventure!! click \"save game\" to save your game");
+	}
+}
+
+function deletegame(){
+  
+  if (confirm("deleting your saved game!") == true) {
+  localStorage.removeItem("13337");
+  }
+ }
+</script>
 	</div>
   </body>
 </html>
