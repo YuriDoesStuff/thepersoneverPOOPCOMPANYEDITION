@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://psfla.net/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PSFLA blog</title>
+    <link>https://psfla.net/</link>
+    <atom:link href="https://psfla.net/blog.xml" rel="self" type="application/rss+xml" />
+    <description>blogposts for the website psfla.net!</description>
+    <language>en</language>
+    <item>
+      <title>blog finished! - 5/8/25</title>
+      <link>https://psfla.net/blog/blogfinished/</link>
+      <description>
+&lt;p&gt;hi! welcome to the first REAL blogpost on this site
+&lt;br&gt;i&#39;m remaking PSFLA with 11ty! this is due to the previous php version being a mess to manage.
+&lt;br&gt;this will also make it compatable with &lt;a href=&quot;https://nekoweb.org/&quot; target=&quot;_blank&quot;&gt;nekoweb&lt;/a&gt;&#39;s hosting options... i already use nekoweb for hosting my &lt;a href=&quot;https://thepersonever.net/&quot; target=&quot;_blank&quot;&gt;personal site&lt;/a&gt;, and my supporter tier includes hosting multiple sites!&lt;/p&gt;
+&lt;p&gt;this site is not yet finished, however... i still have to finish the javascript portion of my mspa reader, so that it runs about as fast as mspfa&#39;s. until that point, the php version of PSFLA will still be present on the &lt;a href=&quot;https://psfla.net&quot; target=&quot;_blank&quot;&gt;psfla.net&lt;/a&gt; domain, and the 11ty version will be hosted on &lt;a href=&quot;https://psfla.nekoweb.org&quot; target=&quot;_blank&quot;&gt;psfla.nekoweb.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;pst. if you&#39;re seeing this, that means you&#39;re looking at the 11ty version!&lt;/small&gt;&lt;/p&gt;
+
+&lt;h2&gt;- jade&lt;/h2&gt;
+&lt;a href=&quot;https://psfla.net/blog/&quot;&gt;back?&lt;/a&gt;</description>
+      <pubDate>Thu, 08 May 2025 18:38:29 CDT</pubDate>
+      <dc:creator>jade floase</dc:creator>
+      <guid>https://psfla.net/blog/blogfinished/</guid>
+    </item>
+    <item>
+      <title>second test post - 5/8/25</title>
+      <link>https://psfla.net/blog/test2/</link>
+      <description>
+&lt;p&gt;blabedy black blubeyblubey&lt;/p&gt;
+
+&lt;h2&gt;- jade&lt;/h2&gt;
+
+
+&lt;a href=&quot;https://psfla.net/blog/&quot;&gt;back?&lt;/a&gt;</description>
+      <pubDate>Thu, 08 May 2025 18:30:24 CDT</pubDate>
+      <dc:creator>jade floase</dc:creator>
+      <guid>https://psfla.net/blog/test2/</guid>
+    </item>
+    <item>
+      <title>blog</title>
+      <link>https://psfla.net/blog/</link>
+      <description>&lt;p&gt;&lt;/p&gt;
+						
+							&lt;a2&gt;&lt;a href=&quot;https://psfla.net/blog/blogfinished/&quot;&gt;blog finished!&lt;/a&gt; - 5/8/25&lt;/a2&gt;&lt;br&gt;
+						
+							&lt;a2&gt;&lt;a href=&quot;https://psfla.net/blog/test2/&quot;&gt;second test post&lt;/a&gt; - 5/8/25&lt;/a2&gt;&lt;br&gt;
+						
+							&lt;a2&gt;&lt;a href=&quot;https://psfla.net/blog/firstpost/&quot;&gt;hello oomfs&lt;/a&gt; - 5/8/25&lt;/a2&gt;&lt;br&gt;
+						
+						
+	&lt;br&gt;&lt;a href=&quot;https://psfla.net/blog.xml&quot;&gt;&lt;h2&gt;rss feed&lt;/h2&gt;&lt;/a&gt;</description>
+      <pubDate>Thu, 08 May 2025 18:17:51 CDT</pubDate>
+      <dc:creator>jade floase</dc:creator>
+      <guid>https://psfla.net/blog/</guid>
+    </item>
+    <item>
+      <title>hello oomfs - 5/8/25</title>
+      <link>https://psfla.net/blog/firstpost/</link>
+      <description>
+&lt;p&gt;hi! this is the first blogpost on the psfla rewrite
+&lt;br&gt;it&#39;s mainly for testing purposes :p
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h2&gt;- jade&lt;/h2&gt;
+
+&lt;a href=&quot;https://psfla.net/blog/&quot;&gt;back?&lt;/a&gt;</description>
+      <pubDate>Thu, 08 May 2025 16:53:12 CDT</pubDate>
+      <dc:creator>jade floase</dc:creator>
+      <guid>https://psfla.net/blog/firstpost/</guid>
+    </item>
+  </channel>
+</rss>
