@@ -141,7 +141,6 @@
 				currentnum =(parseInt(barelyCN));
 				
 				if (positive == false){
-					console.log("gooooing back!");
 					currentnum = currentnum - 2;
 				}
 				
@@ -199,6 +198,7 @@
 				else{
 					getId("evildiv").innerHTML =`<a href="../1/" class="13337">restart</a><a class="small 13337">&nbsp;</a> <a id=goback href="javascript:changePage(false);" class="13337">go back</a><br><div id="controlsdiv">&nbsp;<a href="javascript:savegame();" onclick="">save game</a><a>&nbsp;</a> <a href="javascript:loadgame();">load game</a><a>&nbsp;</a> <a href="javascript:deletegame();">whipe game</a></div>`					
 				}
+				cache.add(`../`+glojson[currentnum].url);
 			}
 	
 	/*
