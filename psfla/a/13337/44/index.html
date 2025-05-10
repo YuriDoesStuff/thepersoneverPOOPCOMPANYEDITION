@@ -111,6 +111,7 @@
 	
 	<script src=/resc/scripts/swfobject.js defer></script>
 	<script>
+	var chatshown = false;
 	let params = new URLSearchParams(location.search);
 	function getId(input) {return document.getElementById(input);};		
 			var stateObj = { foo: "bar" };
@@ -139,7 +140,8 @@
 				
 			}
 	
-			function changePage(positive){				
+			function changePage(positive){	
+				chatshown = false;
 				var barelyCN = window.location.pathname.replace('/a/13337/',''); //getting int of current number
 				var almostCN = barelyCN.replace('/','');
 				currentnum =(parseInt(barelyCN));
@@ -241,8 +243,6 @@ function deletegame(){
   localStorage.removeItem("13337");
   }
  }
-
-var chatshown = false;
 
 function showchat(){
 	if (document.getElementById("talkdiv")){
