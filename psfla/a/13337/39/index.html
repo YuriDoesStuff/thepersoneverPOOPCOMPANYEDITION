@@ -107,8 +107,8 @@
 			
 			<div id="whendiv" style="float: right; float: bottom; display: inline;">
 				<div id="when">
-					<a href="javascript:alert('drawn by floase')">credits</a>
-					<br> <a2>13337 - page 39 - 9/24/24</a2>
+					<a id=creddiv href="javascript:alert('drawn by floase')">credits</a>
+					<br > <a2 id=pagething>13337 - page 39 - 9/24/24</a2>
 				</div>
 			</div>
 		<!-- the pagelimit is 51 -->
@@ -195,6 +195,8 @@
 					}
 					getId("title").innerHTML = glojson[currentnum].title;
 					getId("text").innerHTML = "<p>"+glojson[currentnum].text+"</p>";
+					getId("creddiv").href = "javascript:alert(\""+glojson[currentnum].cred+"\");";
+					getId("pagething").innerHTML = "13337 - page "+(currentnum+1)+" - "+glojson[currentnum].date;
 				
 					currentnum = currentnum + 1; //starting the new page stuff
 
