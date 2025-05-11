@@ -7,6 +7,22 @@
     <description>blogposts for the website psfla.net!</description>
     <language>en</language>
     <item>
+      <title>blog finished! - 5/8/25</title>
+      <link>https://psfla.net/blog/blogfinished/</link>
+      <description>
+&lt;p&gt;hi! welcome to the first REAL blogpost on this site
+&lt;br&gt;i&#39;m remaking PSFLA with 11ty! this is due to the previous php version being a mess to manage.
+&lt;br&gt;this will also make it compatable with &lt;a href=&quot;https://nekoweb.org/&quot; target=&quot;_blank&quot;&gt;nekoweb&lt;/a&gt;&#39;s hosting options... i already use nekoweb for hosting my &lt;a href=&quot;https://thepersonever.net/&quot; target=&quot;_blank&quot;&gt;personal site&lt;/a&gt;, and my supporter tier includes hosting multiple sites!&lt;/p&gt;
+&lt;p&gt;this site is not yet finished, however... i still have to finish the javascript portion of my mspa reader, so that it runs about as fast as mspfa&#39;s. until that point, the php version of PSFLA will still be present on the &lt;a href=&quot;https://psfla.net&quot; target=&quot;_blank&quot;&gt;psfla.net&lt;/a&gt; domain, and the 11ty version will be hosted on &lt;a href=&quot;https://psfla.nekoweb.org&quot; target=&quot;_blank&quot;&gt;psfla.nekoweb.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;pst. if you&#39;re seeing this, that means you&#39;re looking at the 11ty version!&lt;/small&gt;&lt;/p&gt;
+
+&lt;h2&gt;- jade&lt;/h2&gt;
+&lt;a href=&quot;https://psfla.net/blog/&quot;&gt;back?&lt;/a&gt;</description>
+      <pubDate>Thu, 08 May 2025 18:38:29 CDT</pubDate>
+      <dc:creator>jade floase</dc:creator>
+      <guid>https://psfla.net/blog/blogfinished/</guid>
+    </item>
+    <item>
       <title>second test post - 5/8/25</title>
       <link>https://psfla.net/blog/test2/</link>
       <description>
@@ -16,7 +32,7 @@
 
 
 &lt;a href=&quot;https://psfla.net/blog/&quot;&gt;back?&lt;/a&gt;</description>
-      <pubDate>Sat, 10 May 2025 22:12:53 CDT</pubDate>
+      <pubDate>Thu, 08 May 2025 18:30:24 CDT</pubDate>
       <dc:creator>jade floase</dc:creator>
       <guid>https://psfla.net/blog/test2/</guid>
     </item>
@@ -33,7 +49,7 @@
 						
 						
 	&lt;br&gt;&lt;a href=&quot;https://psfla.net/blog.xml&quot;&gt;&lt;h2&gt;rss feed&lt;/h2&gt;&lt;/a&gt;</description>
-      <pubDate>Sat, 10 May 2025 22:12:53 CDT</pubDate>
+      <pubDate>Thu, 08 May 2025 18:17:51 CDT</pubDate>
       <dc:creator>jade floase</dc:creator>
       <guid>https://psfla.net/blog/</guid>
     </item>
@@ -48,25 +64,9 @@
 &lt;h2&gt;- jade&lt;/h2&gt;
 
 &lt;a href=&quot;https://psfla.net/blog/&quot;&gt;back?&lt;/a&gt;</description>
-      <pubDate>Sat, 10 May 2025 22:12:53 CDT</pubDate>
+      <pubDate>Thu, 08 May 2025 16:53:12 CDT</pubDate>
       <dc:creator>jade floase</dc:creator>
       <guid>https://psfla.net/blog/firstpost/</guid>
-    </item>
-    <item>
-      <title>blog finished! - 5/8/25</title>
-      <link>https://psfla.net/blog/blogfinished/</link>
-      <description>
-&lt;p&gt;hi! welcome to the first REAL blogpost on this site
-&lt;br&gt;i&#39;m remaking PSFLA with 11ty! this is due to the previous php version being a mess to manage.
-&lt;br&gt;this will also make it compatable with &lt;a href=&quot;https://nekoweb.org/&quot; target=&quot;_blank&quot;&gt;nekoweb&lt;/a&gt;&#39;s hosting options... i already use nekoweb for hosting my &lt;a href=&quot;https://thepersonever.net/&quot; target=&quot;_blank&quot;&gt;personal site&lt;/a&gt;, and my supporter tier includes hosting multiple sites!&lt;/p&gt;
-&lt;p&gt;this site is not yet finished, however... i still have to finish the javascript portion of my mspa reader, so that it runs about as fast as mspfa&#39;s. until that point, the php version of PSFLA will still be present on the &lt;a href=&quot;https://psfla.net&quot; target=&quot;_blank&quot;&gt;psfla.net&lt;/a&gt; domain, and the 11ty version will be hosted on &lt;a href=&quot;https://psfla.nekoweb.org&quot; target=&quot;_blank&quot;&gt;psfla.nekoweb.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;small&gt;pst. if you&#39;re seeing this, that means you&#39;re looking at the 11ty version!&lt;/small&gt;&lt;/p&gt;
-
-&lt;h2&gt;- jade&lt;/h2&gt;
-&lt;a href=&quot;https://psfla.net/blog/&quot;&gt;back?&lt;/a&gt;</description>
-      <pubDate>Sat, 10 May 2025 22:12:53 CDT</pubDate>
-      <dc:creator>jade floase</dc:creator>
-      <guid>https://psfla.net/blog/blogfinished/</guid>
     </item>
   </channel>
 </rss>
