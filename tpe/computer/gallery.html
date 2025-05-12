@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thepersonever - pc gallery!!</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="/computer/images/case.jpg">
+    <style>
+    
+    body{
+     background-image: url(images/intelboard.jpg);
+     background-size: 100px;
+    }
+      
+      .preview{
+        height: 30vh;
+        cursor: pointer;
+        border: 3px solid black; 
+      }
+	  
+	  .mainimg{
+	  width:55%; 
+	  cursor: pointer;
+	  }
+        
+		  @media (max-width: 800px) {
+				.preview{
+					height: unset;
+					max-width: 100%;
+				}
+				.mainimg{
+				width: 100%;
+				}
+			}
+    </style>
+  </head>
+  <body>
+  
+  <audio autoplay loop src=audio/chaolobby.mp3></audio>
+  
+    <center>
+  <br>
+  <img src=/tkesmall.png style="height: 200px">
+  <br>
+  <br>  <iframe src="/iframes/bar.html" style="height:30%;width:75%; z-index: 10; overflow:scroll;"></iframe>
+
+      <br>
+        <h1><span id=banner>pc gallery!</span></h1>
+
+<a id=bigimg onclick=none()></a>
+
+ <div id=slides style="height:justify;width:60%;">
+<img src=https://i.imgur.com/TBXYDbm.jpeg class=preview alt="i had to clean my desk for this" id=CMQshot onclick='yeah("CMQshot")'>
+<img src=https://i.imgur.com/ngvTSzj.jpeg class=preview alt="new pc!" id=CMQguts onclick='yeah("CMQguts")'>
+<img src=https://i.imgur.com/O7lusjJ.jpeg class=preview alt="its guts! again!" id=itsguts2 onclick='yeah("itsguts2")'>
+<img src=https://i.imgur.com/WFQenIs.jpeg class=preview alt="it's up here now :D" id=newbedbench onclick='yeah("newbedbench")'>
+<img src=https://i.imgur.com/6nCzLtU.jpg class=preview alt="the tower ever" id=tower onclick='yeah("tower")'>
+<img src=https://i.imgur.com/64OSbiH.png class=preview alt="we looove crts" id=monitors onclick='yeah("monitors")'>
+<img src=https://i.imgur.com/7dXNs0b.jpeg class=preview alt="old bedroom bench" id=oldbedbench onclick='yeah("oldbedbench")'>
+<img src=https://i.imgur.com/kvm8Yr7.jpg class=preview alt="ITS GUTS! (gtx 1060 added :DD)" id=guts onclick='yeah("guts")'>
+<img src=https://i.imgur.com/2doVFtZ.jpeg class=preview alt="just got the i7-3770 working!" id=i73770 onclick='yeah("i73770")'>
+
+
+</div>
+        <p><a href=/computer/><span>back</span></a></p>
+        
+  
+  <script>
+  function yeah(p1){
+  document.getElementById("banner").innerHTML = document.getElementById(p1).alt;
+  document.getElementById("bigimg").innerHTML = "<img src="+ document.getElementById(p1).src + " class=mainimg><h1></h1>";
+    editpreview("auto", "20vh");
+    document.getElementById("slides").style.width = "80%";
+ 
+  }
+  function none(){
+    document.getElementById("banner").innerHTML = "pc gallery!";
+    document.getElementById("bigimg").innerHTML ="";
+    editpreview("inherent", "inherent", true);
+    
+    document.getElementById("slides").style.width = "60%";
+  }
+    
+   function editpreview(width, height, remove){
+        var elements = document.querySelectorAll('.preview');
+        if (remove == true){
+          console.log("UGH");
+              for(var i=0; i<elements.length; i++){
+                 elements[i].style.removeProperty('width');;
+                  elements[i].style.removeProperty('height');
+               }
+        }
+        else{
+              for(var i=0; i<elements.length; i++){
+                 elements[i].style.width = width;
+                  elements[i].style.height = height;
+               }
+            }
+         }
+  </script>
+  
+<glah style="float: right;"><span>music is chao lobby, from sonic adventure 2</span></glah>
+    </center>
+  </body>
+</html>
