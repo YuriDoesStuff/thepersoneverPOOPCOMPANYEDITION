@@ -151,6 +151,21 @@ function showchat(){
   }
 }
 
+function showwarning(){
+	if (document.getElementById("warningdiv")){
+	  if (chatshown == false){
+		document.getElementById("warningdiv").style.display = "block";
+		document.getElementById("showwarning").id = "hidewarning";
+		chatshown = true;
+	  }
+	  else{
+		document.getElementById("warningdiv").style.display = "none";
+		document.getElementById("hidewarning").id = "showwarning";
+		chatshown = false;
+	}
+  }
+}
+
 function handleKey(event) {
     switch (event.key){
 		case "ArrowRight":

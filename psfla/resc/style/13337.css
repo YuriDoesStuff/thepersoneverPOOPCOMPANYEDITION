@@ -47,6 +47,30 @@ body {
      background-image: url("/a/13337/files/hidechat2.png"); 
 }
     
+#showwarning{
+      width: 150px;
+      height: 75px;
+	  margin: auto;
+      background-size: 100% 100% ;
+      background-image: url("/a/13337/files/showwarning1.png"); 
+	  cursor: pointer;
+}
+#showwarning:hover{
+     background-image: url("/a/13337/files/showwarning2.png"); 
+}
+
+#hidewarning{
+      width: 150px;
+      height: 75px;
+	  margin: auto;
+      background-size: 100% 100% ;
+      background-image: url("/a/13337/files/hidewarning1.png"); 
+	  cursor: pointer;
+}
+#hidewarning:hover{
+     background-image: url("/a/13337/files/hidewarning2.png"); 
+}
+	
 #talkdiv{
 	 text-align: left;
 	 font-size: .25in;

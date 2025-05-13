@@ -220,6 +220,18 @@ height: 60vh;
 								<a2>&gt; <a href=a/13337/51/>=-></a> page 51, 11/1/24</a2> <br>
 							
 						
+							
+								<a2>&gt; <a href=a/13337/52/>ask about plasters</a> page 52, 5/12/25</a2> <br>
+							
+						
+							
+								<a2>&gt; <a href=a/13337/53/>=-></a> page 53, 5/12/25</a2> <br>
+							
+						
+							
+								<a2>&gt; <a href=a/13337/54/>=-></a> page 54, 5/12/25</a2> <br>
+							
+						
 		</div>
 		<div style="float: right;">
 			<a href=/a/13337/all/><h2>all pages</h2></a>
@@ -234,7 +246,8 @@ height: 60vh;
 		<img src=/a/13337/files/terminal.gif class=story>
 		<img src=/a/13337/files/pages/00001.gif class=story>
 	</div> 
-	<p> </p>
+	<p></p>
+	<div id=showwarning onclick=showwarning()></div> <br> <div id=warningdiv style="display: none;"><p>warning: flashing lights, elements of body horror, and more to come in this adventure</p></div> 
 	<br> <div style='float: left; display: block; width: 100%; text-align: left; margin-right: 6%; margin-bottom: 4vh;'><a2 class="next" id=nextlink>> </a2><a class="next leeet" id=nextlink href='/a/13337/2/' style='text-align:left;'>begin</a></div>
 		<div style='display: block; height: 9vh'>
 			  <div style='float: left; display: inline;'>
@@ -256,6 +269,8 @@ height: 60vh;
 </div>
 
 <script>
+var chatshown = false; 
+
 function loadgame(){
 	if (localStorage.getItem("13337")){
 		window.location.href="/a/13337/"+localStorage.getItem("13337")+"/";
@@ -271,6 +286,21 @@ function deletegame(){
   localStorage.removeItem("13337");
   }
  }
+ 
+ function showwarning(){
+	if (document.getElementById("warningdiv")){
+	  if (chatshown == false){
+		document.getElementById("warningdiv").style.display = "block";
+		document.getElementById("showwarning").id = "hidewarning";
+		chatshown = true;
+	  }
+	  else{
+		document.getElementById("warningdiv").style.display = "none";
+		document.getElementById("hidewarning").id = "showwarning";
+		chatshown = false;
+	}
+  }
+}
 </script>
 		<div style="  border-style: solid; border-color: green; border-width: 3px 0 0; padding: .5%;">
 			<small style="float: left; width: justify; max-width: 100%;">(c) thepersonever.net - use code freely, only redistribute art and writing with permission</small>
