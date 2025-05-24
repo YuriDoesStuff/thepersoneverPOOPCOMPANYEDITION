@@ -1,5 +1,11 @@
 {
   "songs": [
+     { "title": "perplexing pool (pikmin 2 remix)",
+      "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls2/perplexing.mp3",
+      "coversrc": "/xdx3xp/art/perplexing.png",
+      "url": "perplexingpool",
+	  "desc": "i'm really proud of this remix, so i'm putting it on the main page :D"
+    },
     { "title": "ultrahell",
       "songsrc": "https://downloads.thepersonever.net/xdx3xp/fls2/ultrahell.mp3",
       "coversrc": "/xdx3xp/art/ultrahell.png",
