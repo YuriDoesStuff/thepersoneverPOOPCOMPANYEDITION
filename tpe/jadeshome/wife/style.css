@@ -1,0 +1,21 @@
+#main{
+	background: linear-gradient(#e6ffe6 0%, #4ac925 20%, #4ac925 80%, #2eb82e 85%, #85e368 100%);
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.05in;
+}
+#wrapper{
+	margin: auto;
+	background: linear-gradient(to bottom, #ccffdd 0%, #248f24 20%, #416600 60%, #004d1a 90%, #00802b 100%);
+	padding: 0.0001in 0.1in;
+	border-radius: 0.2in;
+	width: 60%; 
+}
+
+@media screen and (orientation: portrait) {
+	#wrapper{
+		width: 100%;
+		padding: none;
+	}
+}
