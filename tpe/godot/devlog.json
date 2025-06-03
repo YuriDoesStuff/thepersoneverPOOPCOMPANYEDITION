@@ -41,7 +41,13 @@
 	"title":"a dumb idea",
 	"date_published":"6/1, 2025",
 	"content_html":"a few nights ago, i wasn't able to sleep. so, i started thinking about what i would want to make if i were to make an fps...<br>i had a few ideas! mostly about it having a rabbit that could jump high, the game having a strong focus on aerial cobat, and somehow involving the roblox skateboard<br>so um. today, i started work on building the game! i got down some okay feeling player movement, and a very, VERY basic pause menu that lets you change the camera's sensitivity. <br>i'm scared to learn 3d modeling"
-    }
+    },
+	{
+	"id":"7",
+	"title":"she's all in",
+	"date_published": "6/2, 2025",
+	"content_html":"hey!<br>today, i added a slide to the player character's movement! it took a litle doing, but i got it to feel pretty good :D<br>i also added a body to the player character! the player is gonna have a 2d body, as i'm going for a 3d DS game-like look. a lot of objects in 3d DS games are simple 2d objects, as the DS... isn't that powerful :P<br>the player character's body doesn't move when you're sliding. i'm noting this here as coding the funcitonality for the body to stay in place was SO hard to make<br>right now, all of my assets (including the player character's body) use the same texture! this one:<br><img src=img/shes-all-in.png width=500>"
+	}
   ]
   
 }
