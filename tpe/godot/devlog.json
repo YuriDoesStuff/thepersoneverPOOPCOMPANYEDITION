@@ -47,6 +47,12 @@
 	"title":"she's all in",
 	"date_published": "6/2, 2025",
 	"content_html":"hey!<br>today, i added a slide to the player character's movement! it took a litle doing, but i got it to feel pretty good :D<br>i also added a body to the player character! the player is gonna have a 2d body, as i'm going for a 3d DS game-like look. a lot of objects in 3d DS games are simple 2d objects, as the DS... isn't that powerful :P<br>the player character's body doesn't move when you're sliding. i'm noting this here as coding the funcitonality for the body to stay in place was SO hard to make<br>right now, all of my assets (including the player character's body) use the same texture! this one:<br><img src=img/shes-all-in.png width=500>"
+	},
+	{
+	"id":"8",
+	"title":"deltarune... 3 days ago!",
+	"date_published": "6/7, 2025",
+	"content_html":"for the past 3 days i have been bingeing (binging?) deltarune! and doing nothing else! ooooooooooooooops! <br>i <i>did</i> rework the movement system on the 3rd to be more readable, but i'm still working on slopes"
 	}
   ]
   
