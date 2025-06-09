@@ -6,51 +6,79 @@
     <meta http-Equiv="Expires" Content="0" />
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <link rel="icon" href="/images/blogicon.png">
-  <style>
-  span {
-  background-color: #ffffff;
-}
-  body{
-    background-image: url("/images/blissmoving.gif");
-    outline: 60px solid #F285FF;
-  }
-  
-  .ack {
-  aspect-ratio: 9/8;
-width: 60vw;
-  border: 0px solid black;
-  position:relative;
-  background-image: url(/images/silodoor.png);
-  background-size: cover;
-}
+	<style>
+		body{
+			background-image: url("/images/blissmoving.gif");
+			outline: 60px solid #F285FF;
+		}
+		  
+		.ack {
+			aspect-ratio: 9/8;
+			width: 60vw;
+			border: 0px solid black;
+			position:relative;
+			background-image: url(/images/silodoor.png);
+			background-size: cover;
+		}
 
-footer{
- background-color: #0080FF; 
- outline: 20px #80FFFF;
-}
+		footer{
+			background: linear-gradient(#4287e9 0%, #205cdc 15%, #205cdc 80%, #1349b4 100%);
+			padding: 10px 0 0 0;
+			margin: none;
+			height: 77px;
+		}
 
-			.blog{
-			aspect-ratio:4/3!important; width: 90%;
-			
+		#extrafooter{
+			align-items: center;
+			background: linear-gradient(#3fafff 0%, #0b91e8 15%, #0b91e8 80%, #0881d8 100%);
+			display: flex; 
+			float: right; 
+			position: relative; 
+			bottom: 10px; 
+			padding: 10px 0 0 0;
+			margin: none;
+			height: 77px;
+		}
+		
+		#extrafooter > *{
+			float: right;
+		}
+		
+		#timepara{
+			font-family: Courier New;
+			padding: 15px;
+			color: white;
+		}
+
+		.blog{
+			aspect-ratio:4/3!important; 
+			width: 90%;		
+		}
+					
+		@supports not (aspect-ratio:4/3) {
+			.blog {
+				height: 80vh;
 			}
+		}
 			
-			@supports not (aspect-ratio:4/3) {
-				.blog {
-					height: 80vh;
+		  @media (max-width: 800px) {
+				.ack{
+					width: 100vw;
+				}			
+				#brs{
+					display: none;
+				}
+				.blog{
+					aspect-ratio: 3/4;
+				}
+					
+				footer{
+					height: unset;
+				}
+				#extrafooter{
+					display: none;
 				}
 			}
-    
-  @media (max-width: 800px) {
-            .ack{
-              width: 100vw;
-            }			
-			#brs{
-			display: none;
-			}
-			.blog{
-			aspect-ratio: 3/4;
-			}
-    }
 </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -97,31 +125,49 @@ footer{
 		</center>
 		<span>music is title.wma, from windows xp</span>
 		<footer>
-			<a href=secrets/start.html><img src=/images/start.png width=200px></a><img src=/images/mypalwinxp.png height=100px width=300px style="z-index:10;" >
-			<img src=/images/randomjunkicon.jpg width=70px style="float: right;"><img src=/images/floppy.gif style="float:right;">
+			<a href=secrets/start.html><img src=/images/start.png width=200px></a> <img src="/images/blog/mypal_open.png" height=70px> <img src="/images/blog/np++.png" height=70px> <img src="/images/blog/uk.png" height=70px title="system requirements are merely a suggestion.">
+			<div id=extrafooter>
+				<img src=/images/randomjunkicon.jpg height=70px><img src=/images/floppy.gif height=70px><p id=timepara>4:20 PM</p>
+			</div>
 		</footer>
 		
-		<script>
-		let params = new URLSearchParams(location.search);
-		
-		if (params.get("post").length < 8){
-			document.getElementById("blog").src = "/iframes/blogblogs/"+params.get("post"); 
-		}
-		
-		function blogchange(windowloc){
-			if (windowloc != "/iframes/bblawhgg.html" && windowloc != "/iframes/bblawhgg"){		
-				changeurl(windowloc.replace("/iframes/blogblogs/", ""));
+			<script>
+			let params = new URLSearchParams(location.search);
+			
+			if (params.get("post") && params.get("post").length < 8){
+				document.getElementById("blog").src = "/iframes/blogblogs/"+params.get("post"); 
 			}
-			else{
-			var stateObj = { foo: "bar" };
-			history.pushState(stateObj, "page 2", "blogg");
+			
+			function blogchange(windowloc){
+				if (windowloc != "/iframes/bblawhgg.html" && windowloc != "/iframes/bblawhgg"){		
+					changeurl(windowloc.replace("/iframes/blogblogs/", ""));
+				}
+				else{
+				var stateObj = { foo: "bar" };
+				history.pushState(stateObj, "page 2", "blogg");
+				}
 			}
-		}
-		
-		function changeurl(get){
-			var stateObj = { foo: "bar" };
-			history.pushState(stateObj, "page 2", "blogg?post=" + get);
-		}
+			
+			function changeurl(get){
+				var stateObj = { foo: "bar" };
+				history.pushState(stateObj, "page 2", "blogg?post=" + get);
+			}
+			
+			let options = {
+				timeZone: 'America/Chicago',
+				hour: 'numeric',
+				minute: 'numeric'
+			};
+
+			function updatetime(){
+				var date = new Intl.DateTimeFormat([], options);
+				document.getElementById("timepara").innerHTML = date.format(new Date());
+				console.log("updated time");
+			}
+			
+			updatetime();
+			
+			setInterval(updatetime, 1000);
 		</script>
   </body>
 </html>
