@@ -1,54 +1,54 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-    <style>
-  span {
-  background-color: #ffffff;
-}
-
-    @keyframes mainbody {
-        from {opacity: 1;}
-        to {opacity: 0; display: none;}
-    }
-
-  body{
-        background-image: none;
-        background-color: #000000;
-        min-height: 100%;
-    }
-
-
-  #body{
-    background-image: url("/images/neil.jpeg");
-    background-size: 300px;
-    outline: 30px solid #F285FF;
-  }
-
-  .container{
-  max-width: 60vw;
-  margin: none;
-  }
-  .contained{
-  display: inline-block;
-  max-width: 30%;
-  }
-  
-    @media (max-width: 800px) {
-	.container{
-		max-width: 100vw;
-	}
-	.contained{
-		max-width: 80%;
-	}
- 
-}
-</style>
 <!--
 for some reason a tumblr mutual thought the background image was a picture of me????
 its not btw. its neil cicirega aka lemon demon
 -jade
 -->
+<html>
+  <head>
+  <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+		span {
+		  background-color: #ffffff;
+		}
+
+		@keyframes mainbody {
+			from {opacity: 1;}
+			to {opacity: 0; display: none;}
+		}
+
+		body{
+			background-image: none;
+			background-color: #000000;
+			min-height: 100%;
+		}
+
+
+		#body{
+			background-image: url("/images/neil.jpeg");
+			background-size: 300px;
+			outline: 30px solid #F285FF;
+		}
+
+		.container{
+			max-width: 60vw;
+			margin: none;
+		}
+		.contained{
+			image-rendering: pixelated;
+			display: inline-block;
+			max-width: 30%;
+		}
+	  
+		@media (max-width: 800px) {
+			.container{
+				max-width: 100vw;
+			}
+			.contained{
+				max-width: 80%;
+			}
+		}
+	</style>
   <link rel="icon" type="image/png" href="/images/personalsicon.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,7 +60,7 @@ its not btw. its neil cicirega aka lemon demon
 
     <center id=body>
   <br>
-  <img src=/tkesmall.png style="height: 200px">
+  <img src=/tkesmall.png class=logo>
   <br>
   <br>
   <iframe src="/iframes/bar.html" style="height:30%;width:75%; z-index: 10; overflow:scroll;"></iframe>
@@ -115,6 +115,6 @@ function animationcallback(){
 
       <br>
   <br>
-</center>
+	</center>
   </body>
 </html>

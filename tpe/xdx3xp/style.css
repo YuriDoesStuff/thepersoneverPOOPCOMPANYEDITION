@@ -30,12 +30,13 @@ a {
 font-size: 35px;
 }
 html, body {
-  margin: 0px;
-  background-image: url("bg.png");
-  background-size: cover;
-  font-family: "pmdfont";
-  background-position: center;
-  min-height: 100vh;
+	image-rendering: pixelated;
+	margin: 0px;
+	background-image: url("bg.png");
+	background-size: cover;
+	font-family: "pmdfont";
+	background-position: center;
+	min-height: 100vh;
 }
 
 small{

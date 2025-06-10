@@ -2,64 +2,70 @@
     font-family: pmdfont;
     src: url('/pmdfont.ttf')  format("truetype");
 }
+
 @font-face {
     font-family: comicsans;
     src: url('/comicsans.ttf')  format("truetype");
 }
  
- a:link {
- color: green;
- }
-   .groove {border-style: groove;
-   background-color: white;}
-   
-    .right {
-  float: right;
-  }
+a:link {
+	color: green;
+}
 
-
-  span {
-  background-color: #ffffff;
+span { /* i made the span element's background white when i was 13 and we're too far gone to fix it */
+	background-color: #ffffff;
 }
 
 h1 {
-  font-size: 0.6in;
+	font-size: 0.6in;
 }
 
 h2 {
-  font-size: 0.5in;
+	font-size: 0.5in;
 }
 
 h3 {
-font-size: 0.4in;
+	font-size: 0.4in;
 }
 
 p {
-  font-size: 0.3in;
+	font-size: 0.3in;
 }
-ul{
-  font-size: 0.35in;
-}
-li{
- font-size: 0.35in;
 
-}
 a {
-font-size: 0.35in;
+	font-size: 0.35in;
 }
+
 body {
-  background-image: url("/bg.png"); 
-  background-color: white;
-  background-size: cover; 
-  font-family: "pmdfont";
+	  background-image: url("/bg.png"); 
+	  background-color: white;
+	background-size: cover; 
+	font-family: "pmdfont";
 }
 
 comic{
-  font-family: "comicsans";
- font-size: 0.21in;
-
+	font-family: "comicsans";
+	font-size: 0.21in;
 }
 
 small{
  font-size:0.17in; 
+}
+
+.logo{
+	height: 200px;
+	image-rendering: pixelated;
+}
+
+.pixel{
+	image-rendering: pixelated;
+}
+
+.groove { /* idk if this is unused or not sooooo it stays */
+	border-style: groove; 
+	background-color: white;
+}
+   
+.right { /* same here */
+	float: right;
 }

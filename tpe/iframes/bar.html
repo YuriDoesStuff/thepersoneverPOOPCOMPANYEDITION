@@ -9,111 +9,88 @@
     <title>The web site of thepersonever</title>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <style>
-    
-        .switchlink{
-    display: inline-block;
-    width: 19%; 
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin: auto;
-  transform: translateY(26%);
-    }
-    
-      @media (max-width: 800px) {
-        .switchlink{
-          width: 100%; 
-        }
-      }
-    
-          body {
-  background-image: url("rightbg.png");
-  padding: 0; 
-  margin: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-      }
-      
-    #home{
-    background-image: url("/iframes/baricons/homenormal.png"); 
-    }
-    
-    #home:hover{
-    background-image: url("/iframes/baricons/homemouse.png"); 
-    }
-    
-    #abtme{
-     background-image: url(baricons/abtmenormal.png); 
-    }
-    #abtme:hover{
-     background-image: url(baricons/abtmemouse.png); 
-    }
+		.switchlink{
+			display: inline-block;
+			width: 19%; 
+			height: 100%;
+			background-repeat: no-repeat;
+			background-size: 100%;
+			margin: auto;
+			transform: translateY(26%);
+		}
+		
+		  body{
+			image-rendering: pixelated;
+			background-image: url("rightbg.png");
+			padding: 0; 
+			margin: 0;
+			background-size: cover;
+			background-repeat: no-repeat;
+			overflow-x: hidden;
+		  }
+		  
+		#home{
+			background-image: url("/iframes/baricons/homenormal.png"); 
+		}
+		
+		#home:hover{
+			background-image: url("/iframes/baricons/homemouse.png"); 
+		}
+		
+		#abtme{
+			background-image: url(baricons/abtmenormal.png); 
+		}
+		#abtme:hover{
+			background-image: url(baricons/abtmemouse.png); 
+		}
 
-    #art{
-     background-image: url(baricons/artnormal.png); 
-    }
-    
-    #art:hover{
-     background-image: url(baricons/artmouse.png); 
-    }
-    
-    #blog{
-     background-image: url(baricons/blognormal.png); 
-    }
-    
-    #blog:hover{
-     background-image: url(baricons/blogmouse.png); 
-    }
-    
-    #more{
-     background-image: url(baricons/more.png); 
-    }
-    
-    #more:hover{
-     background-image: url(baricons/morehover.png); 
-    }
-    
-</style>
+		#art{
+			background-image: url(baricons/artnormal.png); 
+		}
+		
+		#art:hover{
+			background-image: url(baricons/artmouse.png); 
+		}
+		
+		#blog{
+			background-image: url(baricons/blognormal.png); 
+		}
+		
+		#blog:hover{
+			background-image: url(baricons/blogmouse.png); 
+		}
+		
+		#more{
+			background-image: url(baricons/more.png); 
+		}
+		
+		#more:hover{
+			background-image: url(baricons/morehover.png); 
+		}
+	</style>
   </head>
   <body>
-    
-<div style="width: 100%; text-align: center;">
+	<div style="width: 100%; text-align: center;">
 
-<div class=switchlink id=home>
-<a href=/home target=_parent><img src=/iframes/baricons/blank.png></a>
-</div>
+		<div class=switchlink id=home>
+			<a href=/home target=_parent><img src=/iframes/baricons/blank.png></a>
+		</div>
 
-<div class=switchlink id=abtme>
-<a href=/abtme target=_parent><img src=/iframes/baricons/blank.png></a>
-</div>
+		<div class=switchlink id=abtme>
+			<a href=/abtme target=_parent><img src=/iframes/baricons/blank.png></a>
+		</div>
 
-<div class=switchlink id=art>
-<a href=/art target=_parent><img src=/iframes/baricons/blank.png></a>
-</div>
+		<div class=switchlink id=art>
+			<a href=/art target=_parent><img src=/iframes/baricons/blank.png></a>
+		</div>
 
-<div class=switchlink id=blog>
-<a href=/blogg target=_parent><img src=/iframes/baricons/blank.png></a>
-</div>
+		<div class=switchlink id=blog>
+			<a href=/blogg target=_parent><img src=/iframes/baricons/blank.png></a>
+		</div>
 
-<div class=switchlink id=more>
-<a href=/more target=_parent><img src=/iframes/baricons/blank.png></a>
-</div>
-
-<!--    
-<a href=/blogg.html target="_parent">
-    <div class="card">
-            <img src="/iframes/baricons/blogmouse.png" class="img-top">
-    	<img src=/iframes/baricons/blognormal.png>
-    </div>
-</a>  
-
-<a href=/more target="_parent">
-    <div class="card">
-            <img src="/iframes/baricons/morehover.png" class="img-top">
-    	<img src=/iframes/baricons/more.png>
-    </div>
-</a>    
--->
-</div>
+		<div class=switchlink id=more>
+			<a href=/more target=_parent><img src=/iframes/baricons/blank.png></a>
+		</div>
+	</div>
   </body>
 </html>

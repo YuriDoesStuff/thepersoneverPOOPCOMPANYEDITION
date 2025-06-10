@@ -26,10 +26,15 @@
     <link rel="icon" type="image/jpg" href="/homeicon.jpg">
     <style>
     body {
-  background-image: url(/images/bggif.gif);
-  outline: 60px solid #F285FF;
-  overflow-x: hidden; 
-}
+	  background-image: url(/images/bggif.gif);
+	  outline: 60px solid #F285FF;
+	  overflow-x: hidden; 
+	  image-rendering: pixelated;
+	}
+
+	body > *{
+		image-rendering: unset;
+	}
 
 .PikRing {
   border: 2px solid green;
@@ -85,7 +90,8 @@
 }
 
 .logo{
-  height: 55vh
+  height: 55vh;
+  image-rendering: pixelated;
 }
 
   @media (max-width: 800px) {
