@@ -5,6 +5,14 @@
 <description>an rss feed for general updates on thepersonever!!! remember 2 clear ur cache!!</description>
 
 <item>
+<title>TPE - new blog post!</title>
+<pubDate>Thu, 12 Jun 2025 20:25:06 GMT</pubDate>
+<link>http://127.0.1.1/blogg?post=jun1225</link>
+<guid isPermaLink='false'>jun1225</guid>
+<description>oops i forgot to add this to the rss feed</description>
+</item>
+
+<item>
 <title>TPE - new song!</title>
 <pubDate>Sat, 24 May 2025 23:26:58 GMT</pubDate>
 <link>https://thepersonever.net/xdx3xp/tracks?song=perplexingpool</link>
