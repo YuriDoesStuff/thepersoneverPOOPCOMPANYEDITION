@@ -102,7 +102,7 @@ a few things of note...
 
 <script src=/js/swfobject.js defer>
 </script>
-<div id="swfwrapper">
+<div id="swfwrapper" style="">
 <div id=swfdiv>
 
 </div>
@@ -124,7 +124,7 @@ document.getElementById("swfwrapper").style.backgroundImage = "unset";
 }
 
 function fullscreenie(){
-document.getElementById("swfwrapper").style = "width: 100vw; height: 100vh; overflow: hidden;";
+document.getElementById("swfwrapper").style = "width: 100vw; height: 100vh; overflow: hidden; max-width: unset; background-image: unset;";
 document.getElementById("html").style.display = "none";
 document.getElementById("lowerhtml").style.display = "none";
 document.getElementById("body").style.backgroundImage = "url('/images/bggif.gif')";
