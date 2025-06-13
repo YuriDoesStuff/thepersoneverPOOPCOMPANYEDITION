@@ -6,38 +6,78 @@
     <title>proships please don't touch me</title>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <link rel="icon" href="/icons/tpe.png">
+
     <style>
-    
-    body{
-		image-rendering: pixelated;
-		background-image: url(/images/indexbg.png); 
-    }
+	    body{
+			image-rendering: pixelated;
+			background-image: url(/images/indexbg.png);
+	    }
+        #swfwrapper{
+        	width: 100%;
+        	max-width: 480px;
+        	height: 330px;
+        	overflow: hidden;
+        	margin: auto;
+        	text-align: center;
+        	background-image: url('images/enterload.jpg');
+        	background-size: auto 100%;
+        	background-position: center;
+        	background-repeat: no-repeat;
+        }
+        #enterimg{
+        	display: none;
+        }
+
 
     </style>
     <meta name="description" content="some gayass updates this site a lot... but also only sometimes. blogs, images, and texts, oh my! remember 2 clear your cache!!">
     <meta name="twitter:image" content="https://thepersonever.neocities.org/images/enter.jpg">
     <meta name="google-site-verification" content="PppiqZFuPKO11ofNEFo5rQ-uHKuGN4Cx1XauK2Vw6mA" />
 
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 
-<script>
-
-window.RufflePlayer = window.RufflePlayer || {};
-window.RufflePlayer.config = {
-	"wmode":"transparent",
-	"preferredRenderer": "canvas",
-	"quality":"low",
-    "autoplay":"on",
-    "unmuteOverlay":"hidden",
-    "letterbox":"off",
-    "showSwfDownload":true,
-    "splashScreen":false,
-    "menu": false,
-    "allowFullscreen": false,
-	"allowScriptAccess": true
-};
-
-</script>
+	<script>
+		window.RufflePlayer = window.RufflePlayer || {};
+		window.RufflePlayer.config = {
+			"wmode":"transparent",
+			"preferredRenderer": "canvas",
+			"quality":"low",
+			"autoplay":"on",
+		    "unmuteOverlay":"hidden",
+		    "letterbox":"off",
+		    "showSwfDownload":true,
+		    "splashScreen":false,
+		    "menu": false,
+		    "allowFullscreen": false,
+			"allowScriptAccess": true
+		};
+    </script>
+    <noscript>
+    	<style>
+            asdfasdf{
+				display: none;
+			}
+			#swfwrapper{
+				display: none;
+			}
+            #enterimg{
+            	display: block;
+	        	width: 100%;
+   		     	max-width: 480px;
+        		height: 330px;
+                overflow: hidden;
+        		margin: auto;
+        		text-align: center;
+        		background-image: url('images/enter.jpg');
+        		background-size: auto 100%;
+        		background-position: center;
+        		background-repeat: no-repeat;
+        	}
+        	#enterimg:hover{
+       		 	background-image: url('images/enterpressed.jpg');
+        	}
+    	</style>
+    </noscript>
   </head>
 <!--
 sigh... if your seeing this, i assume that your going to look into the contents of each webpage.
@@ -55,18 +95,20 @@ a few things of note...
 <br></h1>
 <h3><span>!! <strong>epilepsy warning</strong> !!
 <br> remember 2 clear your cache!! (and to turn on autoplay)
-<br> this site needs javascript to run correctly. click on the enter button when it appears! :D
+<br> this site needs javascript to run <i>correctly</i>. click on the enter button when it appears! :D
 <br> <a href=example>if you're on a computer, maybe read this first?</a>
 </span></h3>
 </div>
 
 <script src=/js/swfobject.js defer>
 </script>
-<div id="swfwrapper" style="width: 100%; max-width: 480px; height: 330px; overflow: hidden; margin: auto; text-align: center; background-image: url('images/enterload.jpg'); background-size: auto 100%; background-position: center; background-repeat: no-repeat;">
+<div id="swfwrapper">
 <div id=swfdiv>
 
 </div>
 </div>
+
+<a href=/home id=enterimg></a>
 
 <script>
 setTimeout( callbackFunction, 1000 );
@@ -107,15 +149,18 @@ document.getElementById("body").style.backgroundImage = "url('/images/indexbg.pn
 		<a href=https://fairyland.fanlistings.net/pmd/ target=_blank> <img src=/images/pmdfanlist.jpg title="pmd fanlistings"></a>
 		<a href=https://fans.thislove.nu/mozilla/ target=_blank> <img src=/images/ffoxfanlist.png title="firefox fanlistings"></a>
 		<a href=https://fan.kalechips.net/pikmin/ target=_blank><img src=/images/pikfanlist.png title="pikmin fanlistings"></a>
-
-		<br><span><asdf id=updated></asdf>
-		<br><asdf id=visitors></asdf>
-		<br><asdf id=followers></asdf>
+		<asdfasdf class=inlineshit>
+			<br><span><asdf id=updated></asdf>
+			<br><asdf id=visitors></asdf>
+			<br><asdf id=followers></asdf>
+        </asdfasdf>
 	</span></p> 
-  
+
+<asdfasdf class=inlineshit>
 	<p><span>you can find the code to put your stats up on your site 
 		<a href=https://max.nekoweb.org/resources/nekoweb-stats/ target=_blank>here!
 	</a></span></p>
+</asdfasdf>
 	
 	<p><span>tested with <a href=https://librewolf.net/ target=_blank>librewolf</a> (firefox) and <a href=https://thorium.rocks/ target=_blank>thorium</a> (chromium), using windows 10
   <br>flash content runs insane on thorium! check it out if you can</span></p>
