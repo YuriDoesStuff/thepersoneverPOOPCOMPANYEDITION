@@ -143,7 +143,8 @@ function computer2025(){
 document.getElementById('hide').style.display = 'inline';
 document.getElementById("div").style.backgroundImage = "url(/images/toxiceryuri.png)";
 document.getElementById("div").style.backgroundSize = "cover";
-document.getElementById('innerbleh').innerHTML = `<h2><span>cmmmon and get down, way to the low ground...</span></h2> <img src=/images/umcrop.png width=500> `;
+document.getElementById('innerbleh').innerHTML = `<h2><span>hi xenia!</span></h2> <img src=/images/xeniaiconcrop.png width=500>
+<h2><span>cmmmon and get down, way to the low ground...</span></h2> <img src=/images/umcrop.png width=500>`;
 }
 
 function computer2024(){
