@@ -49,4 +49,10 @@
 					max-width: 90%;
 					min-height: 100vh;
 				}
+				#title > h1{
+					font-size: .9in;
+				}
+				h2{
+					font-size: .5in;
+				}
 			}
