@@ -66,7 +66,7 @@ float: right; max-width: 48%; width: justify; text-align: right;
 
 <span>wrapper div:</span>
 <br><textarea>
-<script src=/js/swfobject.js defer></script>
+<script src=/js/swfobject.js defer></script> // swfobject is from https://github.com/swfobject/swfobject/blob/master/swfobject/swfobject.js!
 <script defer src=https://thepersonever.net/webring/flash/widget.js></script>
 	<div id="swfwrapper" style="width: 300px; height: 300px; overflow: hidden;">
 		<div id=swfdiv>
@@ -76,6 +76,7 @@ float: right; max-width: 48%; width: justify; text-align: right;
 </textarea>
 <br><span>recommended ruffle config (put this in the head of your site!)</span>
 <br><textarea>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 <script>
 			window.RufflePlayer = window.RufflePlayer || {};
 			window.RufflePlayer.config = {
