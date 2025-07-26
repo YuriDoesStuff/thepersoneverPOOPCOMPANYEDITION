@@ -8,8 +8,9 @@
 
 .site-box {
     text-align: center;
-    background-image: url(https://thepersonever.nekoweb.org/images/nekoweb/tpe.png); /* Only nekoweb URLs allowed, use full url to your site like https://example.nekoweb.org/images/coolbg.png */
+    background-image: url(https://thepersonever.nekoweb.org/thepersonever.net/images/nekoweb/tpe+psfla.png); /* Only nekoweb URLs allowed, use full url to your site like https://example.nekoweb.org/images/coolbg.png */
     background-repeat: no-repeat;
+    background-color: green;
     background-size: cover;
     color: #b08271;
     font-size: 12px;
@@ -34,18 +35,18 @@
 
 .site-box .follow {
 display: block;
-content: url(https://thepersonever.nekoweb.org/images/nekoweb/follow.png);
+content: url(https://thepersonever.nekoweb.org/thepersonever.net/images/nekoweb/follow.png);
 z-index:2;
-top: 100px;
-left: 200px;
+top: 108px;
+left: 39px;
 }
 
 .site-box .following {
 display: block;
-content: url(https://thepersonever.nekoweb.org/images/nekoweb/unfollow.png);
+content: url(https://thepersonever.nekoweb.org/thepersonever.net/images/nekoweb/unfollow.png);
 z-index:2;
-top: 100px;
-left: 200px;
+top: 108px;
+left: 39px;
 }
 
 /* Style for your 'Follow on Nekoweb' button (<iframe src="https://nekoweb.org/frame/follow" frameborder="0" width="170" height="28"></iframe>) */
@@ -58,7 +59,7 @@ position: relative;
 border: solid 3px black;
 border-radius: 0;
 z-index: 1;
-background-image:url(https://thepersonever.nekoweb.org/images/nekoweb/jaderoom.gif);
+background-image:url(https://thepersonever.nekoweb.org/thepersonever.net/images/nekoweb/jaderoom.gif);
 background-size: cover;
 background-position: bottom;
 overflow-y: auto;
@@ -93,7 +94,7 @@ display: none;
 
 
 .post-box:after {
-background-image: url(https://thepersonever.nekoweb.org/images/nekoweb/nekotwt.png);
+background-image: url(https://thepersonever.nekoweb.org/thepersonever.net/images/nekoweb/nekotwt.png);
    background-size: cover;
     display: inline-block;
     height: 100%;
