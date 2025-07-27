@@ -11,11 +11,11 @@ jobs:
       # your build step here
         
       - name: deploy2nekoweb
-        uses: indiefellas/deploy2nekoweb@v1.0.0
+        uses: indiefellas/deploy2nekoweb@main
         with:
-          nekoweb-username: "thepersonever"
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
           nekoweb-cookie: ${{ secrets.NEKOWEB_COOKIE }}
           nekoweb-domain: 'thepersonever.net'
+          nekoweb-username: 'thepersonever'
           directory: 'tpe'
 
