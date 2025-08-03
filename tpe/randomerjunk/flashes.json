@@ -48,6 +48,14 @@
 		"color":"#ffffff",
 		"comment":"yeah you've seen it in gif form. but. have you see.n it. in swf form."
 		},
+    	{"title":"old more page",
+		"loc":"/flashes/temshop.swf",
+		"url":"temshop",
+		"width":"640px",
+		"height":"480px",
+		"color":"#ffffff",
+		"comment":"2023? 24? version of the more page"
+		},
   		{"title":"[s] preloader test",
 		"loc":"flashes/preloadertest.swf",
 		"url":"preloadertest",
