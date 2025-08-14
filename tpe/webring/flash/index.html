@@ -16,7 +16,7 @@
 			"splashScreen":false,
 			"menu": false,
 			"allowFullscreen": false,
-			"wmode":"transparent",
+			"wmode":"opaque",
 			"allowScriptAccess": true
 };
 
@@ -89,7 +89,7 @@ float: right; max-width: 48%; width: justify; text-align: right;
 			"splashScreen":false,
 			"menu": false,
 			"allowFullscreen": false,
-			"wmode":"transparent",
+			"wmode":"opaque",
 			"allowScriptAccess": true
 };
 </script>
@@ -119,6 +119,12 @@ float: right; max-width: 48%; width: justify; text-align: right;
 	</div>
 	<br><p><a href=https://saturnbuddy.com/ target=_blank><span>saturnbuddy.com</span></a></p>
 
+	<div id="swfwrapper">
+		<div id=xeroxmachine>
+
+		</div>
+	</div>
+	<br><p><a href=https://zeroxmachine.neocities.org/ target=_blank><span>xeroxmachine.neocities.org</span></a></p>
 </p>
 
 <script>
@@ -134,8 +140,9 @@ let webring = {
 
 setTimeout( callbackfunction, 1000 );
 function callbackfunction(){
-	makeswf("thepersonever.net", "https://saturnbuddy.com", "https://saturnbuddy.com", (webring.sites[Math.floor(Math.random() * webring.sites.length)]), "swfdiv");
-	makeswf("saturnbuddy.com", "https://thepersonever.net", "https://thepersonever.net", (webring.sites[Math.floor(Math.random() * webring.sites.length)]), "saturnbuddy");
+	makeswf("thepersonever.net", "https://zeroxmachine.neocities.org", "https://saturnbuddy.com", (webring.sites[Math.floor(Math.random() * webring.sites.length)]), "swfdiv");
+	makeswf("saturnbuddy.com", "https://thepersonever.net", "https://zeroxmachine.neocities.org", (webring.sites[Math.floor(Math.random() * webring.sites.length)]), "saturnbuddy");
+	makeswf("zeroxmachine.neocities.org", "https://saturnbuddy.com", "https://thepersonever.net", (webring.sites[Math.floor(Math.random() * webring.sites.length)]), "xeroxmachine");
 }
 
 function makeswf(NAME, PREV, NEXT, RANDO, ID){
